@@ -1,0 +1,65 @@
+NFKios.homepage.myprogress.btn={\"locator\":\"xpath=//*[@identifier=\\\"MainTabBarViewController.progressButton\\"]\",\"desc\":\"My progress button\"}
+NFKios.homepage.myprogress.range.7day.btn={\"locator\":\"xpath=//*[@label=\\\"7\\\"]\",\"desc\":\"Range 7 day button\"}
+NFKios.homepage.myprogress.range.14day.btn={\"locator\":\"xpath=//*[@label=\\\"14\\\"]\",\"desc\":\"Range 14 day button\"}
+NFKios.homepage.myprogress.range.30day.btn={\"locator\":\"xpath=//*[@label=\\\"30\\\"]\",\"desc\":\"Range 30 day button\"}
+NFKios.homepage.myprogress.range.60day.btn={\"locator\":\"xpath=//*[@label=\\\"60\\\"]\",\"desc\":\"Range 60 day button\"}
+NFKios.homepage.myprogress.range.90day.btn={\"locator\":\"xpath=//*[@label=\\\"90\\\"]\",\"desc\":\"Range 90 day button\"}
+NFKios.progresspage.rangeday.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"MyProgressViewController.rangeOfDaysTitleLabel\\"]\",\"desc\":\"range day label\"}
+NFKios.progresspage.compare.lbl {\"locator\":\"xpath=//*[@identifier=\\\"MyProgressViewController.compareLabel\\"]\",\"desc\":\"compare lbl\"}
+NFKios.progresspage.switch.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MyProgressViewController.compareSwitch\\"]\",\"desc\":\"Switch button\"}
+NFKios.progresspage.glucose.avg.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportView.glucoseAverageTitleLabel\\"]\",\"desc\":\"Glucose average label"}
+NFKios.progresspage.glucose.avg.value= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportView.glucoseAverageValueLabel\\"]\",\"desc\":\"Glucose avg value\"}
+NFKios.progresspage.gmi.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportView.gmiTitle\\"]\",\"desc\":\"GMI label\"}
+NFKios.progresspage.gmi.value= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportView.gmiValueLabel\\"]\",\"desc\":\"GMI value\"}
+NFKios.progresspage.low.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportRangesView.lowTitleLabel\\"]\",\"desc\":\"Low label\"}
+NFKios.progresspage.inrange.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportRangesView.inRangeValueLabel\\"]\",\"desc\":\"Inrange label\"}
+NFKios.progresspage.high.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportRangesView.highTitleLabel\\"]\",\"desc\":\"High Label\"}
+NFKios.progresspage.low.value= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportRangesView.lowValueLabel\\"]\",\"desc\":\"Low value\"}
+NFKios.progresspage.inrange.value= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportRangesView.inRangeValueLabel\\"]\",\"desc\":\"Inrange value\"}
+NFKios.progresspage.high.value= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportRangesView.highValueLabel\\"]\",\"desc\":\"High value\"}
+NFKios.progresspage.chartview= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressReportView.chartView\\"]\",\"desc\":\"Chart view\"}
+NFKios.progresspage.static.lbl = {\"locator\":\"xpath=//*[@name='%s']|//*[@label='%s']\",\"desc\":\"Static text\"}
+NFKios.progresspage.carasouel= {\"locator\":\"xpath=//*[@name=\\\"ProgressReportView.carouselStackView\\"]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]\",\"desc\":\"Carousel\"}
+NFKios.progresspage.compr.avg.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.glucoseAverageTitleLabel\\"]\",\"desc\":\"Compare glucose avg title\"}
+NFKios.progresspage.compr.gmi.title= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.gmiTitle\\"]\",\"desc\":\"Compare GMI title\"}
+NFKios.progresspage.compr.low.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.lowTitleLabel\\"]\",\"desc\":\"Compare Low Lbl\"}
+NFKios.progresspage.compr.inrange.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.inRangeTitleLabel\\"]\",\"desc\":\"\"}
+NFKios.progresspage.compr.high.lbl= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.highTitleLabel\\"]\",\"desc\":\"Compare High lbl\"}
+NFKios.progresspage.compr.pre.avg.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.previousGlucoseAverageValueLabel\\"]\",\"desc\":\"Previous avg val\"}
+NFKios.progresspage.compr.curr.avg.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.glucoseAverageValueLabel\\"]\",\"desc\":\"Current avg value\"}
+NFKios.progresspage.compr.pre.gmi.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.previousGmiValueLabel\\"]\",\"desc\":\"Previous GMI value\"}
+NFKios.progresspage.compr.curr.gmi.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.gmiValueLabel\\"]\",\"desc\":\"Current gmi value\"}
+NFKios.progresspage.compr.low.pre.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.previousLowValueLabel\\"]\",\"desc\":\"Low Previous val\"}
+NFKios.progresspage.compr.inrange.pre.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.previousInRangeValueLabel\\"]\",\"desc\":\"In range previous val\"}
+NFKios.progresspage.compr.high.pre.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.previousHighValueLabel\\"]\",\"desc\":\"High previous val\"}
+NFKios.progresspage.compr.low.curr.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.lowValueLabel\\"]\",\"desc\":\"Low Current val\"}
+NFKios.progresspage.compr.inrange.curr.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.inRangeValueLabel\\"]\",\"desc\":\"In range current val\"}
+NFKios.progresspage.compr.high.curr.val= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportRangesView.highValueLabel\\"]\",\"desc\":\"High current val\"}
+NFKios.progresspage.compr.pre.chart= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.previousChartView\\"]\",\"desc\":\"Previous chart view\"}
+NFKios.progresspage.compr.curr.chart= {\"locator\":\"xpath=//*[@identifier=\\\"ProgressComparisonReportView.chartView\\"]\",\"desc\":\"Current chart view\"}
+NFKios.progresspage.compr.pie.chartdate.pre= {\"locator\":\"xpath=//XCUIElementTypeScrollView[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeButton[2]\",\"desc\":\"Prev date\"}
+NFKios.progresspage.low.info.icon= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.contentStackView\\"]//*[@label=\\\"icon i information\\"]\",\"desc\":\"Info icon\"}
+NFKios.progresspage.agp.info.icon= {\"locator\":\"xpath=//*[@name=\\\"ProgressAndComparisonView.contentStackView\\"]/XCUIElementTypeOther[4]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]\",\"desc\":\"info icon of AGP\"}
+NFKios.progresspage.slideup.close.btn= {\"locator\":\"xpath=//*[@label=\\\"xInCircle\\\"]|//*[@name=\\\"xInCircleGray\\\"]\",\"desc\":\"Close btn\"}
+NFKios.progresspage.slideup.txt= {\"locator\":\"xpath=//*[@name=\\\"InfoViewController.scrollContentView\\\"]//XCUIElementTypeOther\",\"desc\":\"Slide up content\"}
+NFKios.progresspage.slideup.title= {\"locator\":\"xpath=//*[@name=\\\"InfoViewController.headerLabel\\\"]\",\"desc\":\"Title\"}
+NFKios.progresspage.low.chart= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.contentStackView\\\"]//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]\",\"desc\":\"Chart of Low Glucose\"}	
+NFKios.progresspage.low.event.lbl= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.totalEventsTitleLabel\\\"]\",\"desc\":\"Events title\"}
+NFKios.progresspage.low.avg.lbl= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.averageDurationTitleLabel\\\"]\",\"desc\":\"Average Label for Low\"}
+NFKios.progresspage.low.event.count= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.totalEventsLabel\\\"]\",\"desc\":\"Total Events\"}
+NFKios.progresspage.low.avg.duration= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.averageDurationLabel\\\"]\",\"desc\":\"Average Low Duration\"}
+NFKios.progresspage.low.title= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.lowestReadingTitleLabel\\\"]\",\"desc\":\"Title of Low reading\"}
+NFKios.progresspage.low.lowest.value= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.lowestReadingLabel\\\"]\",\"desc\":\"Lowest value\"}
+NFKios.progresspage.low.most.events= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.mostLowestOcurredTitleLabel\\\"]\",\"desc\":\"\"}
+NFKios.progresspage.low.start.hr= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.mostLowestOcurredFirsHourLabel\\\"]\",\"desc\":\"Start hr\"}
+NFKios.progresspage.low.end.hr= {\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.mostLowestOcurredSecondHourLabel\\\"]\",\"desc\":\"End hr\"}
+NFKios.progresspage.low.title.sc= {\"locator\":\"xpath=//*[@name=\\\"SubtitledNavigationHeaderView.titleLabel\\\"]\",\"desc\":\"Title of Low screen\"}
+NFKios.progresspage.low.bck.btn= {\"locator\":\"xpath=//*[@label=\\\"Back\\\"]\",\"desc\":\"Back btn\"}
+NFKios.progresspage.low.sub.title= {\"locator\":\"xpath=//*[@name=\\\"SubtitledNavigationHeaderView.subtitleLabel\\\"]\",\"desc\":\"Sub title\"}
+NFKios.progresspage.low.total.event.count.grph={\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsReportView.contentStackView\\\"]//*[@name='%s']\",\"desc\":\"Low glucose event\"}
+NFKios.progresspage.low.events.glucose={\"locator\":\"xpath=//*[@name=\\\"LowGlucoseEventsViewController.tableView\\\"]//*[@name='%s']\",\"desc\":\"Low glucose events on GLucose screen\"}
+NFKios.progresspage.agp.title= {\"locator\":\"xpath=//*[@identifier=\\\"AGPInfoView.titleInfoLabel\\\"]\",\"desc\":\"AGP text\"}
+NFKios.progresspage.glucoseprofile.title= {\"locator\":\"xpath=//*[@identifier=\\\"GlucoseProfileView.titleLabel\\\"]\",\"desc\":\"Glucose profile\"}
+NFKios.progresspage.glucose.desc= {\"locator\":\"xpath=//*[@identifier=\\\"GlucoseProfileView.descriptionLabel\\\"]\",\"desc\":\"Description label for Glucose profile\"}
+NFKios.progresspage.view.agpreport= {\"locator\":\"xpath=//*[@identifier=\\\"AGPReportView.agpReportButton\\\"]\",\"desc\":\"View full AGP report\"}
+NFKios.progresspage.pdf.close.btn= {\"locator\":\"xpath=//*[@identifier=\\\"PDFContentViewController.buttonImageView\\\"]|//*[@name=\\\"Button\\\"]\",\"desc\":\"Close button on PDF\"}

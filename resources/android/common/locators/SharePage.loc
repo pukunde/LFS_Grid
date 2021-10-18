@@ -1,0 +1,43 @@
+NFK.sharepage.share.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/title')])\",\"desc\":\"Title of the Share Page\"}
+NFK.sharepage.addfollower.btn = {\"locator\":\"xpath=(//*[contains(@text,'Add Follower')])\",\"desc\":\"Add follower button on Share Page\"}
+NFK.sharepage.sharedata.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/title')])\",\"desc\":\"Title of the Share data Page\"}
+NFK.sharepage.invitefollower.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/title')])\",\"desc\":\"Invite Follower Label\"}
+NFK.sharepage.invite.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/inviteFollowersButton')])\",\"desc\":\"Invite Follower button\"}
+NFK.sharepage.setupfollower.urgentlow.btn = {\"locator\":\"xpath=(//*[contains(@name,'SetupFollowerViewController.urgentLowToggleCell')])\",\"desc\":\"Urgent Low button\"}
+NFK.sharepage.setupfollower.low.btn = {\"locator\":\"xpath=(//*[contains(@name,'SetupFollowerViewController.lowToggleCell')])\",\"desc\":\"Urgent Low button\"}
+NFK.sharepage.setupfollower.high.btn = {\"locator\":\"xpath=(//*[contains(@name,'SetupFollowerViewController.highToggleCell')])\",\"desc\":\"Urgent Low button\"}
+NFK.sharepage.setupfollower.nodata.btn = {\"locator\":\"xpath=(//*[contains(@name,'SetupFollowerViewController.noDataToggleCell')])\",\"desc\":\"No data button\"}
+NFK.sharepage.addfollower.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/title')])\",\"desc\":\"No data button\"}
+NFK.sharepage.name.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/name')])\",\"desc\":\"Add follower name\"}
+NFK.sharepage.emailaddress.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/email')])\",\"desc\":\"Add follower email address\"}
+NFK.sharepage.next.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/nextButton')])\",\"desc\":\"Add follower next button\"}
+NFK.sharepage.setfollower.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/title')])\",\"desc\":\"Set Follower Title\"}
+NFK.sharepage.trendgraph.switch.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/trendGraph')]//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/switchButton\\\"])\",\"desc\":\"Trend graph\"}
+NFK.sharepage.sensorexpiration.switch.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/expirationDate')]//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/switchButton\\\"])\",\"desc\":\"Sensor Expiration Date\"}
+NFK.sharepage.urgentlow.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/statusText')])[1]\",\"desc\":\"Urgent Low\"}
+NFK.sharepage.low.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/lowSwitch')]//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/statusText\\\"])\",\"desc\":\"Low Status check\"}
+NFK.sharepage.high.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/highSwitch')]//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/statusText\\\"])\",\"desc\":\"High Status check\"}
+NFK.sharepage.urgentlow.atbelow.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[1]\",\"desc\":\"Urgent low notify below\"}
+NFK.sharepage.low.below.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[3]\",\"desc\":\"Low notify below\"}
+NFK.sharepage.low.morethan.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[4]\",\"desc\":\"Low more than \"}
+NFK.sharepage.high.readingbelow.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[5]\",\"desc\":\"High notify below\"}
+NFK.sharepage.high.morethan.lbl = {\"locator\":\"xpath=//*[@resource-id='com.lifescan.norfolk.continuous.adhoctest:id/highForMoreThanValue']//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/content\\\"]\",\"desc\":\"High more than\"}
+NFK.sharepage.nodata.btn = {\"locator\":\"xpath=//*[@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/dataSwitch']//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/statusText\\\"]\",\"desc\":\"No data Status check\"}
+NFK.sharepage.nodata.more.lbl = {\"locator\":\"xpath=//*[@resource-id='com.lifescan.norfolk.continuous.adhoctest:id/noDataLongerThanValue']//*[@resource-id=\\\"com.lifescan.norfolk.continuous.adhoctest:id/content\\\"]\",\"desc\":\"High more than\"}
+NFK.sharepage.setup.invite.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'com.lifescan.norfolk.continuous.adhoctest:id/nextButton')])\",\"desc\":\"Setup Invite Button\"}
+NFK.sharepage.added.follower.lbl = {\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[2]\",\"desc\":\"Added follower\"}
+NFK.sharepage.statictext.lbl = {\"locator\":\"xpath=//*[contains(@text,\\\"%s\\\")]\",\"desc\":\"Static text lable\"}
+NFK.sharepage.popup.nodata.title= {\"locator\":\"xpath=//*[contains(@resource-id,'id/customAlertTitle')]\",\"desc\":\"Pop-up title\"}
+NFK.sharepage.popup.nodata.message= {\"locator\":\"xpath=//*[contains(@resource-id,'id/message')]\",\"desc\":\"Alert message\"}
+NFK.sharepage.popup.nodata.ok.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/button1')]\",\"desc\":\"OK button\"}
+NFK.sharepage.back.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]\",\"desc\":\"Back button\"}
+NFK.sharepage.sharereportpage.timeperiod.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/label')]\",\"desc\":\"Timpe period label\"}
+NFK.sharepage.sharereportpage.timeframeselct.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/content')]\",\"desc\":\"Value of Time period\"}
+NFK.sharepage.sharereportpage.emailreport.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/shareLowGlucoseEventsEmailButton')]\",\"desc\":\"Email btn\"}
+NFK.sharepage.sharereportpage.printreport.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/shareLowGlucoseEventsPrintButton')]\",\"desc\":\"Print btn\"}
+NFK.sharepage.sharereportpage.openinreport.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/shareLowGlucoseEventsOpenInButton')]\",\"desc\":\"Open in\"}
+NFK.sharepage.sharereportpage.text.discard.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/button2')]\",\"desc\":\"Discard on cancel text popup\"}
+NFK.share.page.follower.status= {\"locator\":\"xpath=//*[contains(@resource-id,'id/followerStatus')]\",\"desc\":\"Follower Status\"}
+NFK.follower.remove.txt= {\"locator\":\"xpath=//*[contains(@text,'Remove Follower')]\",\"desc\":\"Remove text on Follower page\"}
+NFK.follower.resend.txt= {\"locator\":\"xpath=//*[contains(@text,'Resend Invitation')]\",\"desc\":\"Resend text on Follower Page\"}
+NFK.share.page.followerlist.status= {\"locator\":\"xpath=//*[contains(@resource-id,'id/followerStatus')]\",\"desc\":\"Follower Status\"}

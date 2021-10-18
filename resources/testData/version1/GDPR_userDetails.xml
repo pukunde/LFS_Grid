@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<accountDelete>
+		<wrong_details>
+			<emailID>gdprwrongmail@mailinator.com</emailID>
+			<username>gdprwrongmail@mailinator.com</username>
+			<password>abcd123#</password>
+			<firstName>gdpr</firstName>
+			<lastName>wrongmail</lastName>
+			<DOB></DOB>
+		</wrong_details>
+	</accountDelete>
+
+	<updateUser>
+		<profile>
+			<emailID>updatedmail@mailinator.com</emailID>
+			<firstName>User</firstName>
+			<middleName>M</middleName>
+			<lastName>updated</lastName>
+			<suffix>Mr</suffix>
+			<DOB>23/11/1991</DOB>
+			<address1>wellington road</address1>
+			<address2>CityPride market</address2>
+			<address3>Central Park</address3>
+			<city>London</city>
+			<state>United Kingdom</state>
+			<zipcode>40741</zipcode>
+			<phone>8899334543</phone>
+		</profile>
+	</updateUser>
+	
+	
+</root>

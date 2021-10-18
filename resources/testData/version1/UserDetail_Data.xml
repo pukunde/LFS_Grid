@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<Login>
+		<userexpired>
+			<username>pp09@mailinator.com </username>
+			<password>test1234</password>
+		</userexpired>
+		<gestationaluser>
+			<username>gestationaluser@mailinator.com</username>
+			<password>test1234</password>
+		</gestationaluser>
+
+		<minorpatient>
+			<username>patminortest@mailinator.com</username>
+			<password>test1234</password>
+		</minorpatient>
+		<virtual>
+			<emailID>virtualuser@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>lisa</firstName>
+			<lastName>kim</lastName>
+			<username>virtualuser@mailinator.com</username>
+		</virtual>
+
+		<virtualevent1>
+			<emailID>virtualuser1@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>lisa</firstName>
+			<lastName>kim</lastName>
+			<username>virtualuser1@mailinator.com</username>
+		</virtualevent1>
+
+		<virtualevent2>
+			<emailID>virtualuser2@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>lisa</firstName>
+			<lastName>kim</lastName>
+			<username>virtualuser2@mailinator.com</username>
+		</virtualevent2>
+
+		<UserDetail>
+			<emailID>doshaheentt+realtime001@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>lisa</firstName>
+			<lastName>kim</lastName>
+			<username>doshaheentt+realtime001@mailinator.com</username>
+		</UserDetail>
+		<UserDetailapi>
+			<emailID>decem006@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>kim</firstName>
+			<lastName>joo</lastName>
+			<username>decem006@mailinator.com</username>
+		</UserDetailapi>
+
+		<UserTermsPrivacy>
+			<emailID>doshaheentt+realtimetp@mailinator.com</emailID>
+			<password>test#1234</password>
+			<firstName>lee</firstName>
+			<lastName>minn</lastName>
+			<username>doshaheentt+realtimetp@mailinator.com</username>
+		</UserTermsPrivacy>
+
+		<UserHelpPage>
+			<emailID>doshaheentt+realtimeHelp@mailinator.com</emailID>
+			<password>test#@1234</password>
+			<firstName>Kim</firstName>
+			<lastName>Joo</lastName>
+			<username>doshaheentt+realtimeHelp@mailinator.com</username>
+		</UserHelpPage>
+
+		<UserConnected>
+			<emailID>doshaheentt+realtimeconnected@mailinator.com</emailID>
+			<password>test1234#</password>
+			<firstName>ABC</firstName>
+			<lastName>AD</lastName>
+			<username>doshaheentt+realtimeconnected@mailinator.com</username>
+		</UserConnected>
+
+		<UserDeclined>
+			<emailID>doshaheentt+realtimedeclined@mailinator.com</emailID>
+			<password>test1234#</password>
+			<firstName>abcd</firstName>
+			<lastName>klmn</lastName>
+			<username>doshaheentt+realtimedeclined@mailinator.com</username>
+		</UserDeclined>
+<UserEventType>
+		   <emailID>doshaheentt+eventtype@gmail.com</emailID>
+		   <username>doshaheentt+eventtype@gmail.com</username>
+		   <password>test@1234</password>
+		</UserEventType>
+
+
+		<UserDetail1>
+			<emailID>doshaheentt+realtime1@gmail.com</emailID>
+			<password>test1234</password>
+			<firstName>li</firstName>
+			<lastName>sa</lastName>
+			<username>doshaheentt+realtime1@gmail.com</username>
+		</UserDetail1>
+		<User90days>
+			<emailID>doshaheentt+logevent@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>lisa</firstName>
+			<lastName>crane</lastName>
+			<username>doshaheentt+logevent@mailinator.com</username>
+		</User90days>
+		<!-- <User90days> <emailID>doshaheentt+logevent@gmail.com</emailID> <password>test1234</password> 
+			<firstName>lisa</firstName> <lastName>crane</lastName> <username>doshaheentt+logevent@gmail.com</username> 
+			</User90days> -->
+		<!-- <Dependent> <dependentemail>doshaheentt+nfkdepndent01@gmail.com</dependentemail> 
+			<dependentpassword>test@1234</dependentpassword> </Dependent> -->
+
+		<Dependent>
+			<dependentemail>doshaheentt+nfkdepen2@gmail.com</dependentemail>
+			<dependentpassword>test@1234</dependentpassword>
+		</Dependent>
+
+		<DependentUserDetail>
+			<emailID>doshaheentt+nfkauto@gmail.com</emailID>
+			<password>test@1234</password>
+			<firstName>li</firstName>
+			<lastName>Meen</lastName>
+			<username>doshaheentt+nfkauto@gmail.com</username>
+		</DependentUserDetail>
+
+		<UserDetail1>
+			<emailID>sept18@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>Abc</firstName>
+			<lastName>Mno</lastName>
+			<username>sept18@mailinator.com</username>
+		</UserDetail1>
+
+		<!-- <UserDetailIOS> <emailID>july10@mailinator.com</emailID> <password>test1234</password> 
+			<firstName>Ron</firstName> <lastName>way</lastName> <username>july10@mailinator.com</username> 
+			</UserDetailIOS> -->
+		<UserDetailIOS>
+			<emailID>oct26@mailinator.com</emailID>
+			<password>test1234</password>
+			<firstName>Ron</firstName>
+			<lastName>way</lastName>
+			<username>oct26@mailinator.com</username>
+		</UserDetailIOS>
+		<UserDetailWeek>
+			<emailID>doshaheentt+usweek@gmail.com</emailID>
+			<password>abcd123#</password>
+			<firstName>lisa</firstName>
+			<lastName>lisa</lastName>
+			<username>doshaheentt+usweek@gmail.com</username>
+		</UserDetailWeek>
+
+		<GDPRUser>
+			<emailID>doshaheentt+usweek@gmail.com</emailID>
+			<password>abcd123#</password>
+			<firstName>lisa</firstName>
+			<lastName>lisa</lastName>
+			<username>doshaheentt+usweek@gmail.com</username>
+		</GDPRUser>
+
+
+		<verificationUser>
+			<emailID>doshaheentt+q1and@gmail.com</emailID>
+			<password>abcd123#</password>
+			<username>doshaheentt+q1and@gmail.com</username>
+		</verificationUser>
+
+		<WallgreensDetial>
+			<username>doshaheentt@gmail.com</username>
+			<password>abcd123#</password>
+		</WallgreensDetial>
+		<WallgreensDetial1>
+			<username>doshaheentt+q1and@gmail.com</username>
+			<password>abcd123#</password>
+		</WallgreensDetial1>
+		<UserDetailPastEntries>
+			<emailId>doshaheentt+pastbg@gmail.com</emailId>
+			<password>abcd123#</password>
+			<firstName>test</firstName>
+			<lastName>test</lastName>
+			<username>doshaheentt+pastbg@gmail.com</username>
+		</UserDetailPastEntries>
+		<BGUser>
+			<emailId>doshaheentt+bg@gmail.com</emailId>
+			<password>abcd123#</password>
+			<firstName>joe</firstName>
+			<lasName>joe</lasName>
+			<username>doshaheentt+bg@gmail.com</username>
+		</BGUser>
+		<EmancipationUser>
+			<username>testemcp@mailinator.com</username>
+			<password>test1234</password>
+		</EmancipationUser>
+		<profileUSer>
+			<username>testprofilecgm@mailinator.com</username>
+			<password>test1234</password>
+		</profileUSer>
+		<Majorgestationaluser>
+			<username>testmajorgest@mailinator.com</username>
+			<password>7ge@m%fQCJ</password>
+		</Majorgestationaluser>
+	</Login>
+
+
+	<clinic>
+		<!-- US clinic dev -->
+		<tridentClinic>
+			<clinicCode>TTCTTC</clinicCode>
+			<officName>Trident Training Clinic</officName>
+			<officeNumber>(555) 123-1245</officeNumber>
+		</tridentClinic>
+		<tridentClinic_Updated>
+			<clinicCode>TTCTTC</clinicCode>
+			<officeDetails>Trident Training Clinic(555) 123-1245</officeDetails>
+		</tridentClinic_Updated>
+		<gplClinic>
+			<emailID>msmith_en_us</emailID>
+			<password>c0nn3ct</password>
+			<clinicCode>TTCTTC</clinicCode>
+			<officName>GPL Clinic en_US</officName>
+			<officeNumber>(604) 333-3333</officeNumber>
+		</gplClinic>
+
+		<usclinic>
+			<clinicCode>TKAUAF</clinicCode>
+			<officName>OTR-CGM</officName>
+			<officeNumber>234567890</officeNumber>
+		</usclinic>
+		<clinicCode>
+			<us>
+				<code1>XSPPAM</code1>
+			</us>
+			<nl>
+				<code1>PAYCWY</code1>
+			</nl>
+			<fr>
+				<code1>WJTHCN</code1>
+			</fr>
+			<cn>
+				<code1>YJMVXS</code1>
+			</cn>
+
+
+
+		</clinicCode>
+	</clinic>
+	<userDetails>
+		<changepassword>
+			<newPassword>test@12345</newPassword>
+			<newconfirmPassword>test@12345</newconfirmPassword>
+		</changepassword>
+	</userDetails>
+
+	<signup>
+		<user1>
+			<firstName>lisa</firstName>
+			<lastName>lisa</lastName>
+			<birthdayMonth>February</birthdayMonth>
+			<birthdayDate>1</birthdayDate>
+			<birthdayYear>2000</birthdayYear>
+			<emailID>doshaheentt+and@gmail.com</emailID>
+			<password>test@1234</password>
+		</user1>
+		<user2>
+			<firstName>lisa</firstName>
+			<lastName>lisa</lastName>
+			<birthdayMonth>November</birthdayMonth>
+			<birthdayDate>1</birthdayDate>
+			<birthdayYear>2016</birthdayYear>
+			<emailID>doshaheentt+neo@gmail.com</emailID>
+			<password>abcd123#</password>
+		</user2>
+		<user3>
+			<firstName>jon</firstName>
+			<middleName>snow</middleName>
+			<lastName>stark</lastName>
+			<birthdayMonth>july</birthdayMonth>
+			<birthdayDate>3</birthdayDate>
+			<birthdayYear>1995</birthdayYear>
+			<emailID>july2@mailinator.com</emailID>
+			<password>test1234</password>
+			<suffix>mr</suffix>
+			<address1>konark Epitome</address1>
+			<address2>Konark Nagar</address2>
+			<address3>Vimannagar</address3>
+			<city>Pune</city>
+			<state>Alabama</state>
+			<zipCode>ABCDEF</zipCode>
+			<phoneNumber>9999999999</phoneNumber>
+		</user3>
+
+		<averageuser>
+			<firstName>Lee</firstName>
+			<lastName>Hoo</lastName>
+			<birthdayMonth>November</birthdayMonth>
+			<birthdayDate>1</birthdayDate>
+			<birthdayYear>2000</birthdayYear>
+			<password>test@1234</password>
+		</averageuser>
+		<existuser>
+			<firstName>lisa</firstName>
+			<lastName>Ray</lastName>
+			<birthdayMonth>February</birthdayMonth>
+			<birthdayDate>1</birthdayDate>
+			<birthdayYear>2000</birthdayYear>
+			<emailID>testaccvm@mailinator.com</emailID>
+			<password>test1234</password>
+		</existuser>
+		<existguardian>
+			<guardianfname>Ron?</guardianfname>
+			<guardianlname>Bean!</guardianlname>
+			<emailID>doshaheentt+nfkdepen2@gmail.com</emailID>
+			<confirmemail>doshaheentt+guardian@gmail.com</confirmemail>
+			<guardianpassword>test@1234</guardianpassword>
+			<guardianconfirmpassword>test@1234</guardianconfirmpassword>
+		</existguardian>
+	</signup>
+	<signupdependent>
+		<dependentemailId>ronaveiro@gmail.com</dependentemailId>
+		<dependentfname>Crist</dependentfname>
+		<dependentmname>Ronaldo</dependentmname>
+		<dependentlname>Aveiro</dependentlname>
+		<dependentbirthyr>2015</dependentbirthyr>
+		<dependentsuffix>mr</dependentsuffix>
+		<dependentaddress1>Funchal</dependentaddress1>
+		<dependentaddress2>Madeira</dependentaddress2>
+		<dependentaddress3>Madison Avenue</dependentaddress3>
+		<dependentcity>Roanoke</dependentcity>
+		<dependentstate>Colorado</dependentstate>
+		<dependentzipcode>ABCDEF</dependentzipcode>
+		<dependentphone>9658712354</dependentphone>
+	</signupdependent>
+	<signupuser>
+		<guardian>
+			<guardianfname>Ron?</guardianfname>
+			<guardianlname>Bean!</guardianlname>
+			<email>doshaheentt+guardian@gmail.com</email>
+			<confirmemail>doshaheentt+guardian@gmail.com</confirmemail>
+			<guardianpassword>test@1234</guardianpassword>
+			<guardianconfirmpassword>test@1234</guardianconfirmpassword>
+		</guardian>
+	</signupuser>
+	<dependent>
+		<dob>
+
+			<dependentDOBmonth>06</dependentDOBmonth>
+			<dependentDOByear>2005</dependentDOByear>
+			<dependentBirthdate>16</dependentBirthdate>
+		</dob>
+	</dependent>
+
+	<updateuser>
+		<firstName>testcgm</firstName>
+		<lastName>xyz</lastName>
+		<city>New york</city>
+		<Address1>102 ABC street</Address1>
+	</updateuser>
+	<fieldValidations>
+		<emancipationEmail>
+			<invalidFormat>!@gmail.com,ab@@gmail.com</invalidFormat>
+			<minLengthValidation>a@b.c</minLengthValidation>
+			<emailID>test@gmail.com</emailID>
+			<confirmEmail>email@gmail.com</confirmEmail>
+			<existingEmail>dsplautomation+patient01@gmail.com</existingEmail>
+			<password>test1234</password>
+		</emancipationEmail>
+		<emancipationPWD>
+			<notAllowedCharacters>",>,&lt;,=,+</notAllowedCharacters>
+			<invalidFormat>testtttttttttt,123456789</invalidFormat>
+			<minLengthValidation>test</minLengthValidation>
+			<password>test1234</password>
+			<confirmPassword>pass1234</confirmPassword>
+		</emancipationPWD>
+	</fieldValidations>
+</root>

@@ -1,0 +1,13 @@
+NFK.editschedulepage.title={\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Title label\"}
+NFK.editschedulepage.cancel.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'backButton')]\",\"desc\":\"cancel btn\"}
+NFK.editschedulepage.save.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'nextButton')]\",\"desc\":\"save button\"}
+NFK.editschedulepage.account.txts= {\"locator\":\"xpath=//*[contains(@resource-id,'accountDetails')]\",\"desc\":\"Account texts\"} 
+NFK.editschedulepage.schedules.value= {\"locator\":\"xpath=//*[contains(@resource-id,'content')]\",\"desc\":\"Edit schedules value\"} 
+NFK.editschedulepage.schedules.labels= {\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"Edit schedules text\"}
+NFK.editschedulepage.statictext.btn = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Static text label for any label value\"}
+NFK.editschedulepage.clock.cancel.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'button2')]\",\"desc\":\"Cancel button\"}
+NFK.editschedulepage.clock.ok.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'button1')]\",\"desc\":\"Ok button\"}
+NFK.editschedulepage.clock.hrs.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'hours')]\",\"desc\":\"Hours text\"}
+NFK.editschedulepage.clock.min.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'minutes')]\",\"desc\":\"Minutes text\"}
+NFK.editschedulepage.clock.am.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'am_label')]\",\"desc\":\"AM button\"}
+NFK.editschedulepage.clock.pm.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'pm_label')]\",\"desc\":\"PM button\"}

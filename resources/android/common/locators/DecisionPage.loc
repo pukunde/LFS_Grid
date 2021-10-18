@@ -1,0 +1,28 @@
+NFK.decisionpage.Yes.btn = {\"locator\":\"xpath=//*[contains(@text,'Yes')]\",\"desc\":\"Take the decisionpage either yes or no\"}
+NFK.decisionpage.No.btn =  {\"locator\":\"xpath=//*[contains(@resource-id,'noButton')]|//*[contains(@text,'No')]\",\"desc\":\"Take the decisionpage either yes or no\"}
+NFK.decisionpage.back.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]",\"desc\":\"Back button\"}
+NFK.decisionpage.signup.btn ={\"locator\":\"xpath=//*[contains(@resource-id,'noButton')]|//*[contains(@text,'No')]\",\"desc\":\"Take the decisionpage either yes or no\"}
+NFK.decisionpage.signup.myself.btn={\"locator\":\"xpath=//*[contains(@resource-id,'signupMySelfButton')]\",\"desc\":\"Signup for Myself\"}
+NFK.decisionpage.signup.dependent.btn={\"locator\":\"xpath=//*[contains(@resource-id,'signupDependentButton')]\",\"desc\":\"Signup for dependent\"}
+NFK.decisionpage.login.myself.btn={\"locator\":\"xpath=//*[contains(@resource-id,'btLoginForMyself')]\",\"desc\":\"Login for Myself\"}
+NFK.decisionpage.login.dependent.btn={\"locator\":\"xpath=//*[contains(@resource-id,'btLoginForDependent')]\",\"desc\":\"Login for Dependent\"}
+NFK.decisionpage.login.myself.username.txt = {\"locator\":\"xpath=//*[contains(@text,'Username or Email')]|//*[contains(@resource-id,'id/usernameEmail')]\",\"desc\":\"Username textfield\"}
+NFK.decisionpage.login.myself.password.txt = {\"locator\":\"xpath=//*[contains(@text,'Password')]|//*[contains(@resource-id,'id/password')]\",\"desc\":\"Password Textfield\"}
+NFK.decisionpage.login.dependent.username.txt = {\"locator\":\"xpath=//*[contains(@text,'Username or Email')]|//*[contains(@resource-id,'id/usernameEmail')]\",\"desc\":\"Username textfield\"}
+NFK.decisionpage.login.dependent.password.txt = {\"locator\":\"xpath=//*[contains(@text,'Password')]|//*[contains(@resource-id,'id/password')]\",\"desc\":\"Password Textfield\"}
+NFK.decisionpage.signup.myself.birthdate.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/birthDate')]\",\"desc\":\"Birthdate\"}
+NFK.decisionpage.signup.myself.emailAddress.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/emailAddress')]\",\"desc\":\"Email address\"}
+NFK.decisionpage.signup.myself.confemailAdrs.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/confirmEmailAddress')]\",\"desc\":\"Confirm email address\"}
+NFK.decisionpage.signup.myself.password.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/password')]\",\"desc\":\"Password Textfield\"}
+NFK.decisionpage.signup.myself.confpassword.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/password')]\",\"desc\":\"Confirm password textfield\"}
+NFK.decisionpage.signup.myself.clinicCodeInfo.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/clinicCodeInfo')]\",\"desc\":\"Clinic code\"}
+NFK.decisionpage.signup.myself.checkAgreementTerm.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/checkAgreementTerm')]\",\"desc\":\"check agreement term\"}
+NFK.decisionpage.signup.myself.checkPromotionalOffers.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/checkPromotionalOffers')]\",\"desc\":\"check promotion offers\"}
+NFK.decisionpage.signup.dependent.fname.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/guardianFirstName')]\",\"desc\":\"Guardian First Name\"}
+NFK.decisionpage.signup.dependent.lname.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/guardianLastName')]\",\"desc\":\"Guardian Last Name\"}
+NFK.decisionpage.signup.dependent.password.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/password')]\",\"desc\":\"Password Textfield\"}
+NFK.decisionpage.signup.dependent.confpassword.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/password')]\",\"desc\":\"Confirm password textfield\"}
+NFK.decisionpage.signup.dependent.emailAddress.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/emailAddress')]|//*[contains(@resource-id,'id/customTextInputEditText')][2]\",\"desc\":\"Email address\"}
+NFK.decisionpage.signup.dependent.confemailaddress.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/confirmEmailAddress')]\",\"desc\":\"Confirm email address\"}
+NFK.decisionpage.signup.dependent.CheckAgreementTerm.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/checkAgreementTerm')]\",\"desc\":\"check agreement term\"}
+NFK.decisionpage.signup.dependent.checkPromotionalOffers.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/checkPromotionalOffers')]\",\"desc\":\"check promotion offers\"}

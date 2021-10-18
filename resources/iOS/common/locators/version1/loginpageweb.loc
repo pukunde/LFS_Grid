@@ -1,0 +1,37 @@
+text.home.page.username = {\"locator\":\"id=username\"}
+text.home.page.password = {\"locator\":\"id=password\"}
+btn.home.page.login = {\"locator\":\"id=log_in\"}
+chkbx.iagree.page.accept = {\"locator\":\"xpath=.//*[@id='agree']\"}
+subscriptionlink.select = {\"locator\":\"xpath=html/body/a[6]\"}
+loginform.username.txt = {\"locator\":\"xpath=.//*[@id='oauthLoginForm']/p[1]/label|.//*[@id='username']\"}
+loginform.password.txt = {\"locator\":\"xpath=.//*[@id='oauthLoginForm']/p[2]/label|.//*[@id='password']\"}
+loginform.signin.btn = {\"locator\":\"xpath=.//*[@id='signin']|//p[@class='login-button']/button[@id='signin']\"}
+authorize.user.btn = {\"locator\":\"xpath=.//*[@id='authorize']\"}
+token_body = {\"locator\":\"xpath=html/body\"}
+logbook.tab = {\"locator\":\"xpath=.//*[@id='container']/header/nav/ul/li[3]/a\"}
+logbook.unit.lbl = {\"locator\":\"xpath=.//*[@id='logbook']/div[2]/table/tbody/tr/td[4]/label\"}
+logbook.addevent.btn = {\"locator\":\"xpath=.//*[@id='btnToggleAddEventDialog']\"}
+subscription.text.fld = {\"locator\":\"xpath=.//*[@id='fileName']\"}
+event.food.add.btn = {\"locator\":\"xpath=.//*[@id='addEventType_meal']\"}
+event.food.add.time.txt = {\"locator\":\"xpath=.//*[@id='readingDate_new']\"}
+event.food.type.dropdown = {\"locator\":\"xpath=.//*[@id='mealSize_new_chzn']/a/span\"}
+event.food.type.dropdown.value = {\"locator\":\"xpath=.//*[@id='mealSize_new_chzn_o_2']\"}
+event.food.value.txt = {\"locator\":\"xpath=.//*[@id='carbValue_new']\"}
+event.food.description.txt = {\"locator\":\"xpath=.//*[@id='annotationList_new']\"}
+event.food.addevent.btn = {\"locator\":\"xpath=.//*[@id='addEventSaveBtn']\"}
+event.added.successfully.lbl = {\"locator\":\"xpath=.//*[@id='logbook']/div[2]/table/tbody/tr/td[1]/div/strong\"}
+event.added.values.verification.txt = {\"locator\":\"xpath=html/body\"}
+loginform.registration.link = {\"locator\":\"xpath=.//*[@id='registration']\"}
+registration.consent.TOU.chkbx = {\"locator\":\"xpath=.//*[@id='termsAndConditions']\"}
+registration.consent.next.btn = {\"locator\":\"xpath=.//*[@id='registrationStepForm_0']/p[7]/button\"}
+registration.firstname.txtfld = {\"locator\":\"xpath=.//*[@id='profUserFirstname']\"}
+registration.lastname.txtfld = {\"locator\":\"xpath=.//*[@id='profUserLastname']\"}
+registration.gender.selection.radiobtn = {\"locator\":\"xpath=.//*[@id='profGenderMale']\"}
+registration.user.email.txtfld = {\"locator\":\"xpath=.//*[@id='profEmail']\"}
+registration.user.username.txtfld = {\"locator\":\"xpath=.//*[@id='profUsername']\"}
+registration.user.password.txtfld= {\"locator\":\"xpath=.//*[@id='profPassword']\"}
+registration.user.confirmpassword.txtfld={\"locator\":\"xpath=.//*[@id='passwordConfirmation']\"}
+registration.user.nextstep.btn = {\"locator\":\"xpath=.//*[@id='registrationStepForm_1']/p[10]/button\"}
+connections.link = {\"locator\":\"xpath=//a[contains(@href,'sharing')]\",\"desc\":\"To open connections of Third Party APPS\"}
+seetings.link = {\"locator\":\"xpath=//a[contains(@href,'settings')]\",\"desc\":\"to open seetings\"}
+logbook.msg = {\"locator\":\"xpath=//tr[@class='message']/td\",\"desc\":\"No events were found for the date specified.\"}

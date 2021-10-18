@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<sensorcode>
+		<sensorcodefirst>1</sensorcodefirst>
+		<sensorcodesecond>2</sensorcodesecond>
+		<sesorcodethird>3</sesorcodethird>
+		<sensorcodefourth>4</sensorcodefourth>
+		<sesnorcodefifth>5</sesnorcodefifth>
+		<sensorcodesixth>6</sensorcodesixth>
+		<sesorcodeseventh>7</sesorcodeseventh>
+	</sensorcode>
+	
+	<sensor>
+	<codeandroid>123456789</codeandroid>
+	</sensor>
+	
+	<SensorCodee>
+<code>123456789</code>
+</SensorCodee>
+   
+</root>

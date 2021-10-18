@@ -1,0 +1,41 @@
+NFK.moremenu.accountpage.email.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/emailAddress')]\",\"desc\":\"Email text field on edit page\"}
+NFK.moremenu.accountpage.firstname.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/firstName')])\",\"desc\":\"firstname text field on edit page\"}
+NFK.moremenu.accountpage.lastname.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/lastName')])\",\"desc\":\"lastname text field on edit page\"}
+NFK.moremenu.accountpage.middlename.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/middleName')])\",\"desc\":\"middlename text field on edit page\"}
+NFK.moremenu.accountpage.suffix.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/suffix')])\",\"desc\":\"suffix text field on edit page\"}
+NFK.moremenu.accountpage.dateofbirth.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/dateOfBirth')])\",\"desc\":\"dateofbirth text field on edit page\"}
+NFK.moremenu.accountpage.picker.date.pkr = {\"locator\":\"xpath=(//*[contains(@resource-id,'android:id/numberpicker_input')])[2]\",\"desc\":\"Date picker\"}
+NFK.moremenu.accountpage.picker.year.pkr = {\"locator\":\"xpath=//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.DatePicker[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.NumberPicker[3]/android.widget.EditText[1]\"}
+NFK.moremenu.accountpage.picker.month.pkr = {\"locator\":\"xpath=(//*[contains(@resource-id,'android:id/numberpicker_input')])[1]\",\"desc\":\"Month picker\"}
+NFK.moremenu.accountpage.dob.ok.btn={\"locator\":\"xpath=//*[contains(@resource-id,'android:id/button1')]\"}
+NFK.moremenu.accountpage.address1.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/address1')])\",\"desc\":\"address1 text field on edit page\"}
+NFK.moremenu.accountpage.address2.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/address2')])\",\"desc\":\"address2 text field on edit page\"}
+NFK.moremenu.accountpage.address3.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/address3')])\",\"desc\":\"address3 text field on edit page\"}
+NFK.moremenu.accountpage.city.txt ={\"locator\":\"xpath=(//*[contains(@resource-id,'id/city')])\",\"desc\":\"city text field on edit page\"}
+NFK.moremenu.accountpage.state.txt= {\"locator\":\"xpath=(//*[contains(@resource-id,'id/state')])\",\"desc\":\"state text field on edit page\"}
+NFK.moremenu.accountpage.select.state.radiobtn1={\"locator\":\"xpath=//*[contains(@text,'Alaska')]\"}
+NFK.moremenu.accountpage.state.done.btn={\"locator\":\"xpath=//*[contains(@resource-id,'android:id/button1')]\"}
+NFK.moremenu.accountpage.zipcode.txt={\"locator\":\"xpath=(//*[contains(@resource-id,'id/zipCode')])\",\"desc\":\"zip code\"}
+NFK.moremenu.accountpage.phonenumber.txt =  {\"locator\":\"xpath=(//*[contains(@resource-id,'id/phoneNumber')])\",\"desc\":\"Phone Number\"}
+NFK.moremenu.accountpage.importantMessageOk.btn ={\"locator\":\"xpath=//*[@resource-id='android:id/button1']\",\"desc\":\"Ok btn\"}
+NFK.moremenu.accountpage.save.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'nextButton')]|//*[contains(@resource-id,':id/nextButton')]\",\"desc\":\"save after editing\"}
+NFK.moremenu.accountpage.back.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'backButton')]\",\"desc\":\"back button on my account page\"}
+NFK.moremenu.accountpage.delete.message.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\" Message on delete account screen\"}
+NFK.moremenu.accountpage.delete.email.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'customTextInputEditText')])[1]\",\"desc\":\" Email field on delete screen\"}
+NFK.moremenu.accountpage.delete.password.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'customTextInputEditText')])[2]\",\"desc\":\" Password field on delete screen\"}
+NFK.moremenu.accountpage.delete.ack.checkbox = {\"locator\":\"xpath=//*[contains(@resource-id,'checkAcknowledge')]\",\"desc\":\" Checkbox of Acknowledgment\"}
+NFK.moremenu.accountpage.delete.confirmdelete.checkbox = {\"locator\":\"xpath=//*[contains(@resource-id,'checkDeleteAssociatedData')]\",\"desc\":\" Checkbox of Delete confirmation\"}
+NFK.moremenu.accountpage.delete.deleteaccount.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'deleteAccountButton')]\",\"desc\":\" Checkbox of Delete confirmation\"}
+NFK.moremenu.accountpage.delete.btn = {\"locator\":\"xpath=//*[contains(@text,'Delete Account')]\",\"desc\":\"Delete button on My Account screen\"}
+NFK.moremenu.accountpage.Change.password.btn= {\"locator\":\"xpath=//*[contains(@text,'Change Password')]\",\"desc\":\"Change Password button on My Account screen\"}
+NFK.moremenu.accountpage.Change.Password.Title= {\"locator\":\"xpath=//*[contains(@text,'Change Password')]\",\"desc\":\"Change Password button title on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.Current.Password.Field= {\"locator\":\"xpath=//*[contains(@resource-id,'adhoctest:id/currentPassword')]\",\"desc\":\" Current Password field on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.New.Password.Field= {\"locator\":\"xpath=//*[contains(@resource-id,'adhoctest:id/newPassword')]\",\"desc\":\" New Password field on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.Confirm.Password.Field= {\"locator\":\"xpath=//*[contains(@resource-id,'adhoctest:id/confirmPassword')]\",\"desc\":\" confirm Password field on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.Save.Changes.Button= {\"locator\":\"xpath=//*[contains(@text,'Save Changes')]\",\"desc\":\"Save change button on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.Cancel.Button= {\"locator\":\"xpath=//*[contains(@text,'Cancel')]\",\"desc\":\"Cancel button on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.Forgot.Your.Password.link= {\"locator\":\"xpath=//*[contains(@text,'Forgot your password?')]\",\"desc\":\"Forgot your password? button on Change Password screen\"}
+NFK.moremenu.accountpage.Change.Password.Back.Button= {\"locator\":\"xpath=//*[contains(@resource-id,'adhoctest:id/backButton')]\",\"desc\":\" Back button on Change Password screen\"}
+NFK.moremenu.accountpage.Change.password.email.address = {\"locator\":\"xpath=//*[contains(@text,'Username or Email')]|//*[contains(@resource-id,'id/et_username')]|//*[contains(@resource-id,'customTextInputEditText')]\",\"desc\":\"Username textfield\"}
+NFK.moremenu.accountpage.Changed.password = {\"locator\":\"xpath=//*[contains(@text,'Password')]\",\"desc\":\"Password Textfield\"}
+NFK.moremenu.accountpage.Save.Changes.btn: {\"locator\":\"xpath=//*[contains(@text,'Save Changes')]|//*[contains(@resource-id,'id/saveButton')]|//*[contains(@resource-id,'continuous.adhoctest:id/saveButton')]\",\"desc\":\"save button\"}

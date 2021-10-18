@@ -1,0 +1,8 @@
+*/target/*
+/target/
+*/test-output/*
+/test-output/
+*/test-results/*
+/test-results/
+*/.settings/*
+/.settings/

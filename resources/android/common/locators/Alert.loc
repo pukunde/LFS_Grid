@@ -1,0 +1,41 @@
+NFK.alert.title={\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Title of screen\"}
+NFK.alert.urgent.low.txt={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"Urgent Low text\"}
+NFK.alert.alarmsetting.label={\"locator\":\"xpath=(//*[contains(@resource-id,'accountDetails')])[1]\",\"desc\":\"Alaram setting sub title on Alert screen\"}
+NFK.alert.urgentlow.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"Urgent Low label\"}
+NFK.alert.urgentlowsoonalarm.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[3]\",\"desc\":\"Urgent Low soon alarm label\"}
+NFK.alert.urgentlow.default.value={\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[1]\",\"desc\":\"Default value check on urgent low\"}
+NFK.alert.urgentlow.notify={\"locator\":\"xpath=(//*[contains(@resource-id,'root')])[1]\",\"desc\":\"Notify Me Below text in read only mode\"}
+NFK.alert.urgentlow.repeat={\"locator\":\"xpath=(//*[contains(@resource-id,'root')])[2]\",\"desc\":\"Repeat text in read only mode\"}
+NFK.alert.sound.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"Sound label\"}
+NFK.alert.vibration.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]\",\"desc\":\"vibration label\"}
+NFK.alert.sound.content1={\"locator\":\"xpath=//*[contains(@resource-id,'sound')]\",\"desc\":\"Default text on Sound\"}
+NFK.alert.vibration.content1={\"locator\":\"xpath=//*[contains(@resource-id,'vibration')]\",\"desc\":\"Default text on Vibration\"}
+NFK.alert.alarm.dynamic.txt = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Dynamic text\"}
+NFK.alert.elements.list= {\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"List of elements\"}
+NFK.alert.back.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]\",\"desc\":\"Back button\"}
+NFK.alert.checkMark= {\"locator\":\"xpath=//*[contains(@resource-id,'checkMark')]\",\"desc\":\"Check mark\"}
+NFK.alert.urgentlowsoon.repeat.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"Repeat every minute\"}
+NFK.alert.uregentlowsoon.vibration.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[3]|//*[contains(@text,'Vibration')]\",\"desc\":\"Vibration label\"}
+NFK.alert.uregentlowsoon.sound.label={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]|//*[contains(@text,'Sound')]\",\"desc\":\"Sound label\"}
+NFK.alert.uregentlowsoon.repeatfirst.button={\"locator\":\"xpath=//*[contains(@resource-id,'firstOption')]\",\"desc\":\"Repeat Every minute first option\"}
+NFK.alert.uregentlowsoon.repeatsecond.button={\"locator\":\"xpath=//*[contains(@resource-id,'secondOption')]\",\"desc\":\"repeat Every minute second option\"}
+NFK.alert.sound.content={\"locator\":\"xpath=(//*[contains(@resource-id,'cursor')])[1]\",\"desc\":\"Default text on Sound\"}
+NFK.alert.vibration.content={\"locator\":\"xpath=(//*[contains(@resource-id,'cursor')])[2]\",\"desc\":\"Default text on Vibration\"}
+NFK.alert.description.txt1= {\"locator\":\"xpath=(//*[contains(@resource-id,'id/android.widget.TextView')])[1]\",\"desc\":\"Text of screen\"}
+NFK.alert.description.txt={\"locator\":\"xpath=//*[contains(@resource-id,'android.widget.TextView')/android.view.ViewGroup[2]/android.widget.TextView[1]\",\"desc\":\"Text of screen\"}
+NFK.alert.text.value={\"locator\":\"xpath=//*[contains(@resource-id,'content')]\",\"desc\":\"Content Values\"}
+NFK.alert.suboptions.screens.labels={\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"Labels of Alerts sub options\"}
+NFK.alert.suboptions.screens.switch.btn={\"locator\":\"xpath=//*[contains(@resource-id,'switchButton')]\",\"desc\":\"Switch button of Alerts menu\"}
+NFK.alert.numberpicker={\"locator\":\"xpath=//*[contains(@resource-id,'numberpicker_input')]\",\"desc\":\"Number picker\"}
+NFK.alert.picker.done.btn={\"locator\":\"xpath=//*[contains(@resource-id,'doneButton')]\",\"desc\":\"Done button of picker\"}
+NFK.alert.picker.cancel.btn={\"locator\":\"xpath=//*[contains(@resource-id,'cancelButton')]\",\"desc\":\"Cancel button of picker\"}
+NFK.alert.picker.hr.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'unitHour')]\",\"desc\":\"Hour picker\"}
+NFK.alert.picker.min.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'unitMin')]\",\"desc\":\"Minute picker\"}
+NFK.alert.picker.upper.fieldbtn={\"locator\":\"xpath=//*[contains(@class,'android.widget.Button')]\",\"desc\":\"Above field of picker\"}
+NFK.alert.picker.lower.fieldbtn={\"locator\":\"xpath=//*android.widget.NumberPicker[1]/android.widget.Button[2]\",\"desc\":\"Below field of picker\"}
+NFK.alert.repeat.numberpicker={\"locator\":\"xpath=//*[contains(@resource-id,'numberpicker_input')]\",\"desc\":\"Reapeat hr min Number picker\"}
+NFK.alert.editschedule.submenu.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"Sub menu label of Edit Schedule\"}
+NFK.alert.editschedule.submenu.values={\"locator\":\"xpath=//*[contains(@resource-id,'content')]\",\"desc\":\"Sub menu values of Edit Schedule\"}
+NFK.alert.editschedule.acctndetails.text={\"locator\":\"xpath=//*[contains(@resource-id,'accountDetails')]\",\"desc\":\"Texts on Alert screen\"}
+NFK.alert.schedule.name={\"locator\":\"xpath=//*[contains(@text,'Schedule Name')]\",\"desc\":\"Schedule name\"}
+NFK.alert.reset.alert.btn={\"locator\":\"xpath=//*[contains(@resource-id,'button')]\",\"desc\":\"Reset Alerts Button\"}

@@ -1,0 +1,35 @@
+NFK.homepage.more.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/fourthItem')]\"}
+NFK.homepage.more.btn1= {\"locator\":\"xpath=//*[contains(@text,'MORE OPTION')]\",\"desc\":\"More icon on home page\"}
+NFK.homepage.moremenu.account.btn= {\"locator\":\"xpath=//*[contains(@text,'Account')]|//*[text()=\\\"Account\\\"]\",\"desc\":\"Accounts Menu in More Menu\"}
+NFK.homepage.moremenu.device.btn= {\"locator\":\"xpath=//*[contains(@text,'My Devices')]\",\"desc\":\"My Devices in More Menu\"}
+NFK.homepage.moremenu.logout.btn= {\"locator\":\"xpath=//*[contains(@text,'Log Out')]\",\"desc\":\"Logout Button in More Menu\"}
+NFK.homepage.home.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/firstItem')]|//*[contains(@resourceid,'/firstItem')]\",\"desc\":\"Overview icon on home page\"}
+NFK.homepage.addevent.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'addEventButton')]|//*[contains(@resource-id,'addEventButton')]//*[@class=\\\"android.widget.ImageButton\\\"]\",\"desc\":\"Text Add Event when none exist\"}
+NFK.homepage.addevent.CARB.btn={\"locator\":\"xpath=//*[contains(@text,'Carbs')]|//*[contains(@resource-id,'buttonAddCarbs')]\",\"desc\":\"Add new CARB value\"}
+NFK.homepage.addevent.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/addEventButton')]\",\"desc\":\"Button to add event on home page\"} 
+NFK.homepage.addevent.INSULIN.Btn = {\"locator\":\"xpath=//*[contains(@text,'Insulin')]|//*[contains(@resource-id,'buttonAddInsulin')]\",\"desc\":\"Add new Insulin value\"}
+NFK.homepage.addevent.ACTIVITY.Btn = {\"locator\":\"xpath=//*[contains(@text,'Activity')]|//*[contains(@resource-id,'buttonAddActivity')]\",\"desc\":\"Add new Activity button\"}
+NFK.homepage.moremenu.settings.btn = {\"locator\":\"xpath=//*[contains(@text,'Settings')]\",\"desc\":\"click on my setting button\"}
+NFK.homepage.eventlog.tab = {\"locator\":\"xpath=//*[contains(@resource-id,'id/secondItem')]\",\"desc\":\"My Event Log icon on home page\"}
+NFK.homepage.progress.tab = {\"locator\":\"xpath=//*[contains(@resource-id,'id/thirdItem')]\",\"desc\":\"My Event Log icon on home page\"}
+NFK.homepage.eventvalue.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'amountViewContainer')]|//*[contains(@resource-id,'/amountField')]|//*[contains(@resource-id,'/iconField')]\",\"desc\":\"Added event value text\"}
+NFK.homepage.eventUOM.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'unitField')]\",\"desc\":\"Unit of measure text\"}
+NFK.homepage.addevent.note.btn= {\"locator\":\"xpath=//*[contains(@text,'Note')]\",\"desc\":\"Add a new note\"}
+NFK.homepage.moremenu.myalert.btn ={\"locator\":\"xpath=(//*[contains(@resource-id,'cursor')])[2]\",\"desc\":\"My Alert button\"}
+NFK.homepage.moremenu.reminders.btn ={\"locator\":\"xpath=(//*[contains(@resource-id,'cursor')])[5]|//*[contains(@text,'Reminders')]\",\"desc\":\"My reminder button\"}
+NFK.homepage.moremenu.help.btn={\"locator\":\"xpath=//*[contains(@text,'Help')]\",\"desc\":\"click on Help button\"}
+NFK.homepage.moremenu.connections.btn={\"locator\":\"xpath=//*[contains(@text,'Connections')]\",\"desc\":\"click on Connections button\"}
+NFK.homepage.moremenu.addofficecode.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'cursor')]\",\"desc\":\"Add a clinic\"}
+NFK.homepage.moremenu.connections.officecode.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'etCode')]\",\"desc\":\"Add a clinic code\"}
+NFK.homepage.moremenu.connections.search.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'nextButton')]\",\"desc\":\"Add a clinic next button\"}
+NFK.homepage.moremenu.addcliniccode.YES.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'btnAddClinic')]\",\"desc\":\"Add a clinic yes button\"}
+NFK.homepage.moremenu.connections.officeaccept.chkbox = {\"locator\":\"xpath=//*[contains(@resource-id,'cbShareInformation')]\",\"desc\":\"Add a clinic check box\"}
+NFK.homepage.moremenu.connections.done.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'nextButton')]\",\"desc\":\"Add a clinic done button\"}
+NFK.homepage.moremenu.addcliniccode.renter.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'tvEnterCodeAgain')]\",\"desc\":\"Renter button\"}
+NFK.homepage.moremenu.connections.officename.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvClinicName')]\",\"desc\":\"Office name label\"} 
+NFK.homepage.pair.sensor.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/buttonPairSensor')]\",\"desc\":\"Sensor Pair Button on Home screen\"} 
+NFK.homepage.moremenu.datepopup.dynamic.txt = {\"locator\":\"xpath=//*[@content-desc=\\\"%s\\\"]\",\"desc\":\"Parameterised text selection time text\"}
+NFK.homepage.banner.msg.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/messageTextView')]\",\"desc\":\"Red banner with text\"}
+NFK.homepage.sensor.title= {\"locator\":\"xpath=//*[contains(@resource-id,'id/title')]\",\"desc\":\"Sensor title\"}
+NFK.homepage.sensor.descp.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/content')]\",\"desc\":\"Sensor description\"}
+NFK.homepage.sensor.howtoapply.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/buttonHowApply')]\",\"desc\":\"How to apply sensor\"}

@@ -1,0 +1,6 @@
+Nfkios.devicesettings.calender.txt = {\"locator\":\"xpath=//*[contains(@value,\\\", \\\")]\"}
+Nfkios.devicesettings.time.txt = {\"locator\":\"xpath=//UIATableView[1]/UIATableCell[4]/UIAStaticText[2]\"}
+Nfkios.devicesettings.search.txt = {\"locator\":\"xpath=//UIASearchBar[1]|//*[@label=\\\"Search\\\"]|//XCUIElementTypeOther[1]/XCUIElementTypeSearchField[1]\"}
+Nfkios.devicesettings.searched.option.txt = {\"locator\":\"xpath=//UIATableCell[1]/UIAStaticText[1]|//XCUIElementTypeCell[1]/XCUIElementTypeStaticText[1]\"}
+Nfkios.devicesettings.switches = {\"locator\":\"xpath=//XCUIElementTypeSwitch[@label=\\\"Set Automatically\\\"]\"}
+Nfkios.devicesettings.allowCriticalAlert={\"locator\":\"xpath=//XCUIElementTypeSwitch[@label=\\\"Allow Critical Alerts\\\"]\"}

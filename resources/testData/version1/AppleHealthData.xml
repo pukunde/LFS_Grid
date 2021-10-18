@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<appleHealth>
+		<Dashboard>Dashboard</Dashboard>
+		<HealthData>Health Data</HealthData>
+		<Nutrition>Nutrition</Nutrition>
+		<Carbohydrates>Carbohydrates</Carbohydrates>
+		<carb1>
+			<timeHr>7</timeHr>
+			<timeMinute>00</timeMinute>
+			<gVal>1.30</gVal>
+		</carb1>
+		<carb2>
+			<timeHr>8</timeHr>
+			<timeMinute>00</timeMinute>
+			<gVal>2.60</gVal>
+		</carb2>
+		<carb3>
+			<timeHr>10</timeHr>
+			<timeMinute>00</timeMinute>
+			<gVal>3.50</gVal>
+		</carb3>
+		<carb4>
+			<timeHr>11</timeHr>
+			<timeMinute>39</timeMinute>
+			<gVal>4.100</gVal>
+		</carb4>
+		<carb5>
+			<timeHr>6</timeHr>
+			<timeMinute>00</timeMinute>
+			<gVal>5.200</gVal>
+		</carb5>
+	</appleHealth>
+</root>

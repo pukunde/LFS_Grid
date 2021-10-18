@@ -1,0 +1,23 @@
+NFKios.editschedulepage.title= {\"locator\":\"xpath=//*[@label=\\\"Edit Schedule\\\"]\",\"desc\":\"Title Edit Schdule\"}
+NFKios.editschedulepage.cancel.btn= {\"locator\":\"xpath=//*[@name=\\\"UserAlertScheduleViewController.cancelButton\\\"]\",\"desc\":\"Cancel button\"}
+NFKios.editschedulepage.save.btn= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.saveButton\\\"]\",\"desc\":\"Save button\"}
+NFKios.editschedulepage.schdeule.label= {\"locator\":\"xpath=//*[@name=\\\"UserAlertScheduleViewController.scheduleNameLabel\\\"]\",\"desc\":\"Schdule Name label\"}
+NFKios.editschedulepage.schdeule.name= {\"locator\":\"xpath=//*[@name=\\\"UserAlertScheduleViewController.scheduleNameField\\\"]\",\"desc\":\"Schdule name Field label\"}
+NFKios.editschedulepage.weekend.label= {\"locator\":\"xpath=//*[@name=\\\"UserAlertScheduleViewController.scheduleNameDescriptionLabel\\\"]\",\"desc\":\"Description label\"}
+NFKios.editschedulepage.alertsettings.label= {\"locator\":\"xpath=//*[@name=\\\"UserAlertScheduleViewController.alertSettingsLabel\\\"]\",\"desc\":\"Alert Settings label\"}
+NFKios.editschedulepage.treatcritical.label= {\"locator\":\"xpath=//*[@name=\\\"UserAlertScheduleViewController.soundField\\\"]\",\"desc\":\"Critical label\"}
+NFKios.editschedulepage.warningmsg.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.warningMessageLabel\\\"]\",\"desc\":\"Warning message\"}
+NFKios.editschedulepage.starttime.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.startTimeField\\\"]\",\"desc\":\"Start time field\"}
+NFKios.editschedulepage.stoptime.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.stopTimeField\\\"]\",\"desc\":\"Stop time field\"}
+NFKios.editschedulepage.daysofweek.field= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.daysOfWeekField\\\"]\",\"desc\":\"Days of Week field\"}
+NFKios.editschedulepage.urgentlbl.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.urgentLowSoonField\\\"]\",\"desc\":\"Urgent Low field\"}
+NFKios.editschedulepage.low.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.lowField\\\"]\",\"desc\":\"Low field\"}
+NFKios.editschedulepage.fallrate.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.fallRateField\\\"]\",\"desc\":\"Fall Rate field\"}
+NFKios.editschedulepage.high.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.highField\\\"]\",\"desc\":\"High field\"}
+NFKios.editschedulepage.riserate.label= {\"locator\":\"xpath=//*[@identifier=\\\"UserAlertScheduleViewController.riseRateField\\\"]\",\"desc\":\"Rise Field\"}
+NFKios.editschedulepage.hrs.pkr = {\"locator\":\"xpath=//XCUIElementTypePickerWheel[1]\",\"desc\":\"Hour picker wheel\"}
+NFKios.editschedulepage.minute.pkr = {\"locator\":\"xpath=//XCUIElementTypePickerWheel[2]\",\"desc\":\"Minute picker wheel\"}
+NFKios.editschedulepage.ampm.pkr = {\"locator\":\"xpath=//XCUIElementTypePickerWheel[3]\",\"desc\":\"AM PM picker wheel\"}
+NFKios.editschedulepage.done.btn = {\"locator\":\"xpath=//*[@name=\\\"Done\\\"]\",\"desc\":\"Done button\"}
+NFKios.editschedulepage.picker.cancel.btn = {\"locator\":\"xpath=//*[@name=\\\"Cancel\\\"]\",\"desc\":\"Cancel button\"}
+NFKios.editschedulepage.week.back.btn = {\"locator\":\"xpath=//*[@name=\\\"MyAlertsPickerViewController.backButton\\\"]\",\"desc\":\"Cancel button\"}

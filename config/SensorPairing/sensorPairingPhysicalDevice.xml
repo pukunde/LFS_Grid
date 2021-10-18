@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NFK1.0" verbose="0" parallel="tests" thread-count="2">
+
+	<parameter name="platformName" value="android"></parameter>
+	<parameter name="env.baseurl"
+		value="https://0.0.0.0:4723/wd/hub"></parameter>
+
+	<parameter name="remote.server"
+		value="https://0.0.0.0:4723/wd/hub/"></parameter>
+
+	<listeners>
+		<listener class-name="com.NFK.version1.listener.TestNGListener"></listener>
+		<listener class-name="com.NFK.version1.listener.ReportiumListener"></listener>
+	</listeners>
+	
+	<parameter name="language.name" value="en-us"></parameter>
+	<parameter name="country.name" value="United States"></parameter>
+	<parameter name="gdpr_country.name" value="United Kingdom and Ireland"></parameter>
+	<parameter name="channel" value="android"></parameter>
+	<parameter name="env.resources" value="resources/${channel}/common;
+	resources/testData;resources/${channel}/${language.name}"></parameter>
+	
+<test name="SensorPairing" enabled="true">
+	<parameter name="scenario.file.loc" value="scenarios\version1\android\SensorPairing\AndroidPhysicalDevice.bdd"></parameter>
+	<parameter name="appium.additional.capabilities" value="
+	{'deviceName':'Android Device','app':'F:\\EmulatorAutomation\\Feature5_Final\\server\\windows\\app-adhoctest-continuous-release.apk',
+	'driver.class':'io.appium.java_client.android.AndroidDriver',
+'appWaitForLaunch':false,
+	'automationName':'uiautomator2',
+	'javascriptEnabled':true,
+	'platformName':'Android',
+	'unicodeKeyboard':true,
+	'resetKeyboard':true}"></parameter> 
+ 			<groups>
+ 				<run>
+ 					<include name="NFK"/>
+ 				</run>
+ 			</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+</test>
+
+	  
+
+	       
+</suite>

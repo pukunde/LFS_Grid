@@ -1,0 +1,49 @@
+NFK.eventlog.addevent.btn =  {\"locator\":\"xpath=//*[contains(@resource-id,'addEventButton')]|//*[contains(@resource-id,'addEventButton')]//*[@class=\\\"android.widget.ImageButton\\\"]\",\"desc\":\"Text Add Event when none exist\"}
+NFK.eventlog.addevent.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/title')]\",\"desc\":\"Button to add event on home page\"} 
+NFK.eventlog.addbg.addvalue.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/amountField')]\",\"desc\":\"Button to add Blood Glucose value\"} 
+NFK.eventlog.unitofmeasurement.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/unitField')]\",\"desc\":\"add event unit\"} 
+NFK.eventlog.editglucose.notefield.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/noteEditText')]\",\"desc\":\"Button to add event on home page\"} 
+NFK.eventlog.addbg.time.btn1 = {\"locator\":\"xpath=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]\"} 
+NFK.eventlog.addbg.time.btn  =  {\"locator\":\"xpath=//*[contains(@resource-id,'id/selectionText')]\",\"desc\":\"Button to add event on home page\"} 
+NFK.eventlog.addevent.timeselect.ok.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/button1')]\",\"desc\":\"Button to add event on home page\"} 
+NFK.eventlog.editglucose.datepopup.date.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/date_picker_header_date')]\",\"desc\":\"Date title text on date pop up\"} 
+NFK.eventlog.editglucose.datepopup.datesvalue.txt = {\"locator\":\"xpath=//android.view.View/android.view.View[contains(@content-desc,'')]\",\"desc\":\"Dates on date pop up\"}
+NFK.eventlog.editglucose.dynamic.txt = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Dynamic text\"}
+NFK.eventlog.addbg.beforemeal.tab = {\"locator\":\"xpath=//*[contains(@resource-id,'id/firstItem')]\",\"desc\":\"Tab for Before Meal Bood Glucose value\"}
+NFK.eventlog.addbg.aftermeal.tab = {\"locator\":\"xpath=//*[contains(@resource-id,'id/secondItem')]\",\"desc\":\"Tab for After Meal Blood Glucose value\"}
+NFK.eventlog.addevent.save.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/nextButton')]\",\"desc\":\"Button to save added event in eventlog\"}
+NFK.eventlog.editglucose.back.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]\",\"desc\":\"Back button\"}
+NFK.eventlog.Addevent.Cancel.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]\",\"desc\":\"Cancel button\"}
+NFK.eventlog.editglucose.hi.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/highValue')]\",\"desc\":\"HI button\"}
+NFK.eventlog.editglucose.lo.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/lowValue')]\",\"desc\":\"LO button\"}
+NFK.eventlog.addEvent.BackBtn = {\"locator\":\"xpath=//*[contains(@text,'Cancel')]\",\"desc\":\"Dynamic text\"}
+NFK.eventlog.addinsulin.selecttype.btn = {\"locator\":\"xpath=//*[contains(@resourceid,'id/labelSelectionViewEvent')]|//*[contains(@resource-id,'id/labelSelectionViewEvent')]\",\"desc\":\"Button to select Type of Insulin\"}
+NFK.eventlog.editglucose.editeventtitle.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'/title')]|//*[contains(@text,'Edit an Event')]\",\"desc\":\"Edit event title text\"}
+NFK.eventlog.editglucose.delete.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'deleteButton')]|//*[contains(@text,'Delete This Event')]\",\"desc\":\"Delete button for edit event screen\"}
+NFK.eventlog.editglucose.deleteconfirm.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/customAlertTitle')]|//*[contains(@text,'Deletion Confirmation')]\",\"desc\":\"Delete confirm pop up text\"}
+NFK.eventlog.addevent.timeselect.cancel.btn = {\"locator\":\"xpath=//*[@resource-id=\\\"android:id/button2\\\"]|//*[contains(@text,'CANCEL')]\",\"desc\":\"Cancel button to cancel time adding event\"}
+NFK.eventlog.editglucose.deletepopup.delete.btn = {\"locator\":\"xpath=//*[@resource-id=\\\"android:id/button1\\\"]\",\"desc\":\"Delete pop up delete button\"}
+NFK.eventlog.type.txt = {\"locator\":\"xpath=(//*[contains(@resource-id,'selectionText')])[2]\",\"desc\":\"Types button\"}
+NFK.eventlog.addactivity.intensity.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'labelText')]\",\"desc\":\"Types button\"}
+NFK.eventlog.addactivity.selectintensity.btn= {\"locator\":\"xpath=//*[contains(@resourceid,'id/labelSelectionViewEvent')]|//*[contains(@resource-id,'id/labelSelectionViewEvent')]\",\"desc\":\"Button to select Type of Activity\"}
+NFK.eventlog.addevent.noteField= {\"locator\":\"xpath=//*[contains(@resource-id,'id/noteEditText')]\",\"desc\":\"note field text\"} 
+NFK.eventlog.addevent.timing.Btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/selectionText')]\"} 
+NFK.eventlog.addevent.save.Btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/nextButton')]\",\"desc\":\"save button \"} 
+NFK.eventlog.added.note=  {\"locator\":\"xpath=//*[contains(@resource-id,'id/notesField')]\",\"desc\":\"Note on My Event Log\"}
+NFK.eventlog.addevent.unit.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'unitField')]\",\"desc\":\"Event icon\"}
+NFK.eventlog.addevent.addcarbvalue.btn = {\"locator\":\"xpath=//*[contains(@text,'Carbs')]|//*[contains(@resource-id,'buttonAddCarbs')]\",\"desc\":\"Add new CARB value\"}
+NFK.eventlog.addevent.addinsulinvalue.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'buttonAddInsulin')]\",\"desc\":\"Add new Insulin value\"}
+NFK.eventlog.addevent.addactivityvalue.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'buttonAddActivity')]|//*[contains(@text,'Activity')]\",\"desc\":\"Add new Activity value\"}
+NFK.eventlog.addevent.unit.lbl1= {\"locator\":\"xpath=//*[contains(@resource-id,'unitField')]\",\"desc\":\"Event icon\"}
+NFK.eventlog.type.picker.txt={\"locator\":\"xpath=//*[contains(@resource-id,'id/numberpicker_input')]\",\"desc\":\"text of picker\"}
+NFK.eventlog.dynamic.txt = {\"locator\":\"xpath=//*[@text='%s']|//*[@content-desc='%s']\",\"desc\":\"Dynamic text\"}
+NFK.eventlog.type.picker.done={\"locator\":\"xpath=//*[contains(@resource-id,'id/doneButton')]\",\"desc\":\"Done button of picker\"}
+NFK.eventlog.type.picker.btn={\"locator\":\"xpath=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.NumberPicker[1]/android.widget.Button[2]\",\"desc\":\"Button of picker\"}
+NFK.eventlog.classicview.datetoright.btn = {\"locator\":\"xpath=//*[@resource-id=\\\"android:id/next\\\"]\",\"desc\":\"Right button to select future date\"}
+NFK.eventlog.event.title={\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Title of My Event Log\"}
+NFK.eventlog.event.chart={\"locator\":\"xpath=//*[contains(@resource-id,'chart')]\",\"desc\":\"Chart on My event log\"}
+NFK.eventlog.event.calendardate.txt={\"locator\":\"xpath=//*[contains(@resource-id,'textDate')]\",\"desc\":\"Date time text on My Event log\"}
+NFK.eventlog.event.today.btn={\"locator\":\"xpath=//*[contains(@resource-id,'filledButton')]\",\"desc\":\"Todays Button\"}
+NFK.eventlog.event.toggle.calendar.btn={\"locator\":\"xpath=//*[contains(@resource-id,'toggleCalendarButton')]\",\"desc\":\"Open caalendar\"}
+
+

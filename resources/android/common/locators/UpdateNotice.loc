@@ -1,0 +1,9 @@
+nfk.updatenotice.page.heading.txt = {\"locator\":\"xpath=//*[contains(@text,'Update Notice')]\"}
+nfk.updatenotice.wehaveupdated.txt = {\"locator\":\"xpath=//*[contains(@text,'We have updated the following')]\"}
+nfk.updatenotice.privacy.policy.lnk = {\"locator\":\"xpath=//*[contains(@resource-id,'com.lifescan.reveal.stage:id/tv_privacy_policy')]\"}
+nfk.termsofuse.lnk = {\"locator\":\"xpath=//*[contains(@resource-id,'com.lifescan.reveal.stage:id/tv_terms_of_use')]\"}
+nfk.consent.to.process.personal.lnk = {\"locator\":\"xpath=//*[contains(@resource-id,'com.lifescan.reveal.stage:id/tv_consent')]\"}
+nfk.please.review.agree.terms.txt = {\"locator\":\"xpath=//*[contains(@text,'Please review and agree ')]\"}
+
+nfk.please.review.agree.terms.txt1 = {\"locator\":\"xpath=//*[contains(@text,'Please review and agree ')]\"}
+nfk.please.review.agree.terms.txt2 = {\"locator\":\"xpath=//*[contains(@text,'Please review and agree ')]\"}

@@ -1,0 +1,35 @@
+NFK.settingspage.titl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/title')]\",\"desc\":\"Setting Logo\"}
+NFK.settingspage.bg.default.compare1 = {\"locator\":\"xpath=//*[contains(@text,'70 - 180 mg/dL')]\",\"desc\":\"settings default bg compare\"}
+NFK.settingspage.bg.default.compare = {\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[2]\",\"desc\":\"settings default bg compare\"}
+NFK.settingspage.bg.rengeok.btn =  {\"locator\":\"xpath=//*[contains(@resource-id,'id/doneButton')]\",\"desc\":\"bg select done button\"}
+NFK.settingspage.bg.renge.pkr = {\"locator\":\"xpath=//*[contains(@resource-id,'id/numberpicker_input')]\",\"desc\":\"bg range picker scroll\"}
+NFK.settingspage.bg.range.forward.arrow = {\"locator\":\"xpath=//*[contains(@resource-id,'id/rightArrowButton')]\",\"desc\":\"bg range picker forward arrow\"}
+NFK.settingspage.Cancel.Btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/cancelButton')]\",\"desc\":\"Cancel button\"}
+NFK.settingspage.Cancel.Btn1= {\"locator\":\"xpath=//*[contains(@text,'Cancel')]\",\"desc\":\"Cancel button\"}
+NFK.settingspage.static.Usersettings.Btn1 = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Static text for User setting\"}
+NFK.settingspage.static.Usersettings.Btn = {\"locator\":\"xpath=//*[contains(@text,'User Settings')]|//*[contains(@resource-id,'id/userSettingsTab')]\",\"desc\":\"Static text for User setting\"}
+NFK.settingspage.Event.title= {\"locator\":\"xpath=(//*[contains(@resource-id,'accountDetails')])[2]\",\"desc\":\"Title Events on My setting screen\"}
+NFK.settingspage.Log.insulin.text= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"Log Insulin text\"}
+NFK.settingspage.Overlay.timeline.text= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]\",\"desc\":\"Overlay Events on Timeline text\"}
+NFK.settingspage.Loginsulin.toggle.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'switchButton')])[2]\",\"desc\":\"Toggle button of Log insulin Event\"}
+NFK.settingspage.Overlaytimeline.toggle.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'id/switchButton')])[3]\",\"desc\":\"Toggle button of Overlay Events on Timeline\"}
+NFK.settingspage.back.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'backButton')]\",\"desc\":\"Back button of My setting screen\"}
+NFK.settingspage.BubbleAnimations.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'id/label')]\",\"desc\":\"bubble animations title text\"}
+NFK.settingspage.BubbleAnimations.toggle= {\"locator\":\"xpath=//*[contains(@resource-id,'id/switchButton')]\",\"desc\":\"bubble animation toggle\"} 
+NFK.settingspage.CurrentReading.titl={\"locator\":\"xpath=//*[contains(@resource-id,'id/accountDetails')]\",\"desc\":\"Current Reading title text\"}
+NFK.settingspage.gen_male= {\"locator\":\"xpath=(//*[contains(@resource-id,'firstOption')])[1]\",\"desc\":\"Male button on setting page\"}
+NFK.settingspage.gen_female= {\"locator\":\"xpath=(//*[contains(@resource-id,'secondOption')])[1]\",\"desc\":\"Female button on setting page\"}
+NFK.settingspage.diabetictype1.radio.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'firstOption')])[2]\",\"desc\":\"Diabetes Type 1 Button on setting page\"}
+NFK.settingspage.diabetictype2.radio.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'secondOption')])[2]\",\"desc\":\"Diabetes Type 2 Button on setting page\"}
+NFK.settingspage.diabetiesquestion.chk.btn = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Static text for Diabetes Management\"}
+NFK.settingspage.usersettings.rapidacting.yes.Btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/button1')]\",\"desc\":\"Yes button rapid insulin checkbox\"}
+NFK.settingspage.usersettings.rapidacting.no.Btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/button2')]\",\"desc\":\"No button rapid insulin checkbox\"}
+NFK.settingspage.system.setting.tab= {\"locator\":\"xpath=//*[contains(@resource-id,'id/systemSettingsTab')]\",\"desc\":\"System setting tab\"}
+NFK.settingspage.system.account.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/accountDetails')]\",\"desc\":\"Account details text\"}
+NFK.settingspage.system.text.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/label')]\",\"desc\":\"Log insulin labels\"}
+NFK.settingspage.system.switch.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/switchButton')]\",\"desc\":\"Switch button\"}
+NFK.settingspage.system.one.hr.btn= {\"locator\":\"xpath=//*[contains(@text,'1 hr')]\",\"desc\":\"1 hr button\"}
+NFK.settingspage.system.four.hr.btn= {\"locator\":\"xpath=//*[contains(@text,'4 hr')]\",\"desc\":\"4 hr button\"}
+NFK.settingspage.system.eight.hr.btn= {\"locator\":\"xpath=//*[contains(@text,'8 hr')]\",\"desc\":\"8 hr button\"}
+NFK.settingspage.system.twelve.hr.btn= {\"locator\":\"xpath=//*[contains(@text,'12 hr')]\",\"desc\":\"12 hr button\"}
+NFK.settingspage.system.twentyfour.hr.btn= {\"locator\":\"xpath=//*[contains(@text,'24 hr')]\",\"desc\":\"\24 hr button"}

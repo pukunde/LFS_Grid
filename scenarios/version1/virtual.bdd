@@ -1,0 +1,228 @@
+SCENARIO: To add edit and delete carb entry manually    
+META-DATA: {"description": "To add edit and delete carb entry manually","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]} 
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.virtualevent2'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks Add an Event
+And user selects event type as 'CARBS'
+Then user verifies Add an Event screen for 'CARBS'
+When user adds carbs details using 'addCarb' 
+Then user verifies added event 'addCarb' on Event Log
+When user clicks on added event 'addCarb' on Event Log
+And user edits carbs details using 'editCarb' 
+Then user verifies added event 'editCarb' on Event Log
+When user clicks on added event 'editCarb' on Event Log
+Then user verifies the delete event button
+When user deletes selected event
+And user verifies event 'editCarb' is deleted on Event Log
+And user closes the app
+END
+
+
+SCENARIO: To check the default selected type of insulin.
+META-DATA: {"description": "To check the default type of insulin.","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.virtualevent2'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks Add an Event
+And user selects event type as 'INSULIN'
+And user adds insulin value using 'addInsulin' 
+Then user selects type of insulin as 'Mix' and save  
+When user clicks Add an Event
+And user selects event type as 'INSULIN'
+Then user verifies the default insulin type is 'Mix' 
+And user closes the app
+END
+
+SCENARIO: To add edit and delete Activity entries manually	
+META-DATA: {"description": "To add Activity entries manually","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.virtualevent1'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks Add an Event
+And user selects event type as 'ACTIVITY'
+Then user verifies Add an Event screen for 'ACTIVITY'
+When user adds activity details using 'addActivity'  
+Then user verifies added event 'addActivity' on Event Log
+When user clicks on added event 'addActivity' on Event Log
+And user edits activity details using 'editActivity'
+Then user verifies added event 'editActivity' on Event Log
+When user clicks on added event 'editActivity' on Event Log
+Then user verifies the delete event button
+When user deletes selected event
+And user verifies event 'editActivity' is deleted on Event Log
+And user closes the app
+END
+
+SCENARIO: Selects  the type of Activity
+META-DATA: {"description": "selects  the type of Activity","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.virtualevent1'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+When user clicks Add an Event
+And user selects event type as 'ACTIVITY'
+And user adds activity value using 'addActivity'
+Then user selects type of activity as 'Intense' and save
+When user clicks Add an Event
+And user selects event type as 'ACTIVITY'
+Then user verifies the default activity type is 'Intense'
+And user closes the app
+END
+
+
+
+SCENARIO: The user should be able to login using dependent account and verifies the login screen
+META-DATA: {"description": "The user should be able to login using dependent account and verifies the login screen","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'LOG-IN DEPENDENT' Page
+When user enters valid login dependent details using 'Login.Dependent' 
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+Then user gets redirected to Home page  
+And user closes the app
+END
+
+SCENARIO: Verify Saftey Onboarding on Help page
+META-DATA: {"description":"Verify option available on help page","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserHelpPage'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks on more menu
+And user clicks on Help option
+Then user verify the Saftey Onboarding screens
+And user closes the app
+END
+
+SCENARIO: User verifies the Sensor Application screen from Help page
+META-DATA: {"description":"User verifies the Sensor Application screen from Help page","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserHelpPage'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks on more menu
+And user clicks on Help option
+Then user verifies the Sensor Application screen 
+And user validate the various options of Sensor application
+And user closes the app
+END
+
+SCENARIO: To add edit and delete Note entries manually
+META-DATA: {"description": "To add edit and delete Note entries manually","author":" ","testCaseId":"","groups":["NFKVirtual"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.virtual'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks Add an Event
+And user selects event type as 'NOTE'
+Then user verifies Add an Event screen for 'NOTE'
+When user adds note details using 'addnote'
+Then user verifies added note event 'addnote' on Event Log 
+When user clicks on added note event 'addnote' on Event Log
+And user edits Note details using 'editnote'
+Then  user verifies added note event 'editnote' on Event Log
+When user clicks on added note event 'editnote' on Event Log 
+Then user verifies the delete event button
+When user deletes selected event
+Then user verifies note event 'editnote' is deleted on Event Log
+And user closes the app
+END
+
+SCENARIO: Setup new reminder for Take Medication
+META-DATA: {"description":"User can create a snack reminder","author":"Taslim","testCaseId":" ","groups":["NFKVirtual"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserDetail'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+When user clicks on more menu 
+Then user set up a new reminder using '${reminder.preset.take.medication}'
+And user closes the app	 
+END
+
+SCENARIO: Verify reminder screen flow
+META-DATA: {"description":"Verify reminder screen flow","author":"Taslim","testCaseId":""}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserDetail'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+When user clicks on more menu 
+Then user verify reminder screens
+And user closes the app
+END
+
+SCENARIO: User verifies the Error pop-up on Login Own and Login Dependent page with inverse data
+META-DATA: {"description": "User verifies the Error pop-up on Login Own and Login Dependent page with inverse data","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'LOG-IN OWN' Page
+When user enters valid login dependent details using 'Login.Dependent'
+Then user handles error pop-up 
+And user taps on Back button
+Then user gets redirected to 'LOG-IN DEPENDENT' Page
+And user enters login details using 'Login.UserDetail'
+Then user handles error pop-up
+And user closes the app
+END
+
+SCENARIO: User enters Invalid Login details and verifies the Forgot password screen
+META-DATA: {"description": "User enters Invalid Login details and verifies the Forgot password screen","author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'LOG-IN OWN' Page
+And user enters login details with invalid username and password
+When user click on forgot password link
+Then user verify forgot password page
+And user closes the app
+END
+
+SCENARIO: User verifies the clinic Connected status on Connections screen
+META-DATA: {"description": "user verifies the clinic Connected status on Connections screen", "author":"Taslim","testCaseId":"","groups":["NFKVirtual"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list 
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserConnected'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks Connections
+Then user verifies the request connected details 
+And user verifies the 'Stop Sharing Data' popup
+And user closes the app
+END
+

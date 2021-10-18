@@ -1,0 +1,871 @@
+SCENARIO: Verification of Glucose Average and GMI on My Progress screen
+META-DATA: {"description": "user verifies glucose average and GMI on progress screen","author":"Talsim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app 
+When user selects country '${country.name}' from country list 
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.averageuser'
+And user clicks on continue button 
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button 
+When user requests the cgmreading
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters newly created details to Login 
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+Then user clicks on progress tab and verifies the My progress screen 
+And user verifies the Glucose Average and GMI for "7" days 
+And user verifies the Glucose Average and GMI for "14" days
+And user verifies the Glucose Average and GMI for "30" days
+And user verifies the Glucose Average and GMI for "60" days
+And user verifies the Glucose Average and GMI for "90" days
+END
+
+SCENARIO: Decision to log in with either my current user credentials or creating a new account
+META-DATA: {"description": "Decision to log in with either my current user credentials or create a new account","author":"sagar","testCaseId":"39566","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to Decision screen
+When user selects 'Yes, log me in' option
+Then user selects 'My own data' option and verifies the screen
+And user taps on Back button
+Then user selects 'My dependents data' option and verifies the screen
+When user taps on Back button
+And user taps on Back button and gets redirected to Decision screen
+Then user selects 'Sign Up' option
+And user selects 'Sign up for myself' option and verifies the screen
+When user taps on Back button
+And user selects 'Sign up for a dependent' option and verifies the screen
+When user taps on Back button
+And user taps on Back button and gets redirected to Decision screen
+Then user verifies country selection screen after tapping on Back button of decision screen   
+And user closes the app
+END
+
+SCENARIO: Comparision of Data on My Progress screen
+META-DATA: {"description": "user compares data on My Progress screen","author":"Talsim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app  
+When user selects country '${country.name}' from country list 
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.averageuser'
+And user clicks on continue button 
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button 
+When user requests the cgmreading
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters newly created details to Login 
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+Then user verifies current data and past data displays for the '7' days 
+And user closes the app
+END
+
+SCENARIO: User verify the Alarm Settings of Alert screen
+META-DATA: {"description": "User verify the Alarm Settings(Urgent Low Alarm and Urgent Low Soon Alarm) of Alert screen","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list 
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.user1'
+And user clicks on continue button 
+And user selects gender as 'FEMALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+Then user verifies Alert screen 
+When user clicks on 'Urgent Low Alarm' and verifies the screen
+Then user verify the sound and vibration screen of 'Urgent Low' 
+And user clicks back button and navigate to alert screen
+When user clicks on 'Urgent Low Soon' and verifies the screen   
+Then user verify the sound and vibration screen of 'Urgent Low Soon'
+And user closes the app
+END
+
+SCENARIO: User verify the chart scrollable upto 90 days
+META-DATA: {"description": "User verify the chart scrollable upto 90 days on Event Log","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.User90days'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+When user verifies the 'Event Log' page 
+Then user scrolls the chart upto '90 days' 
+END
+
+SCENARIO: User adds and verify new follower on share screen.
+META-DATA: {"description": "User can add a new follower","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair 
+When user clicks on more menu
+And user clicks on share 
+Then user gets redirected to Share Page
+When user clicks on Add Follower button 
+And user verifies Sharing First Use Statements
+And user clicks on Invite Followers button
+Then user gets redirected to Add Follower page 
+When user enters name and email address of follower and clicks on next button 
+Then user gets redirected to Set Follower page
+And clicks on Invite button
+Then user verifies the added follower on share page
+And user closes the app
+END
+
+SCENARIO: User verifies maximum follower reached popup on share screen.
+META-DATA: {"description": "User verifies maximum follower reached popup","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair 
+When user clicks on more menu
+And user clicks on share 
+Then user clicks on Add Follower button 
+And user verifies Sharing First Use Statements
+Then user clicks on Invite Followers button
+When user enters name and email address of follower and clicks on next button 
+And clicks on Invite button
+Then user verifies the added follower on share page
+When user clicks on Add Follower button 
+And user add and invites twenty new followers
+Then user verifies Maximum Followers Reached popup
+And user closes the app
+END
+
+SCENARIO: The user should be able to create a new dependent account in the application. 
+META-DATA: {"description": "The user should be able to create a new guardian account in the application","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP DEPENDENT' Page 
+When Guardian enters signup details using 'signupuser.guardian'   
+And user clicks on continue button 
+Then Guardian selects dependent gender as 'MALE' and diabetes type as 'TYPE 1'
+And Guardian enters dependent details and 'dependent.dob'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+Then user gets redirected to Home page  
+And user closes the app
+END
+
+SCENARIO: The user should be able to login using dependent account and verifies the login screen
+META-DATA: {"description": "The user should be able to login using dependent account and verifies the login screen","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'LOG-IN DEPENDENT' Page
+When user enters valid login dependent details using 'Login.Dependent' 
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+Then user gets redirected to Home page  
+And user closes the app
+END
+
+
+SCENARIO: The user should be able to edit the Account details of dependent account 
+META-DATA: {"description": "The user should be able to edit the Account details of dependent account","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP DEPENDENT' Page 
+When Guardian enters signup details using 'signupuser.guardian'   
+And user clicks on continue button 
+Then Guardian selects dependent gender as 'MALE' and diabetes type as 'TYPE 1'
+And Guardian enters dependent details and 'dependent.dob'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks on more menu
+And user clicks on Account
+And user clicks edit profile button 
+When user edits the dependents profile details using 'signupdependent'
+And user clicks on save button
+When user enters password and clicks on login
+Then user verifies dependents edited 'signupdependent' details
+And user closes the app
+END
+
+
+SCENARIO: User verifies the Low Alert Screen 
+META-DATA: {"description": "User verifies the Low Alert screen under alert menu","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'FEMALE' and diabetes type as 'TYPE 1'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+Then user clicks on 'LOW' Alert and verifies the screen 
+And user updates the picker values present on 'LOW' screen
+Then user verifies the updated picker values present on 'LOW' screen
+And user closes the app
+END
+
+SCENARIO: User verifies the High Alert Screen 
+META-DATA: {"description": "User verifies the High Alert screen under alert menu","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'FEMALE' and diabetes type as 'TYPE 1'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+Then user clicks on 'HIGH' Alert and verifies the screen 
+And user updates the picker values present on 'HIGH' screen
+Then user verifies the updated picker values present on 'HIGH' screen
+And user closes the app
+END
+
+SCENARIO: User verifies the Fall Rate and Rise Rate Alert Screen 
+META-DATA: {"description": "User verifies the Fall Rate and Rise Rate Alert Screen ","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+Then user clicks on 'FALLRATE' Alert and verifies the screen 
+And user updates the picker values present on 'FALLRATE' screen
+Then user verifies the updated picker values present on 'FALLRATE' screen
+And user taps on Back button
+Then user clicks on 'RISERATE' Alert and verifies the screen 
+And user updates the picker values present on 'RISERATE' screen
+Then user verifies the updated picker values present on 'RISERATE' screen
+And user closes the app
+END
+
+SCENARIO: User verifies the Signal Loss and No Readings Alert Screen 
+META-DATA: {"description": "User verifies the Signal Loss and No Readings Alert Screen","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+Then user clicks on 'SIGNALLOSS' Alert and verifies the screen 
+And user updates the picker values present on 'SIGNALLOSS' screen
+Then user verifies the updated picker values present on 'SIGNALLOSS' screen
+And user taps on Back button
+Then user clicks on 'NOREADINGS' Alert and verifies the screen
+And user closes the app
+END
+
+SCENARIO:  User verifies the Alert Schedule and Edit Schedule UI
+META-DATA: {"description": "user verifies the alert schedule and edit schedule UI screen","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+When user enables the alert schedule and clicks on schedule name
+Then user enters schedule name and verifies Alert screen on 'Canceling'
+And user clicks on schedule name 
+Then user enters schedule name and verifies Alert screen on 'Saving' 
+And user closes the app
+END
+
+SCENARIO:  User verifies the Low Alert of Edit Schedule
+META-DATA: {"description": "user verifies the Low Alert of Edit Schedule","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+When user enables the alert schedule and clicks on schedule name
+Then user clicks on user 'low' Alert schedule and verifies the screen
+And user updates the picker values present on 'LOW' screen
+Then user verifies the updated picker values present on 'LOW' screen
+And user closes the app
+END
+
+SCENARIO:  User verifies the High Alert of Edit Schedule
+META-DATA: {"description": "user verifies the High Alert of Edit Schedule","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+When user enables the alert schedule and clicks on schedule name
+Then user clicks on user 'high' Alert schedule and verifies the screen
+And user updates the picker values present on 'HIGH' screen
+Then user verifies the updated picker values present on 'HIGH' screen
+And user closes the app
+END
+
+SCENARIO:  User verifies the Fall Rate and Rise Rate of Edit Schedule
+META-DATA: {"description": "user verifies the Fall Rate and Rise Rate of Edit Schedule","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+When user enables the alert schedule and clicks on schedule name
+Then user clicks on user 'fallrate' Alert schedule and verifies the screen
+And user updates the picker values present on 'FALLRATE' screen
+Then user verifies the updated picker values present on 'FALLRATE' screen
+And user taps on Back button
+Then user clicks on user 'riserate' Alert schedule and verifies the screen
+And user updates the picker values present on 'RISERATE' screen
+Then user verifies the updated picker values present on 'RISERATE' screen
+And user closes the app
+END
+
+SCENARIO:  User verifies the Urgent Low Soon of Edit Schedule
+META-DATA: {"description": "user verifies the Urgent Low Soon of Edit Schedule","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'FEMALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Alerts
+When user enables the alert schedule and clicks on schedule name
+Then user clicks on user 'Urgent Low Soon' Alert schedule and verifies the screen
+And user closes the app
+END
+
+
+SCENARIO: User add office from sign up and verify in connection screen
+META-DATA: {"description": "Add office from sign up and verify in connection screen", "author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list 
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details using 'signup.user1'
+And user add office on signup page using 'clinic.usclinic'
+Then user verify clinic term page and clinicInfo 
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 1'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks Connections
+Then user verify added office details using 'clinic.usclinic'
+And user closes the app
+END
+
+
+SCENARIO: Verify Saftey Onboarding on Help page
+META-DATA: {"description": "Verify option available on help page","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserHelpPage'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks on more menu
+And user clicks on Help option
+Then user verify the Saftey Onboarding screens
+And user closes the app
+END
+
+SCENARIO: User verifies the Sensor Application screen from Help page
+META-DATA: {"description": "User verifies the Sensor Application screen from Help page","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserHelpPage'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks on more menu
+And user clicks on Help option
+Then user verifies the Sensor Application screen 
+And user validate the various options of Sensor application
+And user closes the app
+END
+
+
+SCENARIO: User Changes password from Account screen
+META-DATA: {"description": "User Changes password from Account screen","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 1'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+When user clicks on more menu
+And user clicks on Account
+Then user gets redirected to Change Password screen
+When user clicks Cancel button verifies App displays Account screen
+And user enters details using 'userDetails.changepassword' on Change Password screen 
+Then user clicks on Save Changes button
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login detail using 'userDetails.changepassword'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+And user closes the app
+END
+
+
+SCENARIO: User Verifies Terms and Privacy Policy from More Menu.
+META-DATA:  {"description": "Verify Terms and Privacy Policy link from More menu","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserTermsPrivacy'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks on more menu
+Then user clicks Privacy Policy link and verify
+And user clicks on Terms Of Use link and verify
+And user closes the app
+END
+
+
+SCENARIO: Alert message on My Progress screen when no CGM data
+META-DATA: {"description": "If the user has no data a message displays to alert the user","author":"Talsim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app 
+When user selects country '${country.name}' from country list 
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.averageuser'
+And user clicks on continue button 
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button 
+And user completes Safety Onboarding and skips Sensor pair
+Then user verifies the My Progress screen when no CGM data
+And user checks message for number of days data not available 
+And user closes the app
+END
+
+SCENARIO: User verifies Share option when No CGM data
+META-DATA: {"description": "user verifies the sub menus of Share when there no CGM data","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserTermsPrivacy'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks on more menu
+And user clicks on Share
+Then user verify share page
+And user select share type as 'Text' and verifies the No Reading Available popup  
+And user select share type as 'Email' and verifies the No Reading Available popup
+And user select share type as 'AGP' and verifies the Not Enough Data popup
+When user clicks on CSV option
+Then user verifies No Data Available popup  
+And user clicks on Low Glucose option 
+Then user verifies No Low Glucose Events popup 
+And user closes the app
+END
+
+SCENARIO: User verifies Share option when CGM data is available
+META-DATA: {"description": "user verifies the sub menus of Share when CGM data is available","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.averageuser'
+And user clicks on continue button 
+And user selects gender as 'MALE' and diabetes type as 'TYPE 2'
+Then user clicks on signup button 
+When user requests the cgmreading
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters newly created details to Login 
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks on more menu
+And user clicks on Share
+Then user click on share last reading using text
+And user click on share last reading using email 
+Then user click on share last reading using AGP  
+And user click on share last reading using CSV 
+And user closes the app
+END
+
+
+SCENARIO: User Reset the Alerts settings 
+META-DATA: {"description": "User reset the Alerts settings","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 1'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks on more menu
+When user clicks on Alerts
+Then user reset all the alert settings 
+And user clicks on Reset Alert Settings
+Then user verifies Alerts settings configuration to factory configuration
+And user closes the app 
+END
+
+SCENARIO: HCP created minor patient for MyOwn data and Mydependent flow
+META-DATA: {"description":"HCP created minor patient for OWN data dependent flow","author":"Vaibhav","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list 
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.minorpatient'
+And user click on login button
+Then user verifies app should displays Create a Guardian Account pop-up 
+Then user clicks Cancel button verifies App displays redirected to login page
+And user click on login button
+And user clicks on signup button for guardian account
+And user verifies guardian signup page
+When user clicks back and navigate LOGIN DEPENDENT Page 
+Then user enters login details using 'Login.minorpatient'
+And user click on login button
+Then user verifies app should displays Create a Guardian Account pop-up 
+Then user clicks Cancel button verifies App displays redirected to login page
+And user click on login button
+And user clicks on signup button for guardian account 
+And user verifies guardian signup page 
+And user closes the app
+END
+
+SCENARIO: Create account without selecting Terms of Use and Privacy Policy
+META-DATA: {"description": "user create account without selecting terms and privacy policy","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list 
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+And user enters signup details without TOU using 'signup.user1'
+And user closes the app
+END
+
+SCENARIO: Validation of signup pages 
+META-DATA: {"description": "Validation of signup page","author":"vaibhav","testCaseId":"","groups":["NFKjob2"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+Then user validates signup myself page using data
+Then user click on back button
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.user1'
+And user clicks on continue button
+Then user validates signup myself second page and click on back button
+Then user gets redirected to 'SIGN-UP DEPENDENT' Page
+Then user validates signup dependent page
+Then user click on back button
+Then user gets redirected to 'SIGN-UP DEPENDENT' Page
+When Guardian enters signup details using 'signupuser.guardian'   
+And  user clicks on continue button 
+Then user validates signup dependent second page
+And user closes the app
+END
+
+
+SCENARIO: Validation of forget password
+META-DATA: {"description": "Validation of Forget password page","author":"vaibhav","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then  user gets redirected to 'LOG-IN OWN' Page
+When user click on forgot password link
+And user enters invalid details in email-id field
+Then user click on back button and click on My Dependent data
+When user click on forgot password link
+And user enters invalid details in email-id field
+And user closes the app
+END
+
+SCENARIO: Cannot login with unregistered user
+META-DATA: {"description": "Cannot login with unregistered user","author":"vaibhav","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then  user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details with unregistered user
+When user clicks back and navigate LOGIN DEPENDENT Page 
+Then user enters login details with unregistered user
+And user closes the app
+END
+
+SCENARIO: User Cannot login without password, incorrect password
+META-DATA: {"description": "User Cannot login without password, incorrect password","author":"vaibhav","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then  user gets redirected to 'LOG-IN OWN' Page
+Then user enters invalid login details with incorrect password
+When user clicks back and navigate LOGIN DEPENDENT Page 
+Then user enters invalid login details with incorrect password
+And user closes the app
+END
+
+SCENARIO: Verify Add Events Screen
+META-DATA: {"description": "Verify Add Events Screen","author":"vaibhav","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserDetail'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks Add an Event
+Then user verifies all events are displayed
+And user clicks on X icon from add an event screen
+Then user verifies the events are not displayed
+And user closes the app
+END
+
+SCENARIO: Verify Gestational screen 
+META-DATA: {"description": "user verifies gestational screen","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}	
+Given user resets app
+	And user opens app
+	When user selects country '${country.name}' from country list
+	And user gets redirected to 'LOG-IN OWN' Page
+	And user enters login details using 'Login.gestationaluser'
+	And user clicks on login button 
+	Then user verifies gestational screen 
+	And user verifies continue button gets enabled when selects diabetes type as 'TYPE 1' 
+	And user clicks on cancel button and navigates to Notice screen 
+	And user closes the app 
+END
+
+SCENARIO: Create Account existing user	
+META-DATA: {"description": "Create Account existing user","author":"Vaibhav","testCaseId":"","groups":["NFKjob2"]}
+	Given user resets app
+	And user opens app 
+	When user selects country '${country.name}' from country list 
+	Then user gets redirected to 'SIGN-UP MYSELF' Page
+	When user enters signup details of existing user using 'signup.existuser'
+	And user clicks on continue button
+	Then user verifies email exist popup and click on back button
+	Then user gets redirected to 'SIGN-UP DEPENDENT' Page
+	When user enters signup details of existing guardian using 'signup.existguardian'
+	And user clicks on continue button
+	Then user verifies email exist popup and click on back button
+	And user closes the app
+END
+
+SCENARIO: Verify Emancipation screen when user turns 18 and clicks on Pair Sensor button
+META-DATA: {"description": "Verify Emancipation screen when user turns 18 and clicks on Pair Sensor button","author":"Vaibhav","testCaseId":"","groups":["NFKjob2"]}
+	Given user resets app
+	And user opens app
+	When user selects country '${country.name}' from country list
+	When user selects 'Yes, log me in' option
+	Then user selects 'My dependents data' option and verifies the screen
+	Then user enters login details using 'Login.EmancipationUser'
+	And user clicks on login button
+	And user completes Safety Onboarding and skips emancipation
+	And user clicks on pair sensor button
+	And user verifies emancipation screen
+	And user closes the app
+END
+
+SCENARIO: Emancipation screen field validations
+META-DATA: {"description": "Emancipation screen field validations","author":"Vaibhav","testCaseId":"","groups":["NFKjob2"]}
+	Given user resets app
+	And user opens app
+	When user selects country '${country.name}' from country list
+	Then user gets redirected to Decision screen
+	When user selects 'Yes, log me in' option
+	Then user selects 'My dependents data' option and verifies the screen
+	Then user enters login details using 'Login.EmancipationUser'
+	And user clicks on login button
+	And user completes Safety Onboarding and skips emancipation
+	And user clicks on pair sensor button 
+	And user verifies emancipation screen with data 'fieldValidations.emancipationEmail'
+	And user clicks on pair sensor button 
+	And user verifies emancipation screen with data 'fieldValidations.emancipationPWD'
+	And user closes the app
+END
+
+SCENARIO: Verify duplicate email popup when user enters already used email for emancipation
+META-DATA: {"description": "Verify duplicate email popup when user enters already used email for emancipation","author":"Vaibhav","testCaseId":"","groups":["NFKjob2"]}
+	Given user resets app
+	And user opens app
+	When user selects country '${country.name}' from country list
+	Then user gets redirected to Decision screen
+	When user selects 'Yes, log me in' option
+	Then user selects 'My dependents data' option and verifies the screen
+	Then user enters login details using 'Login.EmancipationUser'
+	And user clicks on login button
+	And user completes Safety Onboarding and skips emancipation
+	And user clicks on pair sensor button 
+	And user verifies emancipation screen with exising user 'fieldValidations.emancipationEmail'
+	And user closes the app
+END
+
+SCENARIO: To verify Reset Password with blank email, invalid email and non-registered email
+META-DATA: {"description":"User cannot completed reset password flow with non-registered email","author":"","testCaseId":"","groups":["NFKjob2"]}
+ Given user resets app
+ And user opens app
+ When user selects country '${country.name}' from country list
+ And user gets redirected to 'LOG-IN OWN' Page
+ And user click on forgot password link
+ Then user verify reset password with invalid mail ID
+ And user closes the app
+END
+
+SCENARIO: User should see a list of added followers, and the current status of each follower
+META-DATA: {"description": "User should see a list of added followers, and the current status of each follower","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+And user enters login details using 'Login.userexpired'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks on more menu
+And user clicks on share 
+Then user verify the Status 
+And user closes the app 
+END
+
+SCENARIO: User verify and update their gender on Settings page
+META-DATA: {"description": "User verify and update their gender on Settings page","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+And user enters login details using 'Login.profileUSer'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks on more menu
+And user clicks on Settings
+When user clicks on User settings button
+Then user verifies selected gender and change the gender on settings page
+And user clicks on Settings
+When user clicks on User settings button
+Then user verifies selected gender
+And user closes the app 
+END
+
+SCENARIO: User verify and update their diabetes type on Settings page
+META-DATA: {"description": "User verify and update their diabetes type on Settings page","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+And user enters login details using 'Login.profileUSer'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair
+And user clicks on more menu
+And user clicks on Settings
+When user clicks on User settings button
+Then user verifies selected diabetes type and chnage diabetes type on settings page
+And user clicks on Settings
+When user clicks on User settings button
+Then user verifies diabetes type
+And user closes the app 
+END
+
+SCENARIO: User verify insulin range time and Type
+META-DATA: {"description": "user verify insulin range time and Type","author":"Taslim","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+And user gets redirected to 'LOG-IN OWN' Page
+Then user enters login details using 'Login.UserEventType'
+And user clicks on login button
+And user completes Safety Onboarding and skips Sensor pair 
+And user clicks Add an Event
+And user selects event type as 'INSULIN'
+Then user verify insulin range time and type   
+And user closes the app
+END
+
+SCENARIO: user verify time activity range time and duration
+META-DATA: {"description": "user verify time activity range time and duration","author":"vaibhav","testCaseId":"","groups":["NFKjob2"]}	
+Given user resets app
+And user opens app
+When user selects country '${country.name}' from country list
+Then user gets redirected to 'SIGN-UP MYSELF' Page
+When user enters signup details using 'signup.user1'
+And user clicks on continue button
+And user selects gender as 'MALE' and diabetes type as 'TYPE 1'
+Then user clicks on signup button
+And user completes Safety Onboarding and skips Sensor pair 
+When user clicks Add an Event
+And user selects event type as 'ACTIVITY'
+And user verify time activity range time note field and duration           
+And user closes the app
+END
+
+SCENARIO: To verify Adjustments to the flow of adults accounts created by the HCP with a gestational diabetes profile
+META-DATA: {"description":"To verify Adjustments to the flow of adults accounts created by the HCP with a gestational diabetes profile","author":"","testCaseId":"","groups":["NFKjob2"]}
+Given user resets app
+ And user opens app
+ When user selects country '${country.name}' from country list
+ And user gets redirected to 'LOG-IN OWN' Page
+ Then user enters login details using 'Login.Majorgestationaluser'
+ And user clicks on login button for gestationaluser
+ And user verifies reset password screen with prepopulated data
+ And user closes the app
+END

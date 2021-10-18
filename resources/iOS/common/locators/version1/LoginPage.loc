@@ -1,0 +1,38 @@
+NFKios.loginPage.statictext.lbl = {\"locator\":\"xpath=//*[contains(@label,\\\"%s\\\")]\",\"desc\":\"Static text\"}
+NFKios.loginPage.emailAdress.tBox = {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.emailField')]|//*[contains(@name,'LoginViewController.emailLabel')]\",\"desc\":\"Email text field on Log in page\"}
+NFKios.loginPage.password.tBox = {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.passwordField')]\",\"desc\":\"Password on sign in page\"}
+NFKios.loginPage.login.btn = {\"locator\":\"xpath=//*[contains(@name=\\\'LoginViewController.signInButton\\\')]\",\"desc\":\"Login button\"}
+NFKios.loginpage.back.btn = {\"locator\":\"xpath=//*[@label=\\\"Back\\\"]\",\"desc\":\"Back button\"}
+NFKios.loginPage.forgotpassword.link = {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.forgotPassButton')]\",\"desc\":\"Forgot password link\"}
+NFKios.loginPage.signup.adult.link = {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.signUpAdultButton')]\",\"desc\":\"d link\"}
+NFKios.loginPage.signup.dependent.link = {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.signUpDependentButton')]\",\"desc\":\"Forgot password link\"}
+NFKios.loginPage.forgotpwd.emailfield.txt={\"locator\":\"xpath=//*[contains(@name,'RecoverPasswordViewController.emailField')]\",\"desc\":\"Email field of Forgot Password\"}
+NFKios.loginPage.forgotpwd.send.btn={\"locator\":\"xpath=//*[contains(@name,'RecoverPasswordViewController.sendButton')]\",\"desc\":\"Send button on Forgot password screen\"}
+NFKios.loginPage.forgotpwd.close.btn={\"locator\":\"xpath=//*[contains(@name,'RecoverPasswordViewController.closeButton')]|//*[@label=\\\"closingX\\\"]\",\"desc\":\"Close button Forgot password screen\"}
+NFKios.dependent.confirmpassword.tBox = {\"locator\":\"xpath=//*[contains(@name,'ConfirmPasswordViewController.passwordField')]\",\"desc\":\"Password field for dependent Re-login\"}
+NFKios.dependent.confirm.btn = {\"locator\":\"xpath=//*[contains(@identifier,'ConfirmPasswordViewController.confirmButton')]\",\"desc\":\"Confirm button\"}
+NFKios.dependent.createguardian.cancelBtn= {\"locator\":\"xpath=//*[@label=\\\"Cancel\\\"]\",\"desc\":\"Cancel Button on Popup\"}
+
+NFKios.dependent.createguardian.signupBtn= {\"locator\":\"xpath=//*[@label=\\\"Sign Up\\\"]\",\"desc\":\"Signup Button on Popup\"}
+
+NFKios.noticepage.title ={\"locator\":\"xpath=//*[@identifier=\\\"UpdateNoticeViewController.updateNoticeTitleLabel\\\"]\",\"desc\":\"Notice page title\"}
+NFKios.noticepage.checkbox={\"locator\":\"xpath=//*[@identifier=\\\"UpdateNoticeViewController.agreeView\\\"]\",\"desc\":\"check box\"}
+NFKios.noticepage.continue.btn ={\"locator\":\"xpath=//*[@identifier=\\\"UpdateNoticeViewController.continueButton\\\"]\",\"desc\":\"update notice continue button\"}
+NFKios.gestational.title ={\"locator\":\"xpath=//*[@label=\\\"Gestational\\\"]\",\"desc\":\"Gestational title\"}
+NFKios.gestational.profile.info ={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.profileInfo\\\"]\",\"desc\":\"Profile Info\"}
+NFKios.gestational.profile.warning ={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.profileWarning\\\"]\",\"desc\":\"Profile Warning\"}
+NFKios.gestational.typeOne.radio.btn ={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.radioButtonTypeOne\\\"]\",\"desc\":\"Type 1 Diabetes\"}
+NFKios.gestational.typeTwo.radio.btn ={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.radioButtonTypeTwo\\\"]\",\"desc\":\"Type 2 Diabetes\"}
+NFKios.gestational.cancel.btn={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.cancelButton\\\"]\",\"desc\":\"Cancel button\"}
+NFKios.gestational.fotter.part={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.copyrightLabel\\\"]\",\"desc\":\"Footer part\"}
+NFKios.gestational.continue.btn={\"locator\":\"xpath=//*[@identifier=\\\"GestationalViewController.continueButton\\\"]\",\"desc\":\"Continue button on Gest screen\"}
+NFKios.gestational.ResetPassword.firstName={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.firstNameField\\\"]\",\"desc\":\" Rest password First name gestational screen\"}
+NFKios.gestational.ResetPassword.lastName={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.lastNameField\\\"]\",\"desc\":\" Rest password lastName gestational screen\"}
+NFKios.gestational.ResetPassword.emailAddress={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.emailField\\\"]\",\"desc\":\" Rest password emailAddress gestational screen\"}
+NFKios.gestational.ResetPassword.confirmEmailAddress={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.confirmEmailField\\\"]\",\"desc\":\" Rest password confirmEmailAddress gestational screen\"}
+NFKios.gestational.ResetPassword.password={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.passwordField\\\"]\",\"desc\":\" Rest password gestational password screen\"}
+NFKios.gestational.ResetPassword.confirmPassword={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.confirmPasswordField\\\"]\",\"desc\":\" Rest password confirmPasswordFieldgestational screen\"}
+NFKios.gestational.ResetPassword.birthDayField={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.birthDayField\\\"]\",\"desc\":\" Rest password gestational birthDayField screen\"}
+NFKios.gestational.ResetPassword.termsAndPrivacyButton={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.termsAndPrivacyButton\\\"]\",\"desc\":\" Rest password termsAndPrivacyButton gestational screen\"}
+NFKios.gestational.ResetPassword.continueButton={\"locator\":\"xpath=//*[@identifier=\\\"ResetPasswordViewController.continueButton\\\"]\",\"desc\":\" Rest password continueButton gestational screen\"}
+NFKios.gestational.ResetPassword.checkMarkImage={\"locator\":\"xpath=//*[@identifier=\\\"InputFieldView.checkMarkImage\\\"]\",\"desc\":\" Rest password checkMarkImage gestational screen\"}

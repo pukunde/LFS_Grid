@@ -1,0 +1,19 @@
+NFKios.moremenu.helppage.options= {\"locator\":\"xpath=//*[contains(@name,'TextItemView.titleLabel')]\",\"desc\":\"Help page options\"}
+NFKios.moremenu.helppage.done.btn= {\"locator\":\"xpath=//*[contains(@name,'HowToApplySensorViewController.doneButton')]\",\"desc\":\"Done button\"}
+NFKios.helpPage.static.txt={\"locator\":[\"xpath=//*[contains(@label,'%s')]\",\"xpath=//*[contains(text(),'%s')]\"],\"desc\":\"Static label\"}
+NFKios.moremenu.helppage.removesensor.done.btn= {\"locator\":\"xpath=//*[contains(@name,'SensorRemoveViewController.doneButton')]\",\"desc\":\"Done button\"}
+NFKios.helpPage.Introduction.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[1]\",\"desc\":\"Intoduction\"}
+NFKios.helpPage.gettingstarted.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[2]\",\"desc\":\"Getting Started\"}
+NFKios.helpPage.account.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[3]\",\"desc\":\"Account\"}
+NFKios.helpPage.homescreen.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[4]\",\"desc\":\"Home screen\"}
+NFKios.helpPage.eventlog.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[5]\",\"desc\":\"Event Log\"}
+NFKios.helpPage.progress.btn={\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[6]\",\"desc\":\"Progess\"}
+NFKios.helpPage.alerts.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[7]\",\"desc\":\"Alerts\"}
+NFKios.helpPage.devices.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[8]\",\"desc\":\"Devices\"}
+NFKios.helpPage.reminders.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[9]\",\"desc\":\"Reminders\"}
+NFKios.helpPage.sharefollow.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[10]\",\"desc\":\"Share follow\"}
+NFKios.helpPage.connection.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[11]\",\"desc\":\"connection\"}
+NFKios.helpPage.settings.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[12]\",\"desc\":\"Settings\"}
+NFKios.helpPage.termsofuse.btn= {\"locator\":\"xpath=//*[@name="HelpViewController.tableView"]/XCUIElementTypeCell[13]\",\"desc\":\"Terms of Use\"}
+NFKios.helpPage.license.back.btn= {\"locator\":\"xpath=//*[@name="WebContentViewController.cancelButton"]\",\"desc\":\"back btn on license screen\"}
+

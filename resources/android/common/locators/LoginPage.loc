@@ -1,0 +1,41 @@
+NFK.loginpage.forgotpassword.lnk = {\"locator\":\"xpath=//*[contains(@resource-id,'id/forgotYourPassword')]\",\"desc\":\"Forgot Password link\"}
+NFK.loginpage.username.txt = {\"locator\":\"xpath=//*[contains(@text,'Username or Email')]|//*[contains(@resource-id,'id/et_username')]|//*[contains(@resource-id,'customTextInputEditText')]\",\"desc\":\"Username textfield\"}
+NFK.loginpage.password.txt = {\"locator\":\"xpath=//*[contains(@text,'Password')]\",\"desc\":\"Password Textfield\"}
+NFK.loginpage.login.btn1= {\"locator\":\"xpath=//*[contains(@resource-id='com.lifescan.norfolk:id/loginButton')]|//*[contains(@resource-id,'id/loginButton')]\",\"desc\":\"Login Button\"}
+NFK.forgotpassword.statictext.btn = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Static text label for any label value\"}
+NFK.loginpage.login.btn={\"locator\":\"xpath=//*[@text='Log In']\",\"desc\":\"Login Button\"}
+NFK.loginpage.signup.myself.link={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvSignupMyself')]\",\"desc\":\"Signup for Myself Link\"}
+NFK.loginpage.signup.dependent.link={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvSignupDependent')]\",\"desc\":\"Signup for Dependent Link\"}
+NFK.loginpage.statictext.btn = {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Static text label for any label value\"}
+NFK.forgotpassword.email.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'id/customTextInputEditText')]\",\"desc\":\"Email field on Forgot password screen\"}
+NFK.forgotpassword.sendemail.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/sendButton')]\",\"desc\":\"Send button on Forgot password screen\"}
+NFK.forgotpassword.close.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/layout')]/android.widget.ImageView[1]\",\"desc\":\"Close button on Forgot password screen\"}
+NFK.forgotpassword.emailreset.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'id/inforAboutResetPassword')]\",\"desc\":\"Reset lbl\"}
+NFK.loginpage.update.notice.checkBox= {\"locator\":\"xpath=//*[contains(@resource-id,'id/iHaveReadUnderstandAndAgree')]\",\"desc\":\"Update Notice check box\"}
+NFK.loginpage.update.notice.continue.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/continueButton')]\",\"desc\":\"Continue button of update notice\"}
+NFK.loginpage.update.notice.title= {\"locator\":\"xpath=//*[contains(@resource-id,'id/updateNotice')]\",\"desc\":\"Update notice title\"}
+NFK.loginpage.createguradian.title= {\"locator\":\"xpath=//*[contains(@resource-id,'id/customAlertTitle')]\",\"desc\":\"Create Guardian Account\"}
+NFK.loginpage.createguradian.cancel.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'android:id/button2')]\",\"desc\":\"Cancel Button\"}
+NFK.loginpage.createguradian.signup.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'android:id/button1')]\",\"desc\":\"Signup Button\"}
+NFK.loginpage.filled.username.txt = {\"locator\":\"xpath=//*[contains(@text,'Username or Email')]|//*[contains(@resource-id,'id/usernameEmail')]|//*[contains(@resource-id,'customTextInputLayout')]\",\"desc\":\"Username textfield filled\"}
+NFK.loginpage.filled.password.txt = {\"locator\":\"xpath=//*[contains(@text,'Username or Email')]|//*[contains(@resource-id,'id/password')]|//*[contains(@resource-id,'containerConstraintLayout')]\",\"desc\":\"Password textfield filled\"}
+NFK.gestational.profile.info= {\"locator\":\"xpath=//*[contains(@resource-id,'id/content')]\",\"desc\":\"profile Info\"}
+NFK.gestational.profile.warning= {\"locator\":\"xpath=//*[contains(@resource-id,'id/subContent')]\",\"desc\":\"profile warning"}
+NFK.gestational.typeOne.radio.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/type1')]\",\"desc\":\"Type 1 radio btn\"}
+NFK.gestational.typeTwo.radio.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/type2')]\",\"desc\":\"Type 2 Radio btn\"}
+NFK.gestational.continue.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/continueButton')]\",\"desc\":\"continue button\"}
+NFK.gestational.cancel.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/cancelButton')]\",\"desc\":\"Cancel btn\"}
+NFK.gestational.fotter.part= {\"locator\":\"xpath=//*[contains(@resource-id,'id/copyrightText')]\",\"desc\":\"Footer part\"}
+NFK.loginpage.validation.error.msg = {\"locator\":\"xpath=//*[contains(@resource-id,'customErrorTextView')]\",\"desc\":\"Invalid Data\"}
+NFK.loginpage.validation.error.icon = {\"locator\":\"xpath=//*[contains(@resource-id,'text_input_end_icon')]\",\"desc\":\"Error Icon\"}
+NFK.forgotpassword.email.popup.title= {\"locator\":\"xpath=//*[contains(@resource-id,'id/customAlertTitle')]\",\"desc\":\"Reset Email sent\"}
+NFK.gestational.ResetPassword.firstname={\"locator\":\"xpath=//*[contains(@resource-id,'id/firstName')]\",\"desc\":\" Reset Password First Name\"}
+NFK.gestational.ResetPassword.lastname={\"locator\":\"xpath=//*[contains(@resource-id,'id/lastName')]\",\"desc\":\" Reset Password lastName \"}
+NFK.gestational.ResetPassword.birthDate={\"locator\":\"xpath=//*[contains(@resource-id,'id/birthDate')]\",\"desc\":\" Reset Password birthDate \"}
+NFK.gestational.ResetPassword.emailAddress={\"locator\":\"xpath=//*[contains(@resource-id,'id/emailAddress')]\",\"desc\":\" Reset Password emailAddress\"}
+NFK.gestational.ResetPassword.confirmEmailAddress={\"locator\":\"xpath=//*[contains(@resource-id,'id/confirmEmailAddress')]\",\"desc\":\" Reset Password confirmEmailAddress\"}
+NFK.gestational.ResetPassword.password={\"locator\":\"xpath=//*[contains(@resource-id,'id/password')]\",\"desc\":\" Reset Password password\"}
+NFK.gestational.ResetPassword.confirmPassword={\"locator\":\"xpath=//*[contains(@resource-id,'id/confirmPassword')]\",\"desc\":\" Reset Password confirmPassword\"}
+NFK.gestational.ResetPassword.checkAgreementTerm={\"locator\":\"xpath=//*[contains(@resource-id,'id/checkAgreementTerm')]\",\"desc\":\" Reset Password checkAgreementTerm\"}
+NFK.gestational.ResetPassword.continueButton={\"locator\":\"xpath=//*[contains(@resource-id,'id/continueButton')]\",\"desc\":\" Reset Password continueButton \"}
+NFK.gestational.ResetPassword.input.icon={\"locator\":\"xpath=//*[contains(@resource-id,'id/text_input_end_icon')]\",\"desc\":\" Reset Password input icon\"}

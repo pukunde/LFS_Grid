@@ -1,0 +1,16 @@
+NFKios.homepage.more.Btn = {\"locator\":\"xpath=//*[@identifier=\\\"MainTabBarViewController.moreButton\\\"]\",\"desc\":\"More Menu Button\"}
+NFKios.homepage.addedEvent.amountText.lbl = {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.amountTextField\\\"]\",\"desc\":\"Dynamic text added event amount\"}
+NFKios.homepage.home.btn = {\"locator\":\"xpath=//*[@name=\\\"MainTabBarViewController.homeButton\\\"]\",\"desc\":\"Home icon\"}
+NFKios.homepage.addevent.btn = {\"locator\":\"xpath=//*[@name=\\\"MainTabBarViewController.addEventButton\\\"]\",\"desc\":\"Add event button\"}
+NFKios.homepage.Insulin.btn={\"locator\":\"xpath=(//*[contains(@name,'AddEventWheelItemView.actionButton')])[2]\",\"desc\":\"Insulin button on Add an Event menu\"}
+NFKios.homepage.Carb.btn={\"locator\":\"xpath=(//*[contains(@name,'AddEventWheelItemView.actionButton')])[1]\",\"desc\":\"Carb button on Add an Event menu\"}
+NFKios.homepage.Activity.btn={\"locator\":\"xpath=(//*[contains(@name,'AddEventWheelItemView.actionButton')])[3]\",\"desc\":\"Activity button on Add an Event menu\"}
+NFKios.homepage.Note.btn={\"locator\":\"xpath=(//*[contains(@name,'AddEventWheelItemView.actionButton')])[4]\",\"desc\":\"Activity button on Add an Event menu\"}
+NFKios.homepage.Tip.container={\"locator\":\"xpath=//*[@name=\\\"MainTabBarViewController.toolTipContainer\\"]\",\"desc\":\"Tip Container\"}
+NFKios.pair.btn = {\"locator\":\"xpath=//*[@identifier=\\\"StartSensorViewController.pairSensorButton\\\"]\",\"desc\":\"Pair button on Home screen\"}
+NFKios.sensor.sessoin.title = {\"locator\":\"xpath=//*[@name=\\\"StartSensorViewController.titleLabel\\\"]\",\"desc\":\"Title Start sensor session\"}
+NFKios.homepage.banner.msg.lbl={\"locator\":\"xpath=//*[@identifier=\\\"BannerViewController.messageLabel\\\"]\",\"desc\":\"Red banner no alert title\"}
+NFKios.homepage.sensor.title={\"locator\":\"xpath=//*[@identifier=\\\"StartSensorViewController.titleLabel\\"]\",\"desc\":\"Sensor title\"}
+NFKios.homepage.sensor.descp.lbl={\"locator\":\"xpath=//*[@identifier=\\\"StartSensorViewController.descriptionLabel\\\"]\",\"desc\":\"Sensor description\"}
+NFKios.homepage.sensor.howtoapply.btn={\"locator\":\"xpath=//*[@identifier=\\\"StartSensorViewController.howToApplyButton\\\"]\",\"desc\":\"How to apply link on Homepage\"}
+NFKios.homepage.pair.sensor.btn={\"locator\":\"xpath=//*[@identifier=\\\"StartSensorViewController.pairSensorButton\\\"]\",\"desc\":\"Pair sensor btn\"}

@@ -1,0 +1,55 @@
+NFKios.moremenu.accountpage.logout.btn = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.logOutButton\\\"]\",\"desc\":\"Logout button on My Account page\"}
+NFKios.moremenu.accountpage.accntdtls.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.optInPromotionsLabel\\\"]\",\"desc\":\"Account details label on My Account page\"}
+NFKios.moremenu.accountpage.optin.btn = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.optInPromotionsButton\\\"]\",\"desc\":\"optin button\"}
+NFKios.moremenu.accountpage.userdtls.edit.btn = {\"locator\":\"xpath=//*[@label=\\\"Edit\\\"]\",\"desc\":\"Edit Button\"}
+NFKios.moremenu.accountpage.userdtls.email.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.emailField\\\"]\",\"desc\":\"User Mail id on my account user details page\"}
+NFKios.moremenu.accountpage.userdtls.frstname.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.firstNameField\\\"]\",\"desc\":\"User's 1st name on my account user details page\"}
+NFKios.moremenu.accountpage.userdtls.initial.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.middleNameField\\\"]\",\"desc\":\"Middle name of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.lstname.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.lastNameField\\\"]\",\"desc\":\"Last name of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.suffix.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.suffixField\\\"]\",\"desc\":\"Suffix of user on my ccount page\"}
+NFKios.moremenu.accountpage.userdtls.dob.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.dateOfBirthField\\\"]\",\"desc\":\"Date of Birth label of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.address1.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.address1Field\\\"]\",\"desc\":\"Address 1 line of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.address2.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.address2Field\\\"]\",\"desc\":\"Address2\"}
+NFKios.moremenu.accountpage.userdtls.address3.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.address3Field\\\"]\",\"desc\":\"Address 3\"}
+NFKios.moremenu.accountpage.userdtls.city.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.cityField\\\"]\",\"desc\":\"City of user\"}
+NFKios.moremenu.accountpage.userdtls.state.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.stateField\\\"]\",\"desc\":\"State of user\"}
+NFKios.moremenu.accountpage.userdtls.zipcode.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.zipCodeField\\\"]\",\"desc\":\"Zipcode label of user\"}
+NFKios.moremenu.accountpage.userdtls.prinumber.lbl = {\"locator\":\"xpath=//*[@name=\\\"MyAccountViewController.primaryPhoneNumber\\\"]\",\"desc\":\"Primary phone number of user\"}
+NFKios.moremenu.accountpage.userdtls.email.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.emailField')])\",\"desc\":\"User Mail id on my account user details page\"}
+NFKios.moremenu.accountpage.userdtls.frstname.txt = {\"locator\":\"xpath=//*[@name=\\\"AccountDetailsViewController.firstNameField\\\"]\",\"desc\":\"Middle name of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.initial.txt = {\"locator\":\"xpath=//*[@name=\\\"AccountDetailsViewController.middleNameField\\\"]\",\"desc\":\"Middle name of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.lstname.txt = {\"locator\":\"xpath=//*[@name=\\\"AccountDetailsViewController.lastNameField\\\"]\",\"desc\":\"Last name of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.suffix.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.suffixField')])\",\"desc\":\"Suffix of user on my ccount page\"}
+NFKios.moremenu.accountpage.userdtls.address1.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.address1Field')])\",\"desc\":\"Address 1 line of user on my account page\"}
+NFKios.moremenu.accountpage.userdtls.address2.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.address2Field')])\",\"desc\":\"Address2\"}
+NFKios.moremenu.accountpage.userdtls.address3.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.address3Field')])\",\"desc\":\"Address 3\"}
+NFKios.moremenu.accountpage.userdtls.city.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.cityField')])\",\"desc\":\"City of user\"}
+NFKios.moremenu.accountpage.userdtls.dob.txt = {\"locator\":\"xpath=//*[@name=\\\"AccountDetailsViewController.dateOfBirthField\\\"]\",\"desc\":\"DOB of user\"}
+NFKios.moremenu.accountpage.userdtls.state.txt = {\"locator\":\"xpath=//*[@label=\\\"State\\\"]\",\"desc\":\"State of user\"}
+NFKios.moremenu.accountpage.state.done.btn = {\"locator\":\"xpath=//*[@name=\\\"PickerAccessoryView.doneButton\\\"]\",\"desc\":\"done button on state picker\"}
+NFKios.moremenu.accountpage.userdtls.zipcode.txt =  {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.zipCodeField')])\",\"desc\":\"Zipcode label of user\"}
+NFKios.moremenu.accountpage.userdtls.prinumber.txt = {\"locator\":\"xpath=(//*[contains(@name,'AccountDetailsViewController.primaryPhoneNumber')])\",\"desc\":\"Primary phone number of user\"}
+NFKios.moremenu.accountpage.userdtls.save.btn = {\"locator\":\"xpath=//UIAButton[@label=\\\"Save\\\"]\",\"desc\":\"Save Button\"}
+NFKios.moremenu.accountpage.delete.btn={\"locator\":\"xpath=//*[@identifier=\\\"MyAccountViewController.deleteAccountLabel\\\"]\",\"desc\":\"Delete account button\"}
+NFKios.moremenu.accountpage.deletescreen.messageLabel={\"locator\":\"xpath=//*[@identifier=\\\"DeleteAccountViewController.messageLabel\\\"]\",\"desc\":\"Message on Delete account screen\"}
+NFKios.moremenu.accountpage.deletescreen.email.field={\"locator\":\"xpath=//*[@identifier=\\\"DeleteAccountViewController.emailField\\\"]\",\"desc\":\"Email field on Delete account screen\"}
+NFKios.moremenu.accountpage.deletescreen.password.field={\"locator\":\"xpath=//*[@identifier=\\\"DeleteAccountViewController.passwordField\\\"]\",\"desc\":\"Password field on Delete account screen\"}
+NFKios.moremenu.accountpage.deletescreen.ack.checkbox={\"locator\":\"xpath=//*[@identifier=\\\"DeleteAccountViewController.acknowledgementButton\\\"]\",\"desc\":\"Acknowledge checkbox on Delete account screen\"}
+NFKios.moremenu.accountpage.deletescreen.verification.checkbox={\"locator\":\"xpath=//*[@identifier=\\\"DeleteAccountViewController.verificationButton\\\"]\",\"desc\":\"Verification checkbox on Delete account screen\"}
+NFKios.moremenu.accountpage.deletescreen.delete.btn={\"locator\":\"xpath=//*[@name=\\\"DeleteAccountViewController.deleteButton\\\"]\",\"desc\":\"Delete Account button\"}
+NFKios.moremenu.accountpage.deletescreen.popup.ok.btn={\"locator\":\"xpath=//*[@name=\\\"OK\\\"]\",\"desc\":\"Pop-up of Delete with OK button\"}
+NFKios.moremenu.accountpage.deletescreen.popup.title= {\"locator\":\"xpath=//*[@name=\\\"Account Deleted\\\"]\",\"desc\":\"Title of pop up\"}
+NFKios.moremenuPage.privecyPolicy.btn={\"locator\":\"xpath=//*[@name=\\\"MoreViewController.privacyPolicyButton\\\"]\",\"desc\":\"Privacy Policy Button\"}
+NFKios.moremenuPage.termsOfUse.btn={\"locator\":\"xpath=//*[@name=\\\"MoreViewController.termsOfUseButton\\\"]\",\"desc\":\"Terms and Use Button\"}
+NFKios.moremenuPage.termsofusepage.lbl={\"locator\":\"xpath=//*[@name=\\\"WebContentViewController.titleHeaderLabel\\\"]\",\"desc\":\"Terms and Use Button\"}
+NFKios.moremenu.accountpage.change.password.button= {\"locator\":\"xpath=//*[@name=\\\"Change Password\\\"]\",\"desc\":\"Account change password button\"}
+NFKios.moremenu.accountpage.change.password.title= {\"locator\":\"xpath=//*[@name=\\\"Change Password\\\"]\",\"desc\":\"change password title\"}
+NFKios.moremenu.accountpage.change.password.current.password.field= {\"locator\":\"xpath=//*[@name=\\\"ChangePasswordViewController.currentPasswordField\\\"]\",\"desc\":\"Change password screen current password field\"}
+NFKios.moremenu.accountpage.change.password.new.password.field= {\"locator\":\"xpath=//*[@name=\\\"ChangePasswordViewController.newPasswordField\\\"]\",\"desc\":\"Change password screen new password field\"}
+NFKios.moremenu.accountpage.save.change.password.button= {\"locator\":\"xpath=//*[@name=\\\"ChangePasswordViewController.saveChangesButton\\\"]\",\"desc\":\"Save change password button\"}
+NFKios.moremenu.accountpage.save.change.cancel.button= {\"locator\":\"xpath=//*[@name=\\\"ChangePasswordViewController.cancelButton\\\"]\",\"desc\":\"Save change password button\"}
+NFKios.moremenu.accountpage.save.change.forgot.your.password.link= {\"locator\":\"xpath=//*[@name=\\\"Forgot your password?\\\"]\",\"desc\":\"change password forgot password link\"}
+NFKios.moremenu.accountpage.save.change.back.button= {\"locator\":\"xpath=//UIAButton[@label=\\\"Back\\\"]\",\"desc\":\"chnage password Back Button\"}
+NFKios.moremenu.accountpage.change.password.email.address= {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.emailField')]|//*[contains(@name,'LoginViewController.emailLabel')]\",\"desc\":\"Email text field on Log in page\"}
+NFKios.moremenu.accountpage.changed.password= {\"locator\":\"xpath=//*[contains(@name,'LoginViewController.passwordField')]\",\"desc\":\"Password on sign in page\"}
+NFKios.moremenu.accountpage.change.password.confirm.new.password.field= {\"locator\":\"xpath=//*[@name=\\\"ChangePasswordViewController.confirmNewPasswordField\\\"]\",\"desc\":\"Change password screen current password field\"}

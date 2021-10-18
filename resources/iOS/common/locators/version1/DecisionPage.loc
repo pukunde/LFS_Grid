@@ -1,0 +1,30 @@
+NFKios.decisionpage.accounttype.Yes.btn = {\"locator\":\"xpath=//*[@label=\\\"Yes\\\"]\",\"desc\":\"Type of Account selection\"}
+NFKios.decisionpage.accounttype.No.btn = {\"locator\":\"xpath=//*[@label=\\\"No\\\"]\",\"desc\":\"Type of Account selection\"}
+NFKios.decisionpage.back.btn = {\"locator\":\"xpath=//*[@name=\\\"LoginOrRegisterViewController.backButton\\\"]|//*[@label=\\\"Back\\\"]\",\"desc\":\"Back button\"}
+NFKios.decisionpage.yes.login.button = {\"locator\":\"xpath=//*[@name=\\\"LoginOrRegisterViewController.loginButton\\\"]\",\"desc\":\"select yes for Login\"}
+NFKios.decisionpage.signup.button = {\"locator\":\"xpath=//*[@name=\\\"LoginOrRegisterViewController.registerButton\\\"]\",\"desc\":\"Signup for new user\"}
+NFKios.decisionpage.signup.myself.btn = {\"locator\":\"xpath=//*[@name=\\\"SignUpOptionViewController.signUpMySelf\\\"]\",\"desc\":\"Create account for Myself\"}
+NFKios.decisionpage.signup.dependent.btn = {\"locator\":\"xpath=//*[@name=\\\"SignUpOptionViewController.signUpDependent\\\"]\",\"desc\":\"Create account for dependent\"}
+NFKios.decisionpage.login.dependent.btn ={\"locator\":\"xpath=//*[@name=\\\"LoginOptionsViewController.depedentDataButton\\\"]\",\"desc\":\"Login for dependent\"}
+NFKios.decisionpage.login.own.btn = {\"locator\":\"xpath=//*[@identifier=\\\"LoginOptionsViewController.myOwnDataButton\\\"]\",\"desc\":\"Login for own\"}
+NFKios.decisionpage.mydependentsdata.btn = {\"locator\":\"xpath=//*[@name=\\\"LoginOptionsViewController.depedentDataButton\\\"]\",\"desc\":\"Login for dependent\"}
+NFKios.decisionpage.signup.dependent.fname.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.guardianFirstNameField\\\"]\",\"desc\":\"First name of dependent\"}
+NFKios.decisionpage.signup.dependent.lname.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.guardianLastNameField\\\"]\",\"desc\":\"Last name of dependent\"}
+NFKios.decisionpage.signup.dependent.password.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.passwordField\\\"]\",\"desc\":\"Password of dependent\"}
+NFKios.decisionpage.signup.dependent.confpassword.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.confirmPasswordField\\\"]\",\"desc\":\"Confirm password of dependent\"}
+NFKios.decisionpage.signup.dependent.emailAddress.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.emailField\\\"]\",\"desc\":\"Email Address of dependent\"}
+NFKios.decisionpage.signup.dependent.confemailaddress.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.confirmEmailField\\\"]\",\"desc\":\"Confirm email address of dependent\"}
+NFKios.decisionpage.signup.dependent.CheckAgreementTerm.btn = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.termsAndPrivacyButton\\\"]\",\"desc\":\"Check Agreement Term checkbox for dependent\"}
+NFKios.decisionpage.signup.dependent.checkPromotionalOffers.btn = {\"locator\":\"xpath=//*[@name=\\\"SignUpDependentViewController.marketingAgreementButton\\\"]\",\"desc\":\"check Promotional Offers checkbox for dependent\"}
+NFKios.decisionpage.login.dependent.password.txt = {\"locator\":\"xpath=//*[contains(@identifier,'LoginViewController.passwordField')]\",\"desc\":\"password of myself\"}
+NFKios.decisionpage.login.dependent.username.txt =  {\"locator\":\"xpath=//*[contains(@identifier,'LoginViewController.emailField')]\",\"desc\":\"username of myself\"}
+NFKios.decisionpage.login.myself.password.txt =  {\"locator\":\"xpath=//*[contains(@identifier,'LoginViewController.passwordField')]\",\"desc\":\"password of dependent\"}
+NFKios.decisionpage.login.myself.username.txt =  {\"locator\":\"xpath=//*[contains(@identifier,'LoginViewController.emailField')]\",\"desc\":\"username of dependent\"}
+NFKios.decisionpage.signup.myself.birthdate.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.birthDayField\\\"]\",\"desc\":\"Birthdate of myself\"}
+NFKios.decisionpage.signup.myself.confemailAdrs.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.confirmEmailField\\\"]\",\"desc\":\"Birthdate of myself\"}
+NFKios.decisionpage.signup.myself.password.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.passwordField\\\"]\",\"desc\":\"Birthdate of myself\"}
+NFKios.decisionpage.signup.myself.confpassword.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.confirmPasswordField\\\"]\",\"desc\":\"Birthdate of myself\"}
+NFKios.decisionpage.signup.myself.emailAddress.txt = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.emailField\\\"]\",\"desc\":\"Birthdate of myself\"}
+NFKios.decisionpage.signup.myself.clinicCodeInfo.txt = {\"locator\":\"xpath=//*[@name=\\\"ClinicInfoView.clinicCodeField\\\"]\",\"desc\":\"Clinic Code\"}
+NFKios.decisionpage.signup.myself.checkAgreementTerm.btn = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.termsAndPrivacyButton\\\"]\",\"desc\":\"Terms And Privacy\"}
+NFKios.decisionpage.signup.myself.checkPromotionalOffers.btn = {\"locator\":\"xpath=//*[@name=\\\"SignUpAdultViewController.optInPromotionsButton\\\"]\",\"desc\":\"optIn Promotion Button\"}

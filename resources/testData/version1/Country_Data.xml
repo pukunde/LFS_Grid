@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<country>
+			<cName>
+			<unitedState>United States</unitedState>
+			<osterreich>Österreich</osterreich>
+			<belgie>België</belgie>
+			<canada>Canada</canada>
+			<france>France</france>
+			<deutschland>Deutschland</deutschland>
+			<italy>Italia</italy>
+			<india>India</india>
+			<portugal>Portugal</portugal>
+			<spain>España</spain>
+			<uk>United Kingdom and Ireland</uk>
+			<algeria>Algeria</algeria>
+			<czech>Česká republika</czech>
+			<poland>Polska</poland>
+			<germany>Germany</germany>
+			<greece>Ελλάδα</greece>
+			<hungary>Magyarország</hungary>
+			<croatia>Hrvatska</croatia>
+			<slovania>Slovenija</slovania>
+			<argentina>Argentina</argentina>
+			<brasil>Brasil</brasil>
+			<chile>Chile</chile>
+			<colombia>Colombia</colombia>
+			<mexico>México</mexico>
+			<qatar>Qatar</qatar>
+			<uae>United Arab Emirates</uae>
+			<philipines>Philippines</philipines >
+			<vietnam>Việt Nam</vietnam>
+		</cName>
+	</country>
+	
+	<gdpr_country>
+		<name>
+			<unitedState>United States</unitedState>
+			<osterreich>Österreich</osterreich>
+			<belgie>België</belgie>
+			<canada>Canada</canada>
+			<france>France</france>
+			<deutschland>Deutschland</deutschland>
+			<italy>Italia</italy>
+			<india>India</india>
+			<portugal>Portugal</portugal>
+			<spain>España</spain>
+			<uk>United Kingdom and Ireland</uk>
+			<algeria>Algeria</algeria>
+			<czech>Česká republika</czech>
+			<poland>Polska</poland>
+			<greece>Ελλάδα</greece>
+			<hungary>Magyarország</hungary>
+			<croatia>Hrvatska</croatia>
+			<slovania>Slovenija</slovania>
+			<argentina>Argentina</argentina>
+			<brasil>Brasil</brasil>
+			<chile>Chile</chile>
+			<colombia>Colombia</colombia>
+<!-- 			<mexico>Mexico</mexico> -->
+			<qatar>State of Qatar</qatar>
+			<uae>United Arab Emirates</uae>
+			<philipines>Philippines </philipines >
+			<vietnam>Việt Nam</vietnam>
+		</name>
+	</gdpr_country>
+
+	<countryname>${country.name}</countryname>
+	<gdpr_countryname>${gdpr_country.name}</gdpr_countryname>
+	<uomcg_countryname>${uomcg_country.name}</uomcg_countryname>
+	<uomcv_countryname>${uomcv_country.name}</uomcv_countryname>
+</root>
+             

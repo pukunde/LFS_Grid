@@ -1,0 +1,75 @@
+#SCENARIO: Verify Sensor Pairing on safety on boarding
+#META-DATA: {"description":"Verify Sensor Pairing on safety on boarding", "groups":["NFK","New"], "Module":"Consent Screen","author":["Priya Ukunde"]}
+#	#Given user resets app
+#	#And user opens app
+#	Given the user has initialized winium and android drivers
+#	When user selects country '${country.name}' from country list
+#	And user gets redirected to 'LOG-IN OWN' Page
+#	And user enters login details using 'Login.UserDetail'
+#	And user clicks on login button
+#	And user completes Safety Onboarding
+#	And user selects 'LEFTARM' location of body to apply sensor
+#	And the user selects the test case "120M_UNSTABLE_ENDSESSION" to run in the moteconfig popup
+#	And the user selects the Random button on moteconfig popup
+#	And the user selects the Program button on moteconfig popup
+#	And the user selects the OK button on moteconfig popup
+#	And the user copies the passkey on moteconfig popup
+#	And the user selects the Next button in the mobile app to start the pairing process
+#	And the user selects the ALLOW button in popup
+#	And the user enters the passkey in the field and verify reading displayed on home screen
+#	
+#END
+#
+
+
+
+
+SCENARIO: Verify Sensor Pairing on safety on boarding
+META-DATA: {"description":"Verify Sensor Pairing on safety on boarding", "groups":["NFK","New"], "Module":"Consent Screen","author":["Priya Ukunde"]}
+#	Given user resets app
+#	And user opens app
+	Given the user has initialized winium and android drivers
+	When user selects country '${country.name}' from country list
+	And user gets redirected to 'LOG-IN OWN' Page
+	And user enters login details using 'Login.UserDetail'
+	And user clicks on login button
+	And user completes Safety Onboarding
+	And user selects 'LEFTARM' location of body to apply sensor
+	And the user selects the test case "120M_UNSTABLE_ENDSESSION" to run in the moteconfig popup
+	And the user selects the Random button on moteconfig popup
+	And the user selects the Program button on moteconfig popup
+	And the user selects the OK button on moteconfig popup
+	And the user copies the passkey on moteconfig popup
+	And the user selects the Next button in the mobile app to start the pairing process
+	And the user selects the ALLOW button in popup
+#	And the user enters the passkey in the field and verify reading displayed on home screen
+	##Need to comment below steps if using above step
+	And the user enters the passkey
+	And the user closes sensor expires popup
+	And the user closes sensor warmup alert
+	And the user verify Sensor reading on home screen
+END
+
+#
+#SCENARIO: Verify home screen alerts during sensor warmup 
+#META-DATA: {"description":"Verify home screen alerts during sensor warmup ", "groups":["NFK","New"], "Module":"Consent Screen","author":["Priya Ukunde"]}
+#	#Given user resets app
+#	#And user opens app
+#	Given the user has initialized winium and android drivers
+#	When user selects country '${country.name}' from country list
+#	And user gets redirected to 'LOG-IN OWN' Page
+#	And user enters login details using 'Login.UserDetail'
+#	And user clicks on login button
+#	And user completes Safety Onboarding
+#	And user selects 'LEFTARM' location of body to apply sensor
+#	And the user selects the test case "140M_UNSTABLE_ENDSESSION" to run in the moteconfig popup
+#	And the user selects the Random button on moteconfig popup
+#	And the user selects the Program button on moteconfig popup
+#	And the user selects the OK button on moteconfig popup
+#	And the user copies the passkey on moteconfig popup
+#	And the user selects the Next button in the mobile app to start the pairing process
+##	And the user selects the ALLOW button in popup(MI)
+##	And the user enters the passkey(MI)
+#	And the user closes sensor expires popup
+#	And the user verify Sensor warmup alert
+#END

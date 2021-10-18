@@ -1,0 +1,41 @@
+NFKios.settingspage.glucose.range = {\"locator\":\"xpath=//*[@name=\\\"UserSettingsViewController.bgRangeField\\\"]\",\"desc\":\"Glucose Range\"}
+NFKios.settingspage.rangepicker.done.btn = {\"locator\":\"xpath=//*[@identifier=\\\"PickerAccessoryView.doneButton\\\"]\",\"desc\":\"Done button of range picker\"}
+NFKios.settingspage.rangepicker.backwardarrow.btn = {\"locator\":\"xpath=//*[@identifier=\\\"PickerAccessoryView.previousButton\\\"]\",\"desc\":\"Backward Arrow of range picker\"}
+NFKios.settingspage.range.picker = {\"locator\":\"xpath=//UIAPickerWheel[1]|//XCUIElementTypePickerWheel[1]\",\"desc\":\"Picker for  BG reading\"}
+NFKios.settingspage.rangepicker.forwardarrow.btn = {\"locator\":\"xpath=//*[@identifier=\\\"PickerAccessoryView.nextButton\\\"]\",\"desc\":\"Forward arrow button\"}
+NFKios.settingspage.beforemeal.range\ text.lbl = {\"locator\":\"xpath=//*[@name=\\\"identiferAMBeforeUnit\\\"]\",\"desc\":\"Before meal glucose range text\"}
+NFKios.settingspage.Setting.lbl = {\"locator\":\"xpath=//*[@label=\\\"Settings\\\"]\",\"desc\":\"My Setting label on my setting page\"}
+NFKios.settingspage.Cancel.Btn = {\"locator\":\"xpath=//*[@identifier=\\\"PickerAccessoryView.cancelButton\\\"]\",\"desc\":\"Done button of range picker\"}
+NFKios.settingspage.systemsettings.btn = {\"locator\":\"xpath=//*[@identifier=\\\"MySettingsViewController.systemSettingsButton\\\"]\",\"desc\":\"System setting button \"}
+NFKios.settingspage.usersettings.btn = {\"locator\":\"xpath=//*[@identifier=\\\"MySettingsViewController.userSettingsButton\\\"]\",\"desc\":\"User setting button \"}
+NFKios.settingspage.usersettingspage.range.title={\"locator\":\"xpath=//*[@identifier=\\\"UserSettingsViewController.rangeTitleLabel\\\"]\",\"desc\":\"Range title is prsent i.e. user is on User setting screen\"}
+NFKios.settingspage.usersettings.gender.title={\"locator\":\"xpath=//*[@identifier=\\\"UserSettingsViewController.genderLabel\\\"]\",\"desc\":\"Gender title is prsent i.e. user is on User setting screen\"}
+NFKios.settingspage.Events.title={\"locator\":\"xpath=//*[@name=\\\"SystemSettingsViewController.eventsTitleLabel\\\"]\",\"desc\":\"Events title \"}
+NFKios.settingspage.back.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MySettingsViewController.backButton\\\"]\",\"desc\":\"Back button of My setting\"}
+NFKios.settingspage.CurrentReading.title= {\"locator\":\"xpath=//*[@identifier=\\\"SystemSettingsViewController.currentReadingTitleLabel\\\"]\",\"desc\":\"Current Reading title text\"}
+NFKios.settingspage.BubbleAnimations.text=  {\"locator\":\"xpath=//*[@name=\\\"SystemSettingsViewController.animationBubbleField\\\"]\",\"desc\":\"bubble animations title text\"}
+NFKios.settingspage.log.insulin.text= {\"locator\":\"xpath=(//*[contains(@name,'InputFieldCell.titleLabel')])[2]\",\"desc\":\"Log insulin text\"}
+NFKios.settingspage.Overlayevent.timeline.text= {\"locator\":\"xpath=(//*[contains(@name,'InputFieldCell.titleLabel')])[3]\",\"desc\":\"Overlay Event timeline text\"}
+NFKios.settingspage.log.insulin.togglebtn= {\"locator\":\"xpath=(//*[contains(@name,'InputFieldCell.switchButton')])[2]\",\"desc\":\"Log Insulin Event toggle button \"}
+NFKios.settingspage.overlay.event.timeline.togglebtn= {\"locator\":\"xpath=(//*[contains(@name,'InputFieldCell.switchButton')])[3]\",\"desc\":\"Overlay Events on Timeline toggle button\"}
+NFKios.settingspage.BubbleAnimations.btn= {\"locator\":\"xpath=//*[@name=\\\"InputFieldCell.switchButton\\\"]\",\"desc\":\"bubble animations button\"}
+NFKios.settingspage.selected.diabetestype.type1.btn={\"locator\":\"xpath=//*[@name=\\\"UserSettingsViewController.diabetesType1RadioButton\\\"]\",\"desc\":\"Diabetes type one \"}
+NFKios.settingspage.selected.diabetestype.type2.btn= {\"locator\":\"xpath=//*[@name=\\\"UserSettingsViewController.diabetesType2RadioButton\\\"]\",\"desc\":\"Diabetes type two\"}
+NFKios.settingspage.selected.gender.male.btn= {\"locator\":\"xpath=//*[@name=\\\"Male\\\"]\",\"desc\":\"Male button on setting page\"}
+NFKios.settingspage.selected.gender.female.btn= {\"locator\":\"xpath=//*[@name=\\\"Female\\\"]\",\"desc\":\"Female button on setting page\"}
+NFKios.settingspage.togglebtn= {\"locator\":\"xpath=//*[contains(@name,'InputFieldCell.switchButton')]\",\"desc\":\"Log Insulin Event toggle button \"}
+NFKios.settingspage.diabetiesquestion.chk.btn = {\"locator\":\"xpath=//*[@label=\\\"%s\\\"]\",\"desc\":\"diabetes question check box\"}
+NFKios.settingspage.alertbtn.btn = {\"locator\":\"xpath=//*[@label=\\\"%s\\\"]\",\"desc\":\"Yes no alert button\"}
+NFKios.settingspage.usersetting.btn = {\"locator\":\"xpath=//*[@identifier=\\\"MySettingsViewController.userSettingsButton\\\"]\",\"desc\":\"User setting button \"}
+NFKios.settingspage.diabetiesquestion.btn= {\"locator\":\"xpath=//*[@label=\\\"%s\\\"]\",\"desc\":\"Diabetes button\"}
+NFKios.settingspage.value = {\"locator\":\"xpath=//*[@value=\\\"70–180 mg/dL\\\"]\",\"desc\":\"mgdl value field\"}
+NFKios.settingspage.Glucose.range1 = {\"locator\":\"xpath=(//*[contains(@name,'UserSettingsViewController.bgRangeField')])\",\"desc\":\"Overlay Events on Timeline toggle button\"}
+NFKios.settingspage.current.lbl={\"locator\":\"xpath=//*[@identifier=\\\"SystemSettingsViewController.currentReadingTitleLabel\\\"]\",\"desc\":\"Current reading lbl\"}
+NFKios.settingspage.title.lbl={\"locator\":\"xpath=//*[@identifier=\\\"InputFieldCell.titleLabel\\\"]\",\"desc\":\"title label\"}
+NFKios.settingspage.switch.btn={\"locator\":\"xpath=//*[@identifier=\\\"InputFieldCell.switchButton\\\"]\",\"desc\":\"switch button\"}
+NFKios.settingspage.animation.msg.lbl={\"locator\":\"xpath=//*[@identifier=\\\"SystemSettingsViewController.animationMessageLabel\\\"]\",\"desc\":\"animation message\"}
+NFKios.settingspage.1hr.btn={\"locator\":\"xpath=//*[@label=\\\"1 hr\\\"]\",\"desc\":\"1 hr button\"}
+NFKios.settingspage.4hr.btn={\"locator\":\"xpath=//*[@label=\\\"4 hr\\\"]\",\"desc\":\"4 hr button\"}
+NFKios.settingspage.8hr.btn={\"locator\":\"xpath=//*[@label=\\\"8 hr\\\"]\",\"desc\":\"8 hr button\"}
+NFKios.settingspage.12hr.btn={\"locator\":\"xpath=//*[@label=\\\"12 hr\\\"]\",\"desc\":\"12 hr button\"}
+NFKios.settingspage.24hr.btn={\"locator\":\"xpath=//*[@label=\\\"24 hr\\\"]\",\"desc\":\"24 hr button\"}

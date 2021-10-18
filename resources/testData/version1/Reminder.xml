@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <reminder>
+     <hour>10</hour>
+     <minute>25</minute>
+     <repeat>Daily</repeat>
+     <glucose>Perform a glucose test</glucose>
+     <buynewsensor>Buy a New Sensor</buynewsensor>
+     <refillmedication>Refill Medication</refillmedication>
+     <glucagonExpreminder>Glucagon Expiration Reminder</glucagonExpreminder>
+     <teststrip>Test Strip Expiration Reminder</teststrip>
+     <scheduledrappt>Schedule Doctor Appointment</scheduledrappt>
+     <snack>Eat a Snack</snack>
+     <eat>Eat</eat>
+     <activity>Activity</activity>
+     <strips>Buy strips</strips>
+     <bolus>Bolus</bolus>
+     <medication>Take medication</medication>
+	 <minuteAdd>02</minuteAdd>						  
+   </reminder>
+</root>

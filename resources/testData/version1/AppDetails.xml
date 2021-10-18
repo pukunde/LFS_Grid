@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<AppDetails>
+		<ios>
+			<old>
+				<appPath>PUBLIC:AutomationTeam_IOS builds/OTR-stage-2.3-RC4-4697-22_original.ipa</appPath>
+			</old>
+			<new>
+				<appPath>PUBLIC:Automation_Team_Lemonade_IOS/OTR-iOS-3.3-RC2-Stage-Lemonade-Nov21.ipa</appPath>
+			</new>
+			<appPackage>com.lifescan.reveal.stage</appPackage>
+		</ios>
+		<android>
+			<old>
+				<appPath>PUBLIC:AutomationTeam_Android builds/Cedar_2.2-RC2_3504_STAGE_RELEASE_20160802.apk</appPath>
+			</old>
+			<new>
+				<appPath>PUBLIC:Automation_Team_Lemonade_Android/OTR-Android-3.3-RC2-Stage-Release-Dec4.apk</appPath>
+			</new>
+			<appPackage>com.lifescan.reveal.stage</appPackage>
+		</android>	
+	</AppDetails>
+
+</root>

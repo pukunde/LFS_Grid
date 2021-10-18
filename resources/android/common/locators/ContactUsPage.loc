@@ -1,0 +1,10 @@
+NFK.homepage.moremenu.contactus.btn={\"locator\":\"xpath=//*[contains(@text,'Contact Us')]\",\"desc\":\"Contact Us\"} 
+NFK.homepage.moremenu.contactus.contactus.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Contact Us Title\"}
+NFK.homepage.moremenu.contactus.email.lnk={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.phno.lnk={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.website.lnk={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[3]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.appversion.lbl={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[4]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.appversionnnumber.lbl={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[5]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.mobileos.lbl={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.mobileosnumber.lbl={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]\",\"desc\":\"\"}
+NFK.homepage.moremenu.contactus.rateapp.lnk={\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[6]\",\"desc\":\"\"}

@@ -1,0 +1,65 @@
+NFKios.moremenuPage.myAccount.btn = {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.myAccount\\\"]\",\"desc\":\"My Account Link\"}
+NFKios.moremenuPage.Settings.btn = {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.mySettings\\\"]\",\"desc\":\"My setting label\"}
+NFKios.moremenuPage.myalerts.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.myAlerts\\\"]\",\"desc\":\"My Alerts label\"}
+NFKios.moremenuPage.myReminder.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.myReminders\\\"]\",\"desc\":\"My Reminder label\"}
+NFKios.moremenuPage.reminder.setReminder.lbl= {\"locator\":\"xpath=//*[@name=\\\"Set Reminder\\\"]\",\"desc\":\"Add Reminder button\"}
+NFKios.moremenuPage.reminder.datetime.btn= {\"locator\":\"xpath=(//*[contains(@identifier,'EventPickerView.rightTextField')])[1]\",\"desc\":\"Datetime button\"}
+NFKios.moremenuPage.reminder.repeat.btn={\"locator\":\"xpath=(//*[contains(@identifier,'EventPickerView.rightTextField')])[2]\",\"desc\":\"Repeat button\"}
+NFKios.moremenuPage.reminder.add.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MyRemindersViewController.addButtonItem\\\"]\",\"desc\":\"Add Reminder button\"}
+NFKios.moremenu.reminder.staticText.lbl = {\"locator\":\"xpath=//*[@name='%s']|//*[@label='%s']\",\"desc\":\"Static text reminder\"}
+NFKios.moremenuPage.reminder.date.pkr = {\"locator\":\"xpath=(//*[contains(@class,'XCUIElementTypePickerWheel')])[1]\",\"desc\":\"Date picker\"}
+NFKios.moremenuPage.reminder.hour.pkr = {\"locator\":\"xpath=(//*[contains(@class,'XCUIElementTypePickerWheel')])[2]\",\"desc\":\"Hour picker\"}
+NFKios.moremenuPage.reminder.minute.pkr = {\"locator\":\"xpath=(//*[contains(@class,'XCUIElementTypePickerWheel')])[3]\",\"desc\":\"Minute picker\"}
+NFKios.moremenuPage.reminder.repeat.pkr = {\"locator\":\"xpath=//XCUIElementTypeOther[1]/XCUIElementTypePicker[1]/XCUIElementTypePickerWheel[1]\",\"desc\":\"Repeat picker\"}
+NFKios.moremenupage.reminder.Done.btn={\"locator\":\"xpath=//*[@identifier=\\\"PickerAccessoryView.doneButton\\\"]\",\"desc\":\"Done button\"}
+NFKios.moremenuPage.reminder.setSave.btn={\"locator\":\"xpath=//*[@identifier=\\\"SetReminderViewController.saveButtonItem\\\"]\",\"desc\":\"Save button\"}
+NFKios.moremenuPage.reminder.svaedopen.delete.btn= {\"locator\":\"xpath=//*[@identifier=\\\"SetReminderViewController.deleteActionButton\\\"]\",\"desc\":\"Delete button of Edit reminder screen\"}
+NFKios.moremenuPage.reminder.deteletPopUpDelete.btn={\"locator\":\"xpath=//*[@name='Delete']\",\"desc\":\"Delete button of Pop-up\"}
+NFKios.moremenuPage.reminder.addname.text= {\"locator\":\"xpath=//*[@name='SetReminderViewController.reminderTitleField']\",\"desc\":\"label on Set Reminder screen\"}
+NFKios.moremenuPage.Share.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.share\\\"]\",\"desc\":\"Share button\"}
+NFKios.moremenuPage.reminder.description= {\"locator\":\"xpath=//*[@name=\\\"SetReminderViewController.descriptionReminderTextView\\\"]\",\"desc\":\"Set reminder Description\"}
+NFKios.moremenuPage.reminder.newReminder.btn={\"locator\":\"xpath=//*[@name='New Reminder']\",\"desc\":\"New Reminder button\"}
+NFKios.moremenuPage.reminder.addReminder.lbl={\"locator\":\"xpath=//*[@name=\\\"Set Reminder\\\"]\",\"desc\":\"Set reminder title\"}
+NFKios.moremenuPage.reminder.chooseReminder.lbl={\"locator\":\"xpath=//*[@name=\\\"Choose Reminders\\\"]\",\"desc\":\"Choose reminder label\"}
+NFKios.moremenuPage.reminder.name.txt= {\"locator\":[\"xpath=//*[contains(@label,'%s')]\",\"xpath=//*[contains(text(),'%s')]\"],\"desc\":\"Static label\"}
+NFKios.moremenuPage.help.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.help\\\"]\",\"desc\":\"Help button\"}
+NFKios.moremenupage.connection.btn= {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.connections\\\"]\",\"desc\":\"Connection label\"}
+NFKios.moremenupage.connection.title= {\"locator\":\"xpath=//*[@identifier=\\\"ConnectionsViewController.titleView\\\"]\",\"desc\":\"Connection title\"}
+NFKios.moremenupage.connection.addedofficename.lbl= {\"locator\":[\"xpath=//*[contains(@label,'%s')]\",\"xpath=//*[contains(text(),'%s')]\"],\"desc\":\"Static label\"}
+NFKios.moremenupage.connection.addoffice.btn={\"locator\":\"xpath=//*[@name=\\\"AddButtonTableViewCell.titleLabel\\\"]\",\"desc\":\"Add button\"}
+NFKios.moremenupage.connection.addofficeEnterCode.box={\"locator\":\"xpath=//*[@name=\\\"AddClinicView.codeInputView\\\"]\",\"desc\":\"Clinic code box\"}
+NFKios.moremenupage.connection.addofficeSearch.btn={\"locator\":\"xpath=//*[@name=\\\"AddClinicViewController.searchButton\\\"]\",\"desc\":\"Search button\"}
+NFKios.moremenupage.connection.officereenter.btn={\"locator\":\"xpath=//*[@name=\\\"AddClinicView.reEnterButton\\\"]\",\"desc\":\"Reenter button\"}
+NFKios.moremenupage.connection.officeyes.btn={\"locator\":\"xpath=//*[@name=\\\"AddClinicView.confirmButton\\\"]\",\"desc\":\"yes button\"}
+NFKios.moremenupage.connection.officeqst.lbl={\"locator\":\"xpath=//*[@name=\\\"Is this the correct clinic?\\"]\",\"desc\":\"Question label\"}
+NFKios.moremenupage.connection.checkbox.lbl={\"locator\":\"xpath=//*[@name=\\\"checkbox unchecked\\"]\",\"desc\":\"Check box\"}
+NFKios.moremenupage.staticText.lbl = {\"locator\":\"xpath=//*[contains(@label,\\\"%s\\\")]\",\"desc\":\"Static text\"}
+NFKios.moremenupage.connection.officename.lbll={\"locator\":\"xpath=//*[@name=\\\"AddClinicView.codeInputView\\\"]\",\"desc\":\"Input field after entering the Clinic code\"}
+NFKios.moremenuPage.other.back.btn={\"locator\":\"xpath=//*[@name=\\\"WebContentViewController.cancelButton\\\"]\",\"desc\":\"back btn\"}
+NFKios.moremenu.reminderspage.remindertitle.list= {\"locator\":\"xpath=//*[@name='%s']|//*[@label='%s']\",\"desc\":\"Static text reminder\"}
+NFKios.moremenu.reminderspage.popup.title={\"locator\":\"xpath=//*[@name=\\\"Maximum Reminders Reached\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.moremenuPage.contactus.btn={\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.contactUs\\\"]\",\"desc\":\"Contact Uss\"}
+NFKios.moremenupage.contactusdeletedraft.btn=={\"locator\":\"xpath=//*[@name=\\\"Delete Draft\\\"]\",\"desc\":\"Delete Draft\"}
+NFKios.moremenuPage.contactEmail.lbl= {\"locator\":\"xpath=//*[@label=\\\"cgmcontact@onetouch.com\\\"]\",\"desc\":\"Email field\"}
+NFKios.moremenuPage.contactNumber.lbl= {\"locator\":\"xpath=//*[@label=\\\"(800) 775-9902\\\"]\",\"desc\":\"Contact no. field\"}
+NFKios.moremenuPage.contactSite.lbl= {\"locator\":\"xpath=//*[@label=\\\"www.OneTouch.com\\\"]\",\"desc\":\"Contact site field\"}
+NFKios.moremenuPage.rateThisApp.lbl= {\"locator\":\"xpath=//*[@label=\\\"Rate this app\\\"]\",\"desc\":\"Contact Rate field\"}
+NFKios.moremenuPage.privecyPolicy.btn= {\"locator\":\"xpath=//*[@name=\\\"MoreViewController.privacyPolicyButton\\\"]\",\"desc\":\"privacy btn\"}
+NFKios.moremenuPage.termsOfUse.btn= {\"locator\":\"xpath=//*[@name=\\\"MoreViewController.termsOfUseButton\\\"]\",\"desc\":\"Terms of use btn\"}
+NFKios.moremenuPage.Mydevices.btn = {\"locator\":\"xpath=//*[@identifier=\\\"MoreItemView.titleLabel.myDevices\\\"]\",\"desc\":\"My Device btn\"}
+NFKios.moremenuPage.Mydevices.title = {\"locator\":\"xpath=//*[@label=\\\"My Devices\\\"]\",\"desc\":\"Blutooth allow on notification popup\"}
+NFKios.moremenuPage.Mydevices.start.sensor.session = {\"locator\":\"xpath=//*[@name=\\\"MyDevicesFooterCell.addAMeterLabel\\\"]\",\"desc\":\"Blutooth allow on notification popup\"}
+NFKios.moremenuPage.Mydevices.integrate.title = {\"locator\":\"xpath=//*[@name=\\\"MyDevicesICGMInfoCell.titleLabel\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.moremenuPage.Mydevices.i.Icon = {\"locator\":\"xpath=//*[@name=\\\"MyDevicesICGMInfoCell.infoButton\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.moremenuPage.Mydevices.Add.device.btn = {\"locator\":\"xpath=//*[@name=\\\"Add Device\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.applysensor.back.btn= {\"locator\":\"xpath=//*[@identifier=\\\"ApplySensorViewController.backButton\\\"]|//*[@label=\\\"Cancel\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.PairSensor.title = {\"locator\":\"xpath=//*[@name=\\\"EnterSensorCodeViewController.headingLabel\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.PairSensor.screen.txt = {\"locator\":\"xpath=//*[@name=\\\"EnterSensorCodeViewController.descriptionLabel\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.PairSensor.pairingcode.field = {\"locator\":\"xpath=//*[@name=\\\"EnterSensorCodeViewController.inputCodeView\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.PairSensor.Use.code.scanner = {\"locator\":\"xpath=//*[@name=\\\"Use Code Scannerl\\\"]\",\"desc\":\"Title of Pop-up\"}
+NFKios.moremenuPage.ordersupplies.btn= {\"locator\":\"xpath=//*[@name=\\\"MoreItemView.titleLabel.orderSupplies\\\"]\",\"desc\":\"Oder Supplis Button\"}
+NFKios.moremenuPage.Mydevices.icon.title={\"locator\":\"xpath=//*[@identifier=\\\"InfoViewController.headerLabel\\\"]\",\"desc\":\"i icon title\"}
+NFKios.moremenuPage.Mydevices.icon.close.btn={\"locator\":\"xpath=//*[@name=\\\"xInCircleGray\\\"]\",\"desc\":\"Close button\"}
+NFKios.moremenuPage.Mydevices.icon.msg.txt={\"locator\":\"xpath=//*[@identifier=\\\"InfoViewController.bodyLabel\\\"]\",\"desc\":\"i icon Message text\"}
+NFKios.moremenuPage.connected.call.btn={\"locator\":\"xpath=//*[@Type=\\\"XCUIElementTypeButton\\\"]\",\"desc\":\"Call buttton on connection screen\"}
+

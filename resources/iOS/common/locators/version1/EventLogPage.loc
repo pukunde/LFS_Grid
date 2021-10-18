@@ -1,0 +1,48 @@
+NFKios.eventlogPage.glucose.amount.txt = {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.amountTextField\\\"]\",\"desc\":\"Glucose amount\"}
+NFKios.eventlogPage.aftermeal.btn = {\"locator\":\"xpath=//*[@label=\\\"After Meal\\\"]\",\"desc\":\"After meal button\"}
+NFKios.eventlogPage.beforemeal.btn = {\"locator\":\"xpath=//*[@label=\\\"Before Meal\\\"]\",\"desc\":\"Before meal button for bg\"}
+NFKios.eventlogPage.save.btn = {\"locator\":\"xpath=//*[@label=\\\"Save\\\"]\",\"desc\":\"Save button on page\"}
+NFKios.eventlogPage.glucose.addnote.txt = {\"locator\":\"xpath=//*[@name=\\\"NotesView.notesTextView\\\"]\",\"desc\":\"Add note text bx\"}
+NFKios.eventlogPage.timingPicker.date.pkr = {\"locator\":\"xpath=//UIAPickerWheel[1]|//XCUIElementTypePickerWheel[1]\",\"desc\":\"Date picker wheel\"}
+NFKios.eventlogPage.timingPicker.hour.pkr = {\"locator\":\"xpath=//UIAPickerWheel[2]|//XCUIElementTypePickerWheel[2]\",\"desc\":\"Hour picker on picker wheel\"}
+NFKios.eventlogPage.timingPicker.minute.pkr = {\"locator\":\"xpath=//UIAPickerWheel[3]|//XCUIElementTypePickerWheel[3]\",\"desc\":\"Minute picker wheel\"}
+NFKios.eventlogPage.timingPicker.meredian.pkr = {\"locator\":\"xpath=//UIAPickerWheel[4]|//XCUIElementTypePickerWheel[4]\",\"desc\":\"Meredian picker wheel\"}
+NFKios.eventlogPage.glucose.timingValue.btn = {\"locator\":\"xpath=//*[@name=\\\"EventPickerView.rightTextField\\\"]\",\"desc\":\"Timing button\"}
+NFKios.eventlogPage.insulin.amountField.txt = {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.amountTextField\\\"]\",\"desc\":\"Insulin amount text field\"}
+NFKios.eventlogPage.insulin.timing.btn = {\"locator\":\"xpath=//*[@name=\\\"EventPickerView.rightTextField\\\"]\",\"desc\":\"Insulin timing btn\"}
+NFKios.eventlogPage.insulin.type.btn122 ={\"locator\":\"xpath=[(//*[@name=\\\"EventPickerView.rightTextField\\\")])[2]]\",\"desc\":\"Text displayed as type of Insulin\"}
+NFKios.eventlogPage.insulin.type.rapid.btn={\"locator\":\"xpath=//*[@value=\\\"Rapid\\\"]\",\"desc\":\"Insulin type button\"}
+NFKios.eventlogPage.insulin.noteField.txt = {\"locator\":\"xpath=//*[@name=\\\"NotesView.notesTextView\\\"]\",\"desc\":\"Add note text field insulin\"}
+NFKios.eventlogPage.static.lbl = {\"locator\":\"xpath=//*[contains(@label,'%s')]|//*[contains(@text(),\\\"%s\\\")]\"}
+NFKios.eventlogPage.carb.amountField.txt = {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.amountTextField\\\"]\",\"desc\":\"Carb amount text field\"}
+NFKios.eventlogPage.carb.timing.btn = {\"locator\":\"xpath=//*[@name=\\\"EventPickerView.rightTextField\\\"]\",\"desc\":\"Carb timing btn\"}
+NFKios.eventlogPage.carb.noteField.txt = {\"locator\":\"xpath=//*[@name=\\\"NotesView.notesTextView\\\"]\",\"desc\":\"Add note text field\"}
+NFKios.eventlogPage.activity.amountField.txt = {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.amountTextField\\\"]\",\"desc\":\"Activity amount text field\"}
+NFKios.eventlogPage.activity.timing.btn = {\"locator\":\"xpath=//*[@name=\\\"EventPickerView.rightTextField\\\"]\",\"desc\":\"Activity timing btn\"}
+NFKios.eventlogPage.activity.intensity.btn = {\"locator\":\"xpath=(//*[contains(@name,'EventPickerView.rightTextField')])[2]\",\"desc\":\"Intensity button\"}
+NFKios.eventlogPage.activity.noteField.txt = {\"locator\":\"xpath=//*[@name=\\\"NotesView.notesTextView\\\"]\",\"desc\":\"Add note text field for activity\"}
+NFKios.eventlogPage.event.btn = {\"locator\":\"xpath=//*[@name=\\\"MainTabBarViewController.eventsButton\\\"]\",\"desc\":\"My Event icon\"}
+NFKios.eventlogPage.event.timeselect.ok.btn={\"locator\":\"xpath=//*[@name=\\\"PickerAccessoryView.doneButton\\\"]\",\"desc\":\"Tap on Done oF types of insulin pop-up\"}
+NFKios.eventlogPage.editEvent.delete.btn={\"locator\":\"xpath=//*[@label=\\\"Delete This Event\\\"]| //*[@name=\\\"EventDeleteButtonView.deleteButton\\\"]\",\"desc\":\"Delete this event button\"}
+NFKios.eventlogPage.insulin.type.done.btn = {\"locator\":\"xpath=//*[@name=\\\"PickerAccessoryView.doneButton\\\"]\",\"desc\":\"Done button of insulin type selction pop-up\"}
+NFKios.eventlogPage.insulin.type.title.box={\"locator\":\"xpath=//*[@name=\\\"PickerAccessoryView.titleLabel\\\"]\",\"desc\":\"Title of the Insulin type pop-up\"}
+NFKios.eventlogPage.insulin.type.btn = {\"locator\":\"xpath=(//*[contains(@name,'EventPickerView.rightTextField')])[2]\",\"desc\":\"Insulin button\"}
+NFKios.eventlogPage.insulin.type.title.btn={\"locator\":\"xpath=//*[@name=\\\"EventPickerView.titleLabel\\\"]\",\"desc\":\"Label of insulin Type\"}
+NFKios.eventlogPage.activity.type.title.btn={\"locator\":\"xpath=//*[@name=\\\"EventPickerView.titleLabel\\\"]\",\"desc\":\"Label of activity Type\"}
+NFKios.eventlogPage.activity.type.title.box={\"locator\":\"xpath=//*[@name=\\\"PickerAccessoryView.titleLabel\\\"]\",\"desc\":\"Title of the Activity type pop-up\"}
+NFKios.eventlogPage.addanevent.lbl= {\"locator\":\"xpath=//*[@name=\\\"AddEditEventViewController.titleLabel\\\"]\",\"desc\":\"Add an event label\"}
+NFK.eventlogPage.addevent.addvalue.txt = {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.amountTextField\\\"]\",\"desc\":\"all event amount text field\"}
+NFKios.eventlogPage.noteField.timing.btn= {\"locator\":\"xpath=//*[@name=\\\"EventPickerView.rightTextField\\\"]\",\"desc\":\"Note timing btn\"}
+NFKios.eventlogPage.Note.noteField.txt= {\"locator\":\"xpath=//*[@name=\\\"NotesView.notesTextView\\\"]\",\"desc\":\"Add note text field for notes\"}
+NFKios.eventlogPage.enteredNote.txt= {\"locator\":\"xpath=//*[@name=\\\"EventAmountView.notesLabel\\\"]\",\"desc\":\"Note on My Event Log\"}
+NFKios.eventlogPage.addedEvent.Note= {\"locator\":\"xpath=(//*[(@name=\\\'EventAmountView.notesLabel')])\",\"desc\":\"Added note event \"} 
+NFKios.eventlogPage.event.title={\"locator\":\"xpath=//*[@name='Event Log']\",\"desc\":\"Title of Event log\"}
+NFKios.eventlogPage.event.today.btn={\"locator\":\"xpath=//*[@name='MyEventsViewController.todayButton']\",\"desc\":\"Today button on My Event log\"}
+NFKios.eventlogPage.event.calendar.label ={\"locator\":\"xpath=//*[@name='MyEventsViewController.calendarDateLabel']\",\"desc\":\"Date label on My Event log\"}
+NFKios.eventlogPage.event.chartcell.chartview={\"locator\":\"xpath=//*[@name='MyEventsChartCellView.chartView']\",\"desc\":\"Chart view\"}
+NFKios.eventlogPage.event.chart.label={\"locator\":\"xpath=//*[@name='MyEventsViewController.chartCollectionView']\",\"desc\":\"Date label on My Event log\"}
+NFKios.eventlogPage.event.calendar.date={\"locator\":\"xpath=//*[@name='CalendarView.fsCalendar']\",\"desc\":\"Date label on calendar\"}
+NFKios.eventlogPage.event.month.label={\"locator\":\"xpath=//*[@name='CalendarView.monthLabel']\",\"desc\":\"Month Label\"}
+NFKios.eventlogPage.event.chart.scroll.ele={\"locator\":\"xpath=//*[@name=\\\"MyEventsViewController.chartCollectionView\\\"]\",\"desc\":\"Trend graph\"}
+NFKios.EventLogPage.delete.btn1 = {\"locator\":\"xpath=//*[@name='Delete']\",\"desc\":\"Delete button\"}
+NFKios.EventLogPage.calendar.scope.btn = {\"locator\":\"xpath=//*[@label=\\\"iconGrabFlat\\\"]\",\"desc\":\"icon for Calendar month view\"}

@@ -1,0 +1,16 @@
+NFK.moremenu.helppage.safteyonboarding.btn {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[1]\",\"desc\":\"Saftey Onboarding button\"}
+NFK.moremenu.helppage.sensor.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[2]\",\"desc\":\"Sensor Button\"}
+NFK.moremenu.helppage.apptour.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[3]\",\"desc\":\"App Tour\"}
+NFK.moremenu.helppage.appuserguide.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[4]\",\"desc\":\"App user Guide\"}
+NFK.moremenu.helppage.about.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[5]\",\"desc\":\"About button\"}
+NFK.moremenu.helppage.license.btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'label')])[6]\",\"desc\":\"License button\"}
+NFK.moremenu.helppage.help.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Title of Help Page\"}
+NFK.moremenu.helppage.help.options= {\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"List of Options on Help page\"}
+NFK.moremenu.helppage.skip.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'skipButton')]\",\"desc\":\"Skip button\"}
+NFK.moremenu.helppage.title.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Title of pages\"}
+NFK.moremenu.helppage.dynamic.txt= {\"locator\":\"xpath=//*[@text='%s']|//*[@content-desc='%s']\",\"desc\":\"Dynamic textss\"}
+NFK.moremenu.helppage.sensorapp.options={\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"Options on Sensor application menu\"}
+NFK.moremenu.helppage.sensorapp.done.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/nextButton')]\",\"desc\":\"Done button\"}
+NFK.moremenu.helppage.license.back.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]\",\"desc\":\"Back button\"}
+
+

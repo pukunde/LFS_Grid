@@ -1,0 +1,23 @@
+Test Id,20
+Test Description, 120M_UNSTABLE_ENDSESSION
+Test Rev,1002
+Originator,SJ
+*********************,
+Format Rev,1002
+Serial Number, 258244266
+PassKey, 874 - 629
+Use Life Days,15
+Shelf Life Month,12
+Shelf Life Day,19
+Shelf Life Year,2021
+Sensor Warming Time,2
+First Point Time,1
+Battery Test, Off
+Battery Start Level,2730
+Battery Decrement,0
+Battery Low Threshold,2630
+Flash Update,On
+Data File, 1MW_120M_UNSTABLE_ENDSESSION.csv
+Application File, Mote52.Hex
+*********************,
+END_OF_FILE,

@@ -1,0 +1,6 @@
+NFKios.countryselectionPage.selectCountry.lbl={\"locator\":\"xpath=//*[@identifier=\\\"CountrySelectionViewController.selectionMessageLabel\\\"]\",\"desc\":\"Select a country label\"}
+NFKios.countryselectionPage.staticText.lbl = {\"locator\":\"xpath=//*[@name='%s']|//*[@label='%s']\",\"desc\":\"Static text on country selection page\"}
+NFKios.countryselectionPage.next.btn = {\"locator\":\"xpath=//*[@name=\\\"CountrySelectionViewController.nextButton\\\"]\",\"desc\":\"Next button on country selection page\"}
+NFKios.countryselectionPage.iagree.btn = {\"locator\":\"xpath=//*[@name=\\\"WebContentViewController.agreeButton\\\"]\",\"desc\":\"I agree button for country specific term page\"}
+NFKios.countryselectionPage.decision.yes.login.button = {\"locator\":\"xpath=//*[@name=\\\"LoginOrRegisterViewController.loginButton\\\"]\",\"desc\":\"select yes for Login\"}
+NFKios.keyBoard.delete.btn={\"locator\":\"xpath=//*[@name=\\\"delete\\\"]\",\"desc\":\"Delete Button of Keyboard\"}

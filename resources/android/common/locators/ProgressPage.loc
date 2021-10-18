@@ -1,0 +1,47 @@
+NFK.progresspage.rangedays.radio.btn={\"locator\":\"xpath=//*[contains(@text,'7')]|//*[contains(@text,'14')]|//*[contains(@text,'30')]|//*[contains(@text,'60')]|//*[contains(@text,'90')]\",\"desc\":\"Range day buttons\"}
+NFK.progresspage.compare.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/label')]\",\"desc\":\"Compare text field\"}
+NFK.progresspage.switch.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/switchButton')]\",\"desc\":\"Switch button\"}
+NFK.progresspage.availableday.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/tvAvailableDataDays')]\",\"desc\":\"Available days\"}
+NFK.progresspage.avergaes.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/titleField')]\",\"desc\":\"lable for Averges\"}
+NFK.progresspage.averages.value = {\"locator\":\"xpath=//*[contains(@resource-id,'id/valueField')]\",\"desc\":\"Value field for average\"}
+NFK.progresspage.piechart = {\"locator\":\"xpath=//*[contains(@resource-id,'id/pieChartView')]\",\"desc\":\"Pie chart\"}
+NFK.progresspage.dateon.piechart = {\"locator\":\"xpath=//*[contains(@resource-id,'id/centerTextChart')]\",\"desc\":\"Diff date on center of pie chart\"}
+NFK.progresspage.low.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/lowLabel')]\",\"desc\":\"Low label\"}
+NFK.progresspage.inrange.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/inRangeLabel')]\",\"desc\":\"In range label\"}
+NFK.progresspage.high.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/highRangeLabel')]\",\"desc\":\"High label\"}
+NFK.progresspage.low.vlue = {\"locator\":\"xpath=//*[contains(@resource-id,'id/lowValue')]\",\"desc\":\"Low value \"}
+NFK.progresspage.inrange.value = {\"locator\":\"xpath=//*[contains(@resource-id,'id/inRangeValue')]\",\"desc\":\"In range value\"}
+NFK.progresspage.high.value = {\"locator\":\"xpath=//*[contains(@resource-id,'id/highValue')]\",\"desc\":\"High Value\"}
+NFK.progresspage.legendinfo.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/legendInfo')]\",\"desc\":\"Legend info label\"}
+NFK.progresspage.title.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/title')]\",\"desc\":\"Title of screen\"}
+NFK.progresspage.buttons.list= {\"locator\":\"xpath=//*[contains(@class,'android.widget.RadioButton')]\",\"desc\":\"list of button\"}
+NFK.progresspage.card.description= {\"locator\":\"xpath=//*[contains(@resource-id,'cardDescription')]\",\"desc\":\"Card decription\"}
+NFK.progresspage.card.title= {\"locator\":\"xpath=//*[contains(@resource-id,'cardTitle')]\",\"desc\":\"Title of cards\"}
+NFK.progresspage.carousel.dot={\"locator\":\"xpath=//*[contains(@resource-id,'indicatorGlucoseAverage')]\",\"desc\":\"Carousel indicator\"}
+NFK.progresspage.compr.glucose.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'glucoseLabel')]\",\"desc\":\"Glucose label\"}
+NFK.progresspage.compr.pre.avg.val= {\"locator\":\"xpath=//*[contains(@resource-id,'glucoseValuePeriod2')]\",\"desc\":\"Previous avg val\"}
+NFK.progresspage.compr.curr.avg.val= {\"locator\":\"xpath=//*[contains(@resource-id,'glucoseValuePeriod1')]\",\"desc\":\"Current Average val\"}
+NFK.progresspage.compr.gmi.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'gmiLabel')]\",\"desc\":\"GMI label\"}
+NFK.progresspage.compr.pre.gmi.val= {\"locator\":\"xpath=//*[contains(@resource-id,'gmiValuePeriod2')]\",\"desc\":\"GMI value Previous\"}
+NFK.progresspage.compr.curr.gmi.val= {\"locator\":\"xpath=//*[contains(@resource-id,'gmiValuePeriod1')]\",\"desc\":\"GMI value Current\"}
+NFK.progresspage.compr.low.pre.val= {\"locator\":\"xpath=//*[contains(@resource-id,'lowValuePeriod2')]\",\"desc\":\"Low Previous Value\"}
+NFK.progresspage.compr.inrange.pre.val= {\"locator\":\"xpath=//*[contains(@resource-id,'inRangeValuePeriod2')]\",\"desc\":\"Inrange prev value\"}
+NFK.progresspage.compr.high.pre.val= {\"locator\":\"xpath=//*[contains(@resource-id,'highValuePeriod2')]\",\"desc\":\"High Prev val\"}
+NFK.progresspage.compr.low.curr.val= {\"locator\":\"xpath=//*[contains(@resource-id,'lowValuePeriod1')]\",\"desc\":\"Low Current value\"}
+NFK.progresspage.compr.inrange.curr.val= {\"locator\":\"xpath=//*[contains(@resource-id,'inRangeValuePeriod1')]\",\"desc\":\"In rnage current value\"}
+NFK.progresspage.compr.high.curr.val= {\"locator\":\"xpath=//*[contains(@resource-id,'highValuePeriod1')]\",\"desc\":\"High Inrange current value\"}
+NFK.progresspage.no.sensordata.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'id/tvNoSensorData')]\",\"desc\":\"No data text\"}
+NFK.progresspage.lowagp.title.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/cardTitle')]\",\"desc\":\"Title of low and AGP\"}
+NFK.progresspage.info.icon= {\"locator\":\"xpath=//*[contains(@resource-id,'id/tvInfoIcon')]\",\"desc\":\"Info icon\"}
+NFK.progresspage.descp.nodata.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'id/cardDescription')]\",\"desc\":\"Descp info icon\"}
+NFK.progresspage.slideup.close.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/closeButton')]\",\"desc\":\"Close button\"}
+NFK.progresspage.low.slideup.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'id/body')]\",\"desc\":\"Low slideup text\"}
+NFK.progresspage.agp.slideup.txt= {\"locator\":\"xpath=//*[contains(@resource-id,'id/bottomSheetInfoDialog')]\",\"desc\":\"AGP Slideup text\"}
+NFK.progresspage.low.chart= {\"locator\":\"xpath=//*[contains(@resource-id,'lowBarChart')]\",\"desc\":\"Graph display\"}
+NFK.progresspage.low.txt.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'titleLabel')]\",\"desc\":\"labels of the text\"}
+NFK.progresspage.low.events.value= {\"locator\":\"xpath=//*[contains(@resource-id,'contentLabel')]\",\"desc\":\"Low Events Values\"}
+NFK.progresspage.view.agp.report= {\"locator\":\"xpath=//*[contains(@resource-id,'id/buttonViewAGPReport')]|//*[contains(@text,'View full AGP Report')]\",\"desc\":\"View AGP report button\"}
+NFK.progresspage.title.report= {\"locator\":\"xpath=//*[contains(@resource-id,'titlePage')]\",\"desc\":\"Title page of pdf\"}
+NFK.progresspage.close.btn.report= {\"locator\":\"xpath=//*[contains(@resource-id,'closeButton')]\",\"desc\":\"Close button\"}
+NFK.progresstab.static.text= {\"locator\":\"xpath=//*[@text='%s']|//*[@content-desc='%s']\",\"desc\":\"Dynamic textss\"}
+NFK.progresspage.dateon.comp.piechart = {\"locator\":\"xpath=//*[contains(@resource-id,'id/centerTextChart')]\",\"desc\":\"Compare date on center of pie chart\"}

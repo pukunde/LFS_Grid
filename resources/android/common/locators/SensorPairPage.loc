@@ -1,0 +1,47 @@
+NFK.sensorpairpage.title = {\"locator\":\"xpath=//*[contains(@resource-id,'id/textTitle')]\",\"desc\":\"Title of the Sensor Page\"}
+NFK.sensorpairpage.sensorpairpage.sensor.skip.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/nextButton')]\",\"desc\":\"Skip button of sensor screen\"}
+NFK.sensorpairpage.code.field={\"locator\":\"xpath=//*[contains(@resource-id,'editTextCode')]\",\"desc\":\"Text field to enter text\"}
+NFK.sensorpairpage.code.field1={\"locator\":\"xpath=//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]\"}
+NFK.sensorpairpage.next.button= {\"locator\":\"xpath=//*[contains(@resource-id,'id/nextButton')]\",\"desc\":\"Next button after entering the Sensor code\"}
+NFK.sensorpairpage.applysensor.title= {\"locator\":\"xpath=//*[contains(@resource-id,'id/textTitle')]\",\"desc\":\"Apply sensor title\"}
+NFK.sensorpairpage.applysensor.next.button= {\"locator\":\"xpath=//*[@text='Next']\",\"desc\":\"Next button of Apply sensor screen\"}
+NFK.sensorpairpage.applysensor.rightabdomen.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/rightAbdomen')]\",\"desc\":\"Selected the right Abdomen\"}
+NFK.sensorpairpage.applysensor.leftabdomen.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/leftAbdomen')]\",\"desc\":\"Selected the left Abdomen\"}
+NFK.sensorpairpage.applysensor.leftarm.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/leftArm')]\",\"desc\":\"Selected the left Arm\"}
+NFK.sensorpairpage.applysensor.rightarm.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/rightArm')]\",\"desc\":\"Selected the right Arm\"}
+NFK.sensorpairpage.applysensor.howtoapply.btn= {\"locator\":\"xpath=//*[contains(@resource-id,'id/buttonHowApply')]\",\"desc\":\"Button how to apply the sensor on body\"}
+NFK.sensorpairpage.applysensor.footer.lbl= {\"locator\":\"xpath=//*[contains(@resource-id,'id/textBottom')]\",\"desc\":\"Footer label on Apply sensor page\"}
+NFK.sensorpairpage.start.session.btn= {\"locator\":\"xpath=//*[contains(@text,'Start Sensor Session')]\",\"desc\":\"Start Session Button\"}
+NFK.apply.sensor.scrn.back.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/backButton')]|//*[contains(@resource-id,'back')]\",\"desc\":\"apply the sensor screen back btn\"}
+NFK.apply.sensor.title = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/textTitle')])\",\"desc\":\"apply the sensor title\"}
+NFK.apply.sensor.text1 = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/textDescription')])\",\"desc\":\"apply sensor tex1\"}
+NFK.apply.sensor.how.to.apply.sensor.link = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/buttonHowApply')])\",\"desc\":\"how to apply the sensor link\"}
+NFK.apply.sensor.text2 = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/textBottom')])\",\"desc\":\"apply sensor text2\"}
+NFK.how.to.apply.sensor.scrn.back.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/backButton')])\",\"desc\":\"how to apply the sensor back btn\"}
+NFK.how.to.apply.sensor.title = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/title')])\",\"desc\":\"how to apply the sensor screen title\"}
+NFK.how.to.apply.sensor.pair.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/nextButton')])\",\"desc\":\"how to apply the sensor screen pair btn\"}
+NFK.how.to.apply.sensor.helpful.tips.link = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/buttonSeeHelpfulTips')])\",\"desc\":\"how to apply the sensor helpful tips link\"}
+NFK.how.to.apply.sensor.helpful.tips.scrn.title = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/helpful_tips_title')])\",\"desc\":\" helpful_tips_title\"}
+NFK.how.to.apply.sensor.helpful.tips.scrn.X.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/closeButton')])\",\"desc\":\"helpful_tips scrn X btn\"}
+NFK.sensorpairpage.applysensor.leftbuttock.btn  = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/leftButtock')])\",\"desc\":\"Selected the left buttock\"}
+NFK.sensorpairpage.applysensor.rightbuttock.btn = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/rightButtock')])\",\"desc\":\"Selected the right buttock\"}
+NFK.location.deny.btn= {\"locator\":\"xpath=//*[@resource-id,'Deny')]\",\"desc\":\"Deny button of location\"}
+NFK.location.allow.btn= {\"locator\":\"xpath=//android.widget.Button[@resource-id='com.android.packageinstaller:id/permission_allow_button']\",\"desc\":\"Allow button of Location\"}
+NFK.location.permission.icon= {\"locator\":\"xpath=//*[@resource-id,'com.android.permissioncontroller:id/permission_icon')]\",\"desc\":\"Location icon\"}
+
+
+##Emulator Automation#######
+
+NFK.sensorpairpage.passkey={\"locator\":\"xpath=//*[contains(@resource-id,'pincode_edit_text')]\",\"desc\":\"Passkey field\"}
+NFK.sensorpairpage.allow={\"locator\":\"xpath=//*[@text='ALLOW']|//*[contains(@text,'ALLOW')]|//*[@text='Allow']|//*[@text='While using the app']\",\"desc\":\"Allow button\"}
+NFK.sensorpairpage.notNow={\"locator\":\"xpath=//*[contains(@resource-id,'button2')]\",\"desc\":\"Not now button\"}
+NFK.sensorpairpage.OK.btn= {\"locator\":\"xpath=//*[@text='OK']|//*[@text='Pair']\",\"desc\":\"Ok btn\"}
+NFK.sensorpairpage.DND.Cancel={\"locator\":\"xpath=//*[@text='CANCEL']\",\"desc\":\"Cancel button\"}
+NFK.sensorpairpage.reading={\"locator\":\"xpath=(//*[contains(@resource-id,'currentCGMReadingUOMText')])\",\"desc\":\"MGDL unit of reading\"}
+
+
+
+
+
+
+

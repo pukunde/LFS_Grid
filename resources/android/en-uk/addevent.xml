@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<manual>
+		<event>
+			<bloodglucose>1.38</bloodglucose>
+			<carbs>10</carbs>
+			<type>2</type>
+			<activity>60</activity>
+		</event>
+	</manual>
+
+	<glucose>
+		<amount>5</amount>
+	</glucose>
+
+	<addGlucose>
+		<eventType>glucose</eventType>
+		<amount>6.6</amount>
+		<unit>mmol/L</unit>
+		<mealTag>before</mealTag>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addGlucose>
+
+	<editGlucose>
+		<eventType>glucose</eventType>
+		<amount>6.9</amount>
+		<unit>mmol/L</unit>
+		<mealTag>before</mealTag>
+		<hour>7</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+
+	</editGlucose>
+	<addGlucose1>
+		<eventType>glucose</eventType>
+		<amount>7.2</amount>
+		<unit>mmol/L</unit>
+		<mealTag>before</mealTag>
+		<hour>7</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addGlucose1>
+	<addGlucose2>
+		<eventType>glucose</eventType>
+		<amount>8.1</amount>
+		<unit>mmol/L</unit>
+		<mealTag>before</mealTag>
+		<hour>7</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addGlucose2>
+
+	<addCarb>
+		<eventType>carb</eventType>
+		<amount>100</amount>
+		<unit>g</unit>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addCarb>
+	<editCarb>
+		<eventType>carb</eventType>
+		<amount>105</amount>
+		<unit>g</unit>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</editCarb>
+
+	<addInsulin>
+		<eventType>insulin</eventType>
+		<amount>50</amount>
+		<unit>u</unit>
+		<insulinType>Long</insulinType>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addInsulin>
+	<editInsulin>
+		<eventType>insulin</eventType>
+		<amount>55</amount>
+		<unit>u</unit>
+		<insulinType>Long</insulinType>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</editInsulin>
+
+	<addActivity>
+		<eventType>activity</eventType>
+		<amount>30</amount>
+		<unit>min</unit>
+      <activityType>activity.intensity.moderate</activityType>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addActivity>
+	<editActivity>
+		<eventType>activity</eventType>
+		<amount>35</amount>
+		<unit>min</unit>
+      <activityType>activity.intensity.moderate</activityType>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</editActivity>
+
+	<BG>
+		<unitMGDL>
+			<unit>mg/dL</unit>
+			<lowestGlucosValue>20</lowestGlucosValue>
+			<highstGlucosValue>600</highstGlucosValue>
+		</unitMGDL>
+
+		<unitMMOL>
+			<unit>mmol/L</unit>
+			<lowestGlucosValue>1.1</lowestGlucosValue>
+			<highstGlucosValue>33.3</highstGlucosValue>
+		</unitMMOL>
+
+	</BG>
+	<addMultipleEvent>
+		<eventType>glucose</eventType>
+		<addGlucose>
+			<amount>6.7</amount>
+			<unit>mmol/L</unit>
+			<mealTag>before</mealTag>
+			<hour>8</hour>
+			<miunute>30</miunute>
+			<meredian>AM</meredian>
+		</addGlucose>
+
+		<addCarb>
+			<eventType>carb</eventType>
+			<amount>106</amount>
+			<unit>g</unit>
+			<hour>8</hour>
+			<miunute>30</miunute>
+			<meredian>AM</meredian>
+		</addCarb>
+	</addMultipleEvent>
+
+	<addZeroCarb>
+		<eventType>carb</eventType>
+		<amount>0</amount>
+		<unit>g</unit>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addZeroCarb>
+	<addZeroInsulin>
+		<eventType>insulin</eventType>
+		<amount>0</amount>
+		<unit>u</unit>
+		<insulinType>Long</insulinType>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addZeroInsulin>
+	<addZeroActivity>
+		<eventType>activity</eventType>
+		<amount>0</amount>
+		<unit>min</unit>
+		<activityType>activity.intensity.moderate</activityType>
+		<hour>8</hour>
+		<miunute>30</miunute>
+		<meredian>AM</meredian>
+	</addZeroActivity>
+
+	<glucoseRangeValue>
+		<Low>3.6</Low>
+		<Inrange>6.6</Inrange>
+		<High>10.5</High>
+	</glucoseRangeValue>
+	<glucoseRangeValue1>
+		<Low>3.3</Low>
+		<Inrange>6.9</Inrange>
+		<High>11.1</High>
+	</glucoseRangeValue1>
+
+</root>
+             

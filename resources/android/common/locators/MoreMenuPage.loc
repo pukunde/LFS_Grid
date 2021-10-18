@@ -1,0 +1,52 @@
+NFK.moremenu.accountpage.diabetes.optin.chkbx= {\"locator\":\"xpath=//*[@resource-id,'com.lifescan.norfolk.adhoctest:id/checkPromotionalOffers']\",\"desc\":\"NFK title image on privecy screen\"}
+NFK.moremenu.accountpage.edit.btn= {\"locator\":\"xpath=//*[contains(@text,'Edit')]\",\"desc\":\"click on Edit button for editing details\"}
+NFK.moremenu.alert.btn ={\"locator\":\"xpath=(//*[contains(@resource-id,'cursor')])[3]\",\"desc\":\"My Alert button\"}
+NFK.moremenu.reminderspage.reminders.lbl={\"locator\":\"xpath=(//*[contains(@resource-id,'id/title')])\",\"desc\":\"Reminder title\"}
+NFK.moremenu.reminderspage.staticText.btn= {\"locator\":\"xpath=//*[contains(@text,'%s')]\",\"desc\":\"Static text for Reminder\"}
+NFK.moremenu.reminderspage.remember.btn={\"locator\":\"xpath=//*[contains(@resource-id,'title')]\",\"desc\":\"Set reminder title\"}
+NFK.moremenu.reminderspage.selectdatetime.btn={\"locator\":\"xpath=//*[contains(@text,'Select')]\",\"desc\":\"Date and Time option of Reminder\"}
+NFK.moremenu.reminderspage.selectrepeatoption.btn={\"locator\":\"xpath=(//*[contains(@resource-id,'cursor')])[2]\",\"desc\":\"Repeat option of Reminder\"}
+NFK.moremenu.reminderspage.savereminder.btn={\"locator\":\"xpath=//*[contains(@resource-id,'nextButton')]\",\"desc\":\"Save button\"}
+NFK.moremenu.reminderspage.saveddatetime.lbl={\"locator\":\"xpath=(//*[contains(@resource-id,'content')])[1]\",\"desc\":\"Date and Time option of Reminder\"}
+NFK.moremenu.reminderspage.deteletpopupdelete.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/button1')]\",\"desc\":\"Delete button on Delete Pop-up\"}
+NFK.moremenu.reminderspage.addreminder.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/nextButton')]\",\"desc\":\"Add icon on reminder screen\"}
+NFK.moremenu.reminderspage.repeat.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'title')]|//*[contains(@text,'Edit Reminder')]\",\"desc\":\"Set reminder title\"}
+NFK.moremenu.share.btn = {\"locator\":\"xpath=//*[contains(@text,'Share')]\",\"desc\":\"click on share button\"}
+NFK.moremenu.reminderdeteletpopup.delete.btn={\"locator\":\"xpath=//*[contains(@resource-id,'button1')]\",\"desc\":\"Delete popup Delete Button\"}
+NFK.moremenuPage.reminder.description.txt={\"locator\":\"xpath=//*[contains(@resource-id,'id/etReminderDescription')]\",\"desc\":\"Text box for Description of reminder\"}
+NFK.moremenu.reminderspage.newreminder.btn={\"locator\":\"xpath=//*[contains(@resource-id,'buttonAddReminder')]\",\"desc\":\"Add New reminder button\"}
+NFK.moremenu.reminderspage.addreminder.name={\"locator\":\"xpath=//*[contains(@text,'Enter a new reminder name')]\",\"desc\":\"Enter the name for reminder\"}
+NFK.moremenu.reminderspage.newreminder.savedreminder.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'label')]\",\"desc\":\"New Added reminder on Reminder screen\"}
+NFK.moremenu.settingspage.select.range = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/content')])[2]\",\"desc\":\"settings select bg range\"}
+NFK.homepage.moremenu.privacypolicy.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/privacyPolicyTextView')]\",\"desc\":\"Privacy button\"}
+NFK.homepage.moremenu.termsofuse.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/termsOfUseTextView')]\",\"desc\":\"Terms of use btn\"}
+NFK.homepage.moremenu.termsofusepage.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/tvHeaderTitle')]\",\"desc\":\"Header title of terms of use\"}
+NFK.homepage.moremenu.privacypolicy.lbl = {\"locator\":\"xpath=//*[contains(@resource-id,'id/tvHeaderTitle')]\",\"desc\":\"Header title of privacy policy\"}
+NFK.homepage.moremenu.datepopup.dynamic.txt = {\"locator\":\"xpath=//*[@content-desc=\\\"%s\\\"]\",\"desc\":\"Parameterised text selection time text\"}
+NFK.homepage.moremenu.popup.title = {\"locator\":\"xpath=//*[contains(@resource-id,'id/customAlertTitle')]\",\"desc\":\"Maximum reached Pop-up tile\"}
+NFK.homepage.moremenu.message.txt = {\"locator\":\"xpath=//*[contains(@resource-id,'id/message')]\",\"desc\":\"Maximum reached pop-up\"}
+NFK.moremenu.reminderspage.remindertitle.list = {\"locator\":\"xpath=//*[contains(@resource-id,'id/label')]\",\"desc\":\"Header title of privacy policy\"}
+NFK.moremenu.connections.requestsubmit.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvClinicConnectionStatus')]\",\"desc\":\"Clinic Status\"}
+NFK.moremenu.connections.withdrawreq.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvClinicAction')]\",\"desc\":\"Withdraw status\"}
+NFK.moremenu.connections.clinicname.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvClinicName')]\",\"desc\":\"Clinic name\"}
+NFK.moremenu.connections.clinicphono.lbl={\"locator\":\"xpath=//*[contains(@resource-id,'id/tvClinicAction')]\",\"desc\":\"Clinic phone no. field\"}
+NFK.moremenu.connections.callpopup.message={\"locator\":\"xpath=//*[contains(@resource-id,'id/message')]\",\"desc\":\"call pop up message\"}
+NFK.moremenu.connections.callpopup.title={\"locator\":\"xpath=//*[contains(@resource-id,'id/customAlertTitle')]\",\"desc\":\"call popup title\"}
+NFK.moremenu.connections.cancel.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/button2')]\",\"desc\":\"Clinic call pop up cancel button\"}
+NFK.moremenu.connections.call.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/button1')]\",\"desc\":\"Clinic call pop-up call button\"}
+NFK.moremenu.connections.clinic.connected={\"locator\":\"xpath=//*[contains(@resource-id,'id/ivClinicConnected')]\",\"desc\":\"Clinic cconnected image view\"}
+NFK.Mydevices.start.sensor.session.Btn= {\"locator\":\"xpath=(//*[contains(@resource-id,'id/button')])\",\"desc\":\"Start Session Button\"}
+NFK.Pair.Sensor.Back.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/back')]\",\"desc\":\"Clinic cconnected image view\"}
+NFK.Pair.Sensor.title = {\"locator\":\"xpath=//*[contains(@text,'Pair Sensor')]\",\"desc\":\"click on share button\"}
+NFK.Pair.Sensor.screen.text = {\"locator\":\"xpath=//*[contains(@resource-id,'id/textDescription')]\",\"desc\":\"Clinic cconnected image view\"}
+NFK.Pair.Sensor.pairing.code = {\"locator\":\"xpath=(//*[contains(@resource-id,'id/editTextCode')])\",\"desc\":\"Code text fields\"}
+NFK.Pair.Sensor.Use.Code.scanner.btn = {\"locator\":\"xpath=//*[contains(@resource-id,'id/buttonCodeScanner')]\",\"desc\":\"Clinic cconnected image view\"}
+NFK.Pair.Sensor.next.button.enable = {\"locator\":\"xpath=//*[contains(@resource-id,'id/next')]\",\"desc\":\"Clinic cconnected image view\"}
+NFK.Mydevices.title = {\"locator\":\"xpath=//*[contains(@resource-id,'id/title')]\",\"desc\":\"My devices title\"}
+NFK.Mydevices.integrated.device.title = {\"locator\":\"xpath=//*[contains(@resource-id,'id/icgmSystemTitle')]\",\"desc\":\"Intergrated device btn\"}
+NFK.Mydevices.i.icon = {\"locator\":\"xpath=//*[contains(@resource-id,'id/icgmInfoIcon')]\",\"desc\":\"my device I icon\"}
+NFK.Mydevices.add.devices.button = {\"locator\":\"xpath=//*[contains(@resource-id,'id/label')]\",\"desc\":\"My devices Add device btn\"}
+NFK.Mydevices.icon.close.btn={\"locator\":\"xpath=//*[contains(@resource-id,'id/closeButton')]\",\"desc\":\"Close button on Slideup\"}
+NFK.Mydevices.icon.msg.txt={\"locator\":\"xpath=//*[contains(@resource-id,'id/body')]\",\"desc\":\"Message body\"}
+NFK.addevent.timeselect.hour.txt = {\"locator\":\"xpath=//*[@resourceid=\\\"android:id/hours\\\"]|//*[@resource-id=\\\"android:id/hours\\\"]\",\"desc\":\"Text to pass number of hours\"}
+NFK.addevent.timeselect.minute.txt = {\"locator\":\"xpath=//*[@resourceid=\\\"android:id/minutes\\\"]|//*[@resource-id=\\\"android:id/minutes\\\"]\",\"desc\":\"Text to pass number of minutes\"}

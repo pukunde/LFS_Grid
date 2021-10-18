@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NFK1.0" verbose="0" parallel="tests" thread-count="2">
+
+	<parameter name="platformName" value="android"></parameter>
+	<parameter name="env.baseurl"
+		value="https://jnjdiabetes.perfectomobile.com/nexperience/perfectomobile/wd/hub"></parameter>
+
+	<parameter name="remote.server"
+		value="https://jnjdiabetes.perfectomobile.com/nexperience/perfectomobile/wd/hub"></parameter>
+
+	<listeners>
+		<listener class-name="com.NFK.version1.listener.TestNGListener"></listener>
+	<listener class-name="com.NFK.version1.listener.ReportiumListener"></listener>
+	</listeners>
+	
+	<parameter name="language.name" value="en-us"></parameter>
+	<parameter name="country.name" value="United States"></parameter>
+	<parameter name="gdpr_country.name" value="United Kingdom and Ireland"></parameter>
+			<parameter name="uomcg_country.name" value="Deutschland"></parameter>
+	<parameter name="uomcv_country.name" value="Việt Nam"></parameter>
+	<parameter name="channel" value="android"></parameter>
+	<parameter name="env.resources" value="resources/${channel}/common;
+	resources/testData;resources/${channel}/${language.name}"></parameter>
+
+	
+   <test name="Android - Samsung S20" enabled="true">
+		<parameter name="scenario.file.loc" value="scenarios\version1\android\SensorPairing\AndroidPerfecto.bdd"></parameter> 
+		<parameter name="appium.additional.capabilities"
+			value="{'deviceName':'RFCNA0T7KYM',
+			
+			'securityToken':'eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5NTQzZGY4NS1iZjRjLTRlOGQtOTkxNy05YzY3NjE2MjRhZWMifQ.eyJpYXQiOjE2MTQ2NjI5MDcsImp0aSI6IjExMzhhN2RmLTQzMGEtNDc1YS1hYWM5LTYwMjVmMzg2ZTZmOSIsImlzcyI6Imh0dHBzOi8vYXV0aC5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvam5qZGlhYmV0ZXMtcGVyZmVjdG9tb2JpbGUtY29tIiwiYXVkIjoiaHR0cHM6Ly9hdXRoLnBlcmZlY3RvbW9iaWxlLmNvbS9hdXRoL3JlYWxtcy9qbmpkaWFiZXRlcy1wZXJmZWN0b21vYmlsZS1jb20iLCJzdWIiOiJmZjZkYzE0NS04MTRlLTQwODYtYjczMS1hODQwMDc1ZGQ5OGUiLCJ0eXAiOiJPZmZsaW5lIiwiYXpwIjoib2ZmbGluZS10b2tlbi1nZW5lcmF0b3IiLCJub25jZSI6IjA2OTdmZDUxLTllYjEtNDFlNS04MzJjLTg5MDVjMTNiZWFkYiIsInNlc3Npb25fc3RhdGUiOiJiNDY2YWI2OS1hM2I5LTQxOGItODk3YS03ZDVhNGZlODg3NmUiLCJzY29wZSI6Im9wZW5pZCBvZmZsaW5lX2FjY2VzcyJ9.oy1GsKQQ5fVjmQTL_rXts3NfLMbMHLEJ1VBXCahPcqU',
+			'automationName':'Appium','appPackage':'com.lifescan.norfolk.continuous.adhoctest',
+			'javascriptEnabled':true,'newCommandTimeout':'120',
+			'driver.class':'io.appium.java_client.android.AndroidDriver',
+			'platformName':'Android','locationServicesEnabled':true,
+			'locationServicesAuthorized':true,'autoLaunch':true,'fullReset':true,
+	'app':'PUBLIC:Automation_NFK_Android/1.0/app-adhoctest-continuous-debug.apk',
+			'autoInstrument':false,'sensorInstrument':false,
+			'unicodeKeyboard':true,'resetKeyboard':true,
+ 			'scriptName':'Android - Samsung S20'}"></parameter> 	
+ 			<groups>
+			<run>
+				<include name="NFKOD2"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>     
+</suite>
